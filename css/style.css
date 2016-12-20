@@ -67,12 +67,12 @@ Main Components
 .cd-pricing-container {
     width: 90%;
     max-width: 1170px;
-    margin: 4em auto;
+    margin: auto;
 }
 
 @media only screen and (min-width: 768px) {
     .cd-pricing-container {
-        margin: 6em auto;
+        margin: auto;
     }
     .cd-pricing-container.cd-full-width {
         width: 100%;
