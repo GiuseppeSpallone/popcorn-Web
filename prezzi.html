@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <title>POPCORN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default navbar-static" id="navbar-example">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button class="collapsed navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-example-js-navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="#" class="navbar-brand">Project Name</a> </div>
+                <div class="collapse navbar-collapse bs-example-js-navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="programmazione.html">Programmazione</a></li>
+                        <li class="active"><a href="prezzi.html">Prezzi</a></li>
+                        <li><a href="recensioni.html">Recensioni</a></li>
+                        <li><a href="contatti.html">Contatti</a></li>
+
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li id="fat-menu" class="dropdown"> <a href="#" class="dropdown-toggle" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Il mio account <span class="caret"></span> </a>
+                            <ul class="dropdown-menu" aria-labelledby="drop3">
+                                <li><a href="accesso.html">Accedi</a></li>
+                                <li><a href="registrazione.html">Registrati</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="cd-pricing-container cd-has-margins">
+            <div class="cd-pricing-switcher">
+                <p class="fieldset">
+                    <input type="radio" name="duration-2" value="monthly" id="monthly-2" checked>
+                    <label for="monthly-2">Biglietti</label>
+                    <input type="radio" name="duration-2" value="yearly" id="yearly-2">
+                    <label for="yearly-2">Abbonamenti</label>
+                    <span class="cd-switch"></span>
+                </p>
+            </div>
+
+            <ul class="cd-pricing-list cd-bounce-invert">
+                <li>
+                    <ul class="cd-pricing-wrapper">
+                        <li data-type="monthly" class="is-visible">
+                            <header class="cd-pricing-header">
+                                <h2>Feriali</h2>
+
+                                <div class="cd-price">
+                                    <span class="cd-currency">&euro;</span>
+                                    <span class="cd-value">6</span>
+                                </div>
+                            </header>
+                        </li>
+
+                        <li data-type="yearly" class="is-hidden">
+                            <header class="cd-pricing-header">
+                                <h2>3 Ingressi</h2>
+
+                                <div class="cd-price">
+                                    <span class="cd-currency">&euro;</span>
+                                    <span class="cd-value">15</span>
+                                </div>
+                            </header>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="cd-popular">
+                    <ul class="cd-pricing-wrapper">
+                        <li data-type="monthly" class="is-visible">
+                            <header class="cd-pricing-header">
+                                <h2>Festivi</h2>
+                                <div class="cd-price">
+                                    <span class="cd-currency">&euro;</span>
+                                    <span class="cd-value">7</span>
+                                </div>
+                            </header>
+                        </li>
+
+                        <li data-type="yearly" class="is-hidden">
+                            <header class="cd-pricing-header">
+                                <h2>5 Ingressi</h2>
+
+                                <div class="cd-price">
+                                    <span class="cd-currency">&euro;</span>
+                                    <span class="cd-value">30</span>
+                                </div>
+                            </header>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <ul class="cd-pricing-wrapper">
+                        <li data-type="monthly" class="is-visible">
+                            <header class="cd-pricing-header">
+                                <h2>3D</h2>
+
+                                <div class="cd-price">
+                                    <span class="cd-currency">&euro;</span>
+                                    <span class="cd-value">10</span>
+                                </div>
+                            </header>
+                        </li>
+
+                        <li data-type="yearly" class="is-hidden">
+                            <header class="cd-pricing-header">
+                                <h2>10 Ingressi</h2>
+
+                                <div class="cd-price">
+                                    <span class="cd-currency">&euro;</span>
+                                    <span class="cd-value">50</span>
+                                </div>
+                            </header>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

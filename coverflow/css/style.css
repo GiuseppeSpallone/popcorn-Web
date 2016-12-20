@@ -1,0 +1,161 @@
+#coverflow {
+	max-width: 1200px;
+	height: 470px;
+	background: rgba(0, 0, 0, 0);
+	position: relative;
+	margin: 0 auto;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	outline: solid 0px;
+}
+
+.covers {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: absolute;
+}
+
+#coverflow ul {
+	top: 67.75px;
+	width: 5000px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	-webkit-transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	-webkit-transform: translate3d(121px, 0, 0);
+	transform: translate3d(121px, 0, 0);
+}
+
+#coverflow li {
+	width: 96px;
+	list-style: none;
+	float: left;
+	-webkit-transition: margin 0.5s ease, -webkit-transform 0.5s ease;
+	transition: margin 0.5s ease, transform 0.5s ease;
+	position: relative;
+	pointer-events: none;
+	}
+
+#coverflow .imgdiv {
+	width: 190px;
+	-webkit-transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	pointer-events: auto;
+	position: relative;
+	display: block;
+	box-shadow: 30px 5px 15px -10px rgba(0,0,0,0.15), -30px 5px 15px -10px rgba(0,0,0,0.15);
+}
+
+#coverflow .imgdiv img {
+	width: 190px;
+	display: block;
+}
+
+#coverflow .refl {
+	display: block;
+	position: absolute;
+	top: 100%;
+	-webkit-transform: scaleY(-1);
+	transform: scaleY(-1);
+	opacity: 0.5;
+}
+
+#coverflow .refl img {
+	display: block;
+}
+
+#coverflow .refl::before {
+	content: "";
+	position: absolute;
+	width: 102%;
+	margin-left: -1%;
+	height: 100%;
+	box-shadow: inset #fff 0 127.3px 50px;
+}
+
+#coverflow .text {
+	position: absolute;
+	bottom: -67.75px;
+	top: 339.063px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: auto;
+	background: rgba(0, 0, 0, 0.298039);
+	width: 285px;
+	margin-left: -47.5px;
+	color: rgb(255, 255, 255);
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+}
+
+#coverflow .text p {
+	margin: 5px;
+	position: relative;
+	text-align: center;
+}
+
+li:nth-child(-n+4) .imgdiv,
+#coverflow ul li .leftItems {
+	-webkit-transform: perspective(600px) rotateY(60deg);
+	transform: perspective(600px) rotateY(60deg);
+}
+
+li:nth-child(n+6) .imgdiv,
+#coverflow ul li .rightItems {
+	-webkit-transform: perspective(600px) rotateY(-60deg);
+	transform: perspective(600px) rotateY(-60deg);
+}
+
+li:nth-child(5) .imgdiv,
+#coverflow ul li .straight {
+	-webkit-transform: rotateY(0deg) scale(1.5);
+	transform: rotateY(0deg) scale(1.5);
+}
+
+#coverflow li:nth-child(-n+4),
+#coverflow ul li.leftLI {
+	-webkit-transform: translate3d(-140px, 0, 0);
+	transform: translate3d(-140px, 0, 0);
+}
+
+#coverflow li:nth-child(n+6),
+#coverflow ul li.rightLI {
+	-webkit-transform: translate3d(140px, 0, 0);
+	transform: translate3d(140px, 0, 0);
+}
+
+#coverflow ul .straightLI {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.notransition {
+	-webkit-transition: none !important;
+	transition: none !important;
+}
+
+#coverflow .imgdiv a,
+#coverflow .text {
+	cursor: pointer;
+	/*grab cursor available for all browsers except IE (we can use external .cur file but uses too much CPU)*/
+	cursor: -webkit-grab;
+	cursor: grab;
+}
+
+#coverflow .Preloader {
+	/*none - autoplay:false ; block - autoplay:true*/
+	display: none;
+}
+
+#coverflow .Lightbox {
+	display: none;
+}
