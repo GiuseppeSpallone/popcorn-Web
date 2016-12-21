@@ -12,23 +12,6 @@ Primary style
     box-sizing: border-box;
 }
 
-html {
-    font-size: 62.5%;
-}
-
-html * {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-    font-size: 1.6rem;
-    font-family: "Open Sans", sans-serif;
-    color: #173d50;
-    background-color: #173d50;
-    padding-top: 20px;
-}
-
 a {
     color: #e97d68;
     text-decoration: none;
