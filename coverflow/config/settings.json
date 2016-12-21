@@ -2,11 +2,11 @@
   "Global": {
     "path": "coverflow/",
     "coverflowWidth": "1200",
-    "coverflowHeight": "470",
+    "coverflowHeight": "480",
     "backgroundColor": "",
-    "imageWidth": "190",
-    "imageHeight": "271",
-    "imageSpacing": "96",
+    "imageWidth": "200",
+    "imageHeight": "285",
+    "imageSpacing": "100",
     "frontImageSpacing": "140",
     "imageRotation": "60",
     "imagePerspective": "600",
@@ -41,12 +41,12 @@
     "shadowOpacity": "15"
   },
   "Controller": {
-    "controller": false,
+    "controller": true,
     "arrows": true,
     "autoPlay": false,
     "pauseDelay": "3000",
     "controllerSkin": "light",
-    "controllerMarginTop": "380",
+    "controllerMarginTop": "440",
     "preloaderMarginTop": "1",
     "preloaderMarginLeft": "62"
   },
