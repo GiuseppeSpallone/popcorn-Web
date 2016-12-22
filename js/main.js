@@ -1,3 +1,4 @@
+//Edit by GS, per prezzi.html
 jQuery(document).ready(function($){
 	//hide the subtle gradient layer (.cd-pricing-list > li::after) when pricing table has been scrolled to the end (mobile version only)
 	checkScrolling($('.cd-pricing-body'));
