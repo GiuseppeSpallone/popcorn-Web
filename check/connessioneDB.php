@@ -1,10 +1,4 @@
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>Connessione database</title>
-    </head>
-    <body>
-        <?php
+<?php
         $host = "localhost";
         $user = "root";
         $password = "";
@@ -16,6 +10,4 @@
             echo "Connessione fallita: " . $connessione->connect_error . ".";
             exit();
         }
-        ?>
-    </body>
-</html>
+?>

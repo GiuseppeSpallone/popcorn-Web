@@ -8,36 +8,16 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 </head>
 
+<?php
+    $is_error = $_REQUEST['error'];
+?>
+
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand">Project Name</a> </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="programmazione.html">Programmazione</a></li>
-                    <li><a href="prezzi.html">Prezzi e Sale</a></li>
-                    <li><a href="contatti.html">Contatti</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li id="fat-menu" class="dropdown"> <a href="#" class="dropdown-toggle" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Il mio account <span class="caret"></span> </a>
-                        <ul class="dropdown-menu" aria-labelledby="drop3">
-                            <li class="active"><a href="accesso.html">Accesso</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <br>
-    <br>
-    <br>
+    <?php
+    $selector = 4;
+    include 'nav.php';
+    ?>
+
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
@@ -45,23 +25,31 @@
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-lg-12">
-                                <form id="login-form" action="accesso.php" method="post" role="form" style="display: block;">
+                                <form id="login-form" action="check/accesso.php" method="post" role="form" style="display: block;">
                                     <h2>LOGIN</h2>
-                                    <div class="form-group">
+                                    <div id="login_form" class="form-group">
                                         <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
                                     </div>
                                     <div class="form-group">
                                         <input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
                                     </div>
-                                    <div id="prova" class="col-xs-6 form-group pull-left checkbox">
+                                    <div class="col-xs-6 form-group pull-left checkbox">
                                         <input id="checkbox1" type="checkbox" name="remember">
                                         <label for="checkbox1">Remember Me</label>
+
                                     </div>
+
+                                    <?php
+                                        if($is_error){
+                                            echo '<br><br><br><div class="alert alert-danger" role="alert">Username e/o Password errata</div>';
+                                        }
+                                    ?>
+
                                     <div class="col-sm-6 col-sm-offset-3">
                                         <input type="submit" name="login-submit" id="login-submit" tabindex="4" class="form-control btn btn-login" value="Log In">
                                     </div>
                                 </form>
-                                <form id="register-form" action="registrazione.php" method="post" role="form" style="display: none;">
+                                <form id="register-form" action="check/registrazione.php" method="post" role="form" style="display: none;">
                                     <h2>REGISTER</h2>
                                     <div class="form-group">
                                         <input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">

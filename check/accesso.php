@@ -1,11 +1,7 @@
-<hmtl>
-
-    <body>
-        <?php
+<?php
         require_once 'connessioneDB.php';
 
-        //distruzione della sessione precedente e
-        //apertura di una nuova sessione
+        //distruzione della sessione precedente e apertura di una nuova sessione
         session_start();
         session_unset();
         session_destroy();
@@ -23,15 +19,13 @@
       if($count == 1) {
          //array globale delle variabili di sessione
          $_SESSION['utente'] = $username;
-         header("location: index.html");
+         header("location: ../index.php");
 
           //creare messaggio di benvenuto
       }
         else {
-          header("location: accesso.html");
-         //creare messaggio di errore
-}
-
-        ?>
-    </body>
-</hmtl>
+            //header("location: ../accesso_registrazione.php");
+            header("location: ../accesso_registrazione.php?error=auth_fail");
+            }
+        $connessione->close();
+?>

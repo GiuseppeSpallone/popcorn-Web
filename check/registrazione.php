@@ -1,8 +1,4 @@
-
-<hmtl>
-
-    <body>
-        <?php
+ <?php
         require_once 'connessioneDB.php';
 
         $username = filter_input(INPUT_POST, 'username');
@@ -11,7 +7,7 @@
         $password2 = filter_input(INPUT_POST, 'confirm-password');
 
         //Controllo presenza campi
-        if (!$username || !$email || !$password | !$password2) {
+        if (!$username || !$email || !$password || !$password2) {
             die('Non hai completato tutti i campi');
         }
 
@@ -27,7 +23,7 @@
             $email = addslashes($email);
             $password= addslashes($password);
             $password2 = addslashes($password2);
-
+            //stripslashes per rimuovere /
              }
 
 
@@ -35,18 +31,16 @@
 
         $risultato = $connessione->query($query);
         if (!$risultato) {
-            header("location: accesso.html");
+            header("location: ../accesso_registrazione.php");
             //echo "Errore della query: " . $connessione->error . ".";
 
-            //creare html con messaggio d'errore
+            //creare messaggio d'errore
         } else {
-            header("location: index.html");
+            header("location: ../index.php");
             //echo "Inserimenti effettuati correttamente.";
 
             //creare messaggio di benvenuto
         }
 
         $connessione->close();
-        ?>
-    </body>
-</hmtl>
+?>

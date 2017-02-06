@@ -9,37 +9,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#" class="navbar-brand">Project Name</a> </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="programmazione.html">Programmazione</a></li>
-                    <li><a href="prezzi.html">Prezzi e Sale</a></li>
-                    <li><a href="contatti.html">Contatti</a></li>
-                </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li id="fat-menu" class="dropdown">
-                        <a href="#" class="dropdown-toggle" id="drop" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                Il mio account <span class="caret"></span> </a>
-                        <ul class="dropdown-menu" aria-labelledby="drop">
-                            <li><a href="accesso.html">Accedi</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <br>
-    <br>
-    <br>
+    <?php
+    $selector = 0;
+    include 'nav.php';
+    ?>
+
     <div class="container">
         <div id="coverflow">
             <div class="covers">
