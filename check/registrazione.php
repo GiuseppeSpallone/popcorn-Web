@@ -8,12 +8,13 @@
 
         //Controllo presenza campi
         if (!$username || !$email || !$password || !$password2) {
-            die('Non hai completato tutti i campi');
+            header("location: ../accesso_registrazione.php?error=missing_fail");
         }
 
         //Controllo coincidenza password
         if ($password != $password2) {
-            die('Le due password non combaciano.');
+            die("Le passord non coincidono");
+            //header("location: ../accesso_registrazione.php?error=coincidenza_fail");
         }
 
         //Cripta la password

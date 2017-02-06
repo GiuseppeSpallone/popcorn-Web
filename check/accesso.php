@@ -24,8 +24,7 @@
           //creare messaggio di benvenuto
       }
         else {
-            //header("location: ../accesso_registrazione.php");
-            header("location: ../accesso_registrazione.php?error=auth_fail");
+            header("location: ../accesso_registrazione.php?error=autenticazione_fail");
             }
         $connessione->close();
 ?>
