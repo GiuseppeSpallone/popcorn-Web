@@ -15,15 +15,14 @@
         $password = filter_input(INPUT_POST, 'password');
         //$password = md5($password);
 
-        $sql = "SELECT * FROM utente WHERE username='$username' and password='$password'";
+        $query = "SELECT * FROM utente WHERE username='$username' and password='$password'";
 
-        $result = $connessione->query($sql);
-
-        $count = mysqli_num_rows($result);
+        $risultato = $connessione->query($query);
+        $count = mysqli_num_rows($risultato);
 
       if($count == 1) {
          //array globale delle variabili di sessione
-         $_SESSION['utenti'] = $username;
+         $_SESSION['utente'] = $username;
          header("location: index.html");
 
           //creare messaggio di benvenuto
@@ -31,8 +30,9 @@
         else {
           header("location: accesso.html");
 
-         //creare html con messaggio d'errore
-      }
+         //creare messaggio di errore
+}
+
         ?>
     </body>
 </hmtl>

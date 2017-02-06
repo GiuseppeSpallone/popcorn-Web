@@ -8,10 +8,10 @@
         $email = filter_input(INPUT_POST, 'email');
         $password = filter_input(INPUT_POST, 'password');
 
-        $sql = "INSERT INTO utente (username, email, password) VALUES ('$username','$email','$password')";
+        $query = "INSERT INTO utente (username, email, password) VALUES ('$username','$email','$password')";
 
-        $result = $connessione->query($sql);
-        if (!$result) {
+        $risultato = $connessione->query($query);
+        if (!$risultato) {
             header("location: accesso.html");
             //echo "Errore della query: " . $connessione->error . ".";
 
