@@ -13,7 +13,7 @@
 
         $username = filter_input(INPUT_POST, 'username');
         $password = filter_input(INPUT_POST, 'password');
-        //$password = md5($password);
+        $password = md5($password);
 
         $query = "SELECT * FROM utente WHERE username='$username' and password='$password'";
 
@@ -29,7 +29,6 @@
       }
         else {
           header("location: accesso.html");
-
          //creare messaggio di errore
 }
 
