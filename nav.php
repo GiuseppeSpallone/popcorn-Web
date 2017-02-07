@@ -11,16 +11,14 @@ $print_class = 'class="active"';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand" style="width: 105px;">
-                <img style="width: 100%;" class="logo" src="logo/Pop_redim.png" alt="Popcorn">
-            </a>
-        </div>
+            <a href="#" class="navbar-brand">Popcorn</a></div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li <?= ($selector == 0) ? $print_class : '' ?> ><a href="index.php">Home</a></li>
                 <li <?= ($selector == 1) ? $print_class : '' ?>><a href="programmazione.php">Programmazione</a></li>
                 <li <?= ($selector == 2) ? $print_class : '' ?>><a href="prezzi.php">Prezzi e Sale</a></li>
                 <li <?= ($selector == 3) ? $print_class : '' ?>><a href="contatti.php">Contatti</a></li>
+                <li <?= ($selector == 4) ? $print_class : '' ?>><a href="form_film.php">Inserisci Film</a></li>
             </ul>
 
             <?php
