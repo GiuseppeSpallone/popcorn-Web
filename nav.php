@@ -21,7 +21,14 @@ $print_class = 'class="active"';
                 <ul class="nav navbar-nav navbar-right">
                     <li id="fat-menu" class="dropdown"> <a href="#" class="dropdown-toggle" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Il mio account <span class="caret"></span> </a>
                         <ul class="dropdown-menu" aria-labelledby="drop3">
-                            <li <?= ($selector == 4)?$print_class:'' ?>><a href="accesso_registrazione.php">Accedi</a></li>
+                            <?php
+                            if ($is_logged) {
+                                echo '<li> <a href="check/disconnessione.php">Disconnetti</a></li>';
+                            }else {
+                                echo '<li> <a href="accesso_registrazione.php">Accedi</a></li>';
+                            }
+                            ?>
+
                         </ul>
                     </li>
                 </ul>

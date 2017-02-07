@@ -1,12 +1,6 @@
 <?php
         require_once 'connessioneDB.php';
 
-        //distruzione della sessione precedente e apertura di una nuova sessione
-        session_start();
-        session_unset();
-        session_destroy();
-        session_start();
-
         $username = filter_input(INPUT_POST, 'username');
         $password = filter_input(INPUT_POST, 'password');
         $password = md5($password);
@@ -17,8 +11,12 @@
         $count = mysqli_num_rows($risultato);
 
       if($count == 1) {
+          session_start();
          //array globale delle variabili di sessione
-         $_SESSION['utente'] = $username;
+         $_SESSION['username'] = $username;
+         $_SESSION['password'] = $password;
+         $_SESSION['logged'] = true;
+
          header("location: ../index.php");
 
           //creare messaggio di benvenuto
