@@ -17,9 +17,13 @@
          $_SESSION['password'] = $password;
          $_SESSION['logged'] = true;
 
+         if($username === "admin"){
+             $_SESSION['private'] = true;
+             //controllo dal database
+         }
+
          header("location: ../index.php");
 
-          //creare messaggio di benvenuto
       }
         else {
             header("location: ../accesso_registrazione.php?error=autenticazione_fail");
