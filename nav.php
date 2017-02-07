@@ -11,7 +11,10 @@ $print_class = 'class="active"';
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-brand">Popcorn</a></div>
+            <a href="#" class="navbar-brand" style="width: 105px;">
+                <img style="width: 100%;" class="logo" src="logo/Pop_redim.png" alt="Popcorn">
+            </a>
+        </div>
         <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav">
                 <li <?= ($selector == 0) ? $print_class : '' ?> ><a href="index.php">Home</a></li>

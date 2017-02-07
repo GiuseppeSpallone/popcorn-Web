@@ -5150,8 +5150,8 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 
 a.navbar-brand{
-    padding:5px 7px !important;
-}
+     padding:5px 7px !important;
+ }
 
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -5389,6 +5389,10 @@ a.navbar-brand{
     .navbar-right ~ .navbar-right {
         margin-right: 0;
     }
+}
+
+a.navbar-brand{
+    padding:5px 7px !important;
 }
 
 .navbar-default {
