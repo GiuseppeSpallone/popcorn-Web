@@ -25,7 +25,8 @@ $print_class = 'class="active"';
                     if($is_authorized){
                         ?>
 
-                <li <?= ($selector == 4) ? $print_class : '' ?>><a href="form_film.php">Inserisci Film</a></li>
+                        <li <?= ($selector == 4) ? $print_class : '' ?>><a href="form_film.php">Inserisci Film</a></li>
+                        <li <?= ($selector == 5) ? $print_class : '' ?>><a href="edit_prezzi.php">Modifica prezzi</a></li>
                     <?php
                 }
                 ?>

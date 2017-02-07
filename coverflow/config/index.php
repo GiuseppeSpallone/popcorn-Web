@@ -5,7 +5,7 @@
 	}
 	if(! is_writable('../../index.html')) printf('index.html file is not writable<br>');
 	if(! is_writable('../css/style.css')) printf('style.css file is not writable<br>');
-	
+
 ?>
 <!doctype html>
 <html>
@@ -45,9 +45,9 @@
 
 <form action="" method="post">
 	<h3>The contents below are generated based on <strong>settings.json</strong> and <strong>images.json</strong> files.<br><br>Click the <strong>"Save files"</strong> button to automatically save the contents to the indicated files.<h3>
-	
+
 	<input type="submit" value="Save files" id="savebutton">
-	
+
 	<h2>INDEX.HTML</h2>
 	<textarea id="indexhtml" name="indexhtml"></textarea>
 
@@ -63,7 +63,7 @@ $.getJSON('settings.json', function(settings) {
 $.getJSON('images.json', function(images) {
 
 var useLightbox = false;
-	
+
 var indexHTML ='<!DOCTYPE HTML>' +
 '\n<html>'+
 '\n<head>'+
@@ -77,7 +77,7 @@ var indexHTML ='<!DOCTYPE HTML>' +
 	'\n\t\t<ul>';
 
 	$.each(images.Images, function() {
-		indexHTML += 
+		indexHTML +=
 			'\n\t\t<li><div class="imgdiv">'+
 						'\n\t\t\t<a'+
 						((this.link !=="" && this.link !== undefined && this.target !== "none")?' href="'+
@@ -315,7 +315,7 @@ var styleCSS =
 
 	'#coverflow .Lightbox {\n\t'+
 		(
-			(useLightbox) 
+			(useLightbox)
 			? 'display: block;\n'
 			: 'display: none;\n'
 		)
@@ -326,7 +326,7 @@ var styleCSS =
 /////////////////////////
 
 if (settings.Controller.controller) {
-	styleCSS += 
+	styleCSS +=
 	'\n\n.Controller { z-index: 10000; position: absolute; left: 50%; margin-top: '+settings.Controller.controllerMarginTop+'px; }\n'+
 	'#relativediv { position: relative; left: -50%; }\n'+
 	'.Controller img { margin-right: 3px; position: relative; opacity: .6; cursor: pointer; }\n'+

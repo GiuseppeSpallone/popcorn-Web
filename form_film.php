@@ -56,7 +56,7 @@
                                             <div class="form-group">
                                                 <input type="text" name="trama" id="trama" tabindex="11" class="form-control" placeholder="Trama">
                                             </div>
-                                            
+
                                             <div class="col-xs-6 form-group pull-left radio">
                                                 <input id="radio1" type="radio" name="prossimamente">
                                                 <label for="radio1">In Programmazione</label>
@@ -68,7 +68,7 @@
                                             <div class="col-sm-6 col-sm-offset-3">
                                                 <input type="submit" name="film-submit" id="film-submit" tabindex="14" class="form-control btn btn-film" value="Carica Film">
                                             </div>
-                                        </form>  
+                                        </form>
                                          </div>
                             </div>
                             </div>

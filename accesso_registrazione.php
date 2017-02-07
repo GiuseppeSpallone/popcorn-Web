@@ -31,10 +31,6 @@ $error = $_REQUEST['error'];
     </head>
 
     <body>
-        <?php
-            $selector = 4;
-            include 'nav.php';
-    ?>
 
             <div class="container">
                 <div class="row">
