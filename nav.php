@@ -1,5 +1,5 @@
 <?php
-include 'check/SessionController.php';
+include 'controllers/SessionManager.php';
 $print_class = 'class="active"';
 ?>
 
@@ -51,7 +51,7 @@ $print_class = 'class="active"';
             } else {
                 ?>
                 <ul class="nav navbar-nav navbar-right">
-                    <li id="fat-menu" class="dropdown">
+                    <li <?= ($selector == 6) ? $print_class : '' ?> id="fat-menu" class="dropdown">
                         <a href="#" class="dropdown-toggle" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                             Il mio account
                             <span class="caret"></span>

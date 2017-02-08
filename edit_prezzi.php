@@ -10,7 +10,7 @@
 
 <body>
 <?php
-$selector = 5;
+$selector = 6;
 include 'nav.php';
 ?>
 

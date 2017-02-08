@@ -1,5 +1,5 @@
 <?php
-include 'check/SessionController.php';
+include 'controllers/SessionManager.php';
 ?>
 
 <html>
