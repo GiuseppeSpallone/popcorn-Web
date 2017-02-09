@@ -1,6 +1,7 @@
 <?php
-include 'stampa_prezzi.php';
-include 'connessioneDB.php';
+require_once __DIR__ . '/../controllers/DbManager.php';
+
+$db_instance = new DbManager();
 
 $prezzoFeriale = filter_input(INPUT_POST, 'feriali');
 $prezzoFestivo = filter_input(INPUT_POST, 'festivi');
@@ -12,36 +13,33 @@ $prezzo10Ingressi = filter_input(INPUT_POST, '10ingressi');
 
 //Controllo presenza campi
 if (!$prezzoFeriale || !$prezzoFestivo || !$prezzoTreD || !$prezzoTreD || !$prezzo3Ingressi || !$prezzo5Ingressi || !$prezzo10Ingressi) {
-    die ("Mancano dei dati");
+    header("location: ../edit_prezzi.php?errorPrezzi=mancanoCampi");
+    die();
 }
 
-if($countPrezzi == 0){
-    $query = "INSERT INTO offerta (feriale, festivo, 3d, 3ingressi, 5ingressi, 10ingressi)
-          VALUES
-          ('$prezzoFeriale', '$prezzoFestivo', '$prezzoTreD', '$prezzo3Ingressi', '$prezzo5Ingressi', '$prezzo10Ingressi');";
-}else{
-    $query = "UPDATE offerta SET 
-              feriale ='$prezzoFeriale',
-              festivo = '$prezzoFestivo',
-              3d = '$prezzoTreD',
-              3ingressi = '$prezzo3Ingressi',
-              5ingressi = '$prezzo5Ingressi',
-              10ingressi = '$prezzo10Ingressi'
-              WHERE id = 0;";
-}
+$countPrezzi = mysqli_num_rows($db_instance->select([], 'offerta'));
 
-$risultato = $connessione->query($query);
-
-if (!$risultato) {
-    echo "Errore della query: " . $connessione->error . ".";
-
-    //creare messaggio d'errore
+if ($countPrezzi == 0) {
+    $result = $db_instance->insert('offerta',
+        array('feriale', 'festivo', '3d', '3ingressi', '5ingressi', '10ingressi'),
+        array($prezzoFeriale, $prezzoFestivo, $prezzoTreD, $prezzo3Ingressi, $prezzo5Ingressi, $prezzo10Ingressi));
 } else {
-    header("location: ../index.php");
-    echo "Inserimenti effettuati correttamente.";
 
-    //creare messaggio di benvenuto
+    $result = $db_instance->update('offerta', "feriale ='$prezzoFeriale',
+                  festivo = '$prezzoFestivo',
+                  3d = '$prezzoTreD',
+                  3ingressi = '$prezzo3Ingressi',
+                  5ingressi = '$prezzo5Ingressi',
+                  10ingressi = '$prezzo10Ingressi'", "id=0");
 }
 
-$connessione->close();
+if ($result) {
+    header("location: ../prezzi.php");
+    //echo "Inserimenti effettuati correttamente.";
+} else {
+    //query fottuta
+}
+
+$db_instance->connection->close();
+
 ?>

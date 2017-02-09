@@ -1,32 +1,31 @@
 <?php
-        require_once 'connessioneDB.php';
+require_once '../controllers/DbManager.php';
 
-        $username = filter_input(INPUT_POST, 'username');
-        $password = filter_input(INPUT_POST, 'password');
-        $password = md5($password);
+$db_instance = new DbManager();
 
-        $query = "SELECT * FROM utente WHERE username='$username' and password='$password'";
+$username = filter_input(INPUT_POST, 'username');
+$password = filter_input(INPUT_POST, 'password');
+$password = md5($password);
 
-        $risultato = $connessione->query($query);
-        $count = mysqli_num_rows($risultato);
+$result = $db_instance->select([], 'utente', "username='$username' and password='$password'")->fetch_assoc();
 
-      if($count == 1) {
-          session_start();
-         //array globale delle variabili di sessione
-         $_SESSION['username'] = $username;
-         $_SESSION['password'] = $password;
-         $_SESSION['logged'] = true;
+if ($password == $result['password']) {
+    session_start();
+    //array globale delle variabili di sessione
+    $_SESSION['username'] = $result['username'];
+    $_SESSION['password'] = $result['password'];
+    $_SESSION['logged'] = true;
 
-         if($username === "admin"){
-             $_SESSION['private'] = true;
-             //controllo dal database
-         }
+    if ($username === "admin") {
+        $_SESSION['private'] = true;
+        //controllo dal database
+    }
 
-         header("location: ../index.php");
+    header("location: ../index.php");
 
-      }
-        else {
-            header("location: ../accesso_registrazione.php?error=autenticazione_fail");
-            }
-        $connessione->close();
+} else {
+    header("location: ../accesso_registrazione.php?error=autenticazione_fail");
+}
+
+$db_instance->connection->close();
 ?>
