@@ -20,7 +20,7 @@ switch ($error) {
 
 <body>
 <?php
-$selector = 6;
+$selector = 5;
 include 'nav.php';
 ?>
 
