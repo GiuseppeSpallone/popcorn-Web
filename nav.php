@@ -12,7 +12,7 @@ $print_class = 'class="active"';
                 <span class="icon-bar"></span>
             </button>
             <a href="#" class="navbar-brand" style="width: 105px;">
-                <img style="width: 100%;" class="logo" src="logo/Pop_redim.png" alt="Popcorn">
+                <img style="width: 100%;" class="logo" src="logo/Popcorn.png" alt="Popcorn">
             </a>
         </div>
         <div class="collapse navbar-collapse" id="myNavbar">
