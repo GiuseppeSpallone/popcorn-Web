@@ -22,11 +22,10 @@ $print_class = 'class="active"';
                 <li <?= ($selector == 2) ? $print_class : '' ?>><a href="prezzi.php">Prezzi e Sale</a></li>
                 <li <?= ($selector == 3) ? $print_class : '' ?>><a href="contatti.php">Contatti</a></li>
                 <?php
-                    if($is_authorized){
-                        ?>
-
-                        <li <?= ($selector == 4) ? $print_class : '' ?>><a href="form_film.php">Inserisci Film</a></li>
-                        <li <?= ($selector == 5) ? $print_class : '' ?>><a href="edit_prezzi.php">Modifica prezzi</a></li>
+                if ($is_authorized) {
+                    ?>
+                    <li <?= ($selector == 4) ? $print_class : '' ?>><a href="form_film.php">Inserisci Film</a></li>
+                    <li <?= ($selector == 5) ? $print_class : '' ?>><a href="edit_prezzi.php">Modifica prezzi</a></li>
                     <?php
                 }
                 ?>
@@ -34,32 +33,20 @@ $print_class = 'class="active"';
             </ul>
 
             <?php
-            if ($is_logged) {
-                ?>
+            if ($is_logged) { ?>
                 <ul class="nav navbar-nav navbar-right">
-                    <li id="fat-menu" class="dropdown">
-                        <a href="#" class="dropdown-toggle" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            <?php echo $username; ?>
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="drop3">
-                            <li><a href="check/disconnessione.php">Disconnetti</a></li>
-                        </ul>
-                    </li>
+                    <?php if(!$is_authorized) {?>
+                    <li <?= ($selector == 6) ? $print_class : '' ?>><a href=".php">Carrello
+                            <span class="badge">14</span> </a></li>
+                    <?php } ?>
+                    <li><a href="check/disconnessione.php">Disconnetti</a></li>
                 </ul>
                 <?php
             } else {
                 ?>
                 <ul class="nav navbar-nav navbar-right">
-                    <li <?= ($selector == 6) ? $print_class : '' ?> id="fat-menu" class="dropdown">
-                        <a href="#" class="dropdown-toggle" id="drop3" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            Il mio account
-                            <span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="drop3">
-                            <li><a href="accesso_registrazione.php">Accedi</a></li>
-                        </ul>
-                    </li>
+                    <li <?= ($selector == 7) ? $print_class : '' ?>><a href="accesso_registrazione.php">Il mio
+                            account</a></li>
                 </ul>
                 <?php
             }

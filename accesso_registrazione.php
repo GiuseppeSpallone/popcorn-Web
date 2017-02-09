@@ -32,7 +32,7 @@ switch ($error) {
 
 <body>
 <?php
-$selector = 6;
+$selector = 7;
 include 'nav.php';
 ?>
 
@@ -45,7 +45,7 @@ include 'nav.php';
                         <div class="col-lg-12">
                             <form id="login-form" action="check/accesso.php" method="post" role="form"
                                   style="display: block;">
-                                <h2>LOGIN</h2>
+                                <h2>ACCESSO</h2>
                                 <div id="login_form" class="form-group">
                                     <input type="text" name="username" id="username" tabindex="1" class="form-control"
                                            placeholder="Username" value="">
@@ -64,12 +64,12 @@ include 'nav.php';
 
                                 <div class="col-sm-6 col-sm-offset-3">
                                     <input type="submit" name="login-submit" id="login-submit" tabindex="4"
-                                           class="form-control btn btn-login" value="Log In">
+                                           class="form-control btn btn-login" value="Accedi">
                                 </div>
                             </form>
                             <form id="register-form" action="check/registrazione.php" method="post" role="form"
                                   style="display: none;">
-                                <h2>REGISTER</h2>
+                                <h2>REGISTRAZIONE</h2>
                                 <div class="form-group">
                                     <input type="text" name="username" id="username" tabindex="1" class="form-control"
                                            placeholder="Username" value="">
@@ -95,7 +95,7 @@ include 'nav.php';
                                         <div class="col-sm-6 col-sm-offset-3">
                                             <input type="submit" name="register-submit" id="register-submit"
                                                    tabindex="4" class="form-control btn btn-register"
-                                                   value="Register Now">
+                                                   value="Registrati">
                                         </div>
                                     </div>
                                 </div>
@@ -107,12 +107,12 @@ include 'nav.php';
                     <div class="row">
                         <div class="col-xs-6 tabs">
                             <a href="#" class="active" id="login-form-link">
-                                <div id="login" class="login">LOGIN</div>
+                                <div id="login" class="login">ACCESSO</div>
                             </a>
                         </div>
                         <div class="col-xs-6 tabs">
                             <a href="#" id="register-form-link">
-                                <div id="register" class="register">REGISTER</div>
+                                <div id="register" class="register">REGISTRAZIONE</div>
                             </a>
                         </div>
                     </div>
