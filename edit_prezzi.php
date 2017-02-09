@@ -1,3 +1,13 @@
+<?php
+$error = $_REQUEST['errorPrezzi'];
+$message = "";
+switch ($error) {
+    case 'mancanoCampi':
+        $message = "Non sono stati inseriti tutti i campi";
+        break;
+
+}
+?>
 <html>
 
 <head>
@@ -48,6 +58,10 @@ include 'nav.php';
                                     <input type="number" name="10ingressi" tabindex="3" class="form-control"
                                            placeholder="10 Ingressi">
                                 </div>
+
+                                <?php if ($error)
+                                    echo '<br><br><br> <div class="alert alert-danger" role="alert">' . $message . '</div>'; ?>
+
                                 <div class="form-group">
                                     <button id="salva-prezzi" type="button" class="form-control btn btn-register">Salva
                                     </button>

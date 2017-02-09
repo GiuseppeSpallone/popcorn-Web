@@ -13,7 +13,8 @@ $prezzo10Ingressi = filter_input(INPUT_POST, '10ingressi');
 
 //Controllo presenza campi
 if (!$prezzoFeriale || !$prezzoFestivo || !$prezzoTreD || !$prezzoTreD || !$prezzo3Ingressi || !$prezzo5Ingressi || !$prezzo10Ingressi) {
-    die ("Mancano dei dati");
+    header("location: ../edit_prezzi.php?errorPrezzi=mancanoCampi");
+    die();
 }
 
 $countPrezzi = mysqli_num_rows($db_instance->select([], 'offerta'));
