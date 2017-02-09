@@ -10,37 +10,35 @@ $password2 = filter_input(INPUT_POST, 'confirm-password');
 
 //Controllo presenza campi
 if (!$username || !$email || !$password || !$password2) {
-    header("location: ../accesso_registrazione.php?error=missing_fail");
+    header("location: ../accesso_registrazione.php?error_registrazione=campi_vuoti");
+    die();
 }
 
 //Controllo coincidenza password
 if ($password != $password2) {
-    die("Le passord non coincidono");
-    //header("location: ../accesso_registrazione.php?error=coincidenza_fail");
+    header("location: ../accesso_registrazione.php?error_registrazione=psw_non_coincidenti");
+    die();
 }
 
 //Cripta la password
 $password = md5($password);
 
-/*if (!get_magic_quotes_gpc()) {
-    $username = addslashes($username);
-    $email = addslashes($email);
-    $password = addslashes($password);
-    $password2 = addslashes($password2);
-    //stripslashes per rimuovere /
-}*/
-
-$result = $db_instance->insert('utente', array('username', 'email', 'password'), array($username, $email, $password));
+//Controllo username
+$controlloUsername = $db_instance->select(array('username'), 'utente', "username = '$username'");
+$numUsername = mysqli_num_rows($controlloUsername);
+if ($numUsername == 0) {
+    $result = $db_instance->insert('utente', array('username', 'email', 'password'), array($username, $email, $password));
+} else {
+    header("location: ../accesso_registrazione.php?error_registrazione=username_esistente");
+    die();
+}
 
 if (!$result) {
-    header("location: ../accesso_registrazione.php");
-    //echo "Errore della query: " . $connessione->error . ".";
-
-    //creare messaggio d'errore
+    header("location: ../accesso_registrazione?error_registrazione.php");
+    die();
 } else {
     header("location: ../index.php");
     //echo "Inserimenti effettuati correttamente.";
-
     //creare messaggio di benvenuto
 }
 

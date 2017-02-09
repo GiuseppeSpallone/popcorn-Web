@@ -5,3 +5,4 @@ $("#salva-prezzi").click(modificaPrezzi);
 function modificaPrezzi(){
     $("#prezziModal").modal('show');
 }
+

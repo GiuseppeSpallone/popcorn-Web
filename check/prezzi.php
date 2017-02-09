@@ -37,7 +37,7 @@ if ($result) {
     header("location: ../prezzi.php");
     //echo "Inserimenti effettuati correttamente.";
 } else {
-    //query fottuta
+    //inserire errore
 }
 
 $db_instance->connection->close();

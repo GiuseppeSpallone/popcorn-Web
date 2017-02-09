@@ -14,7 +14,7 @@ switch ($error) {
     <title>POPCORN</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/form_film.css.css" rel="stylesheet" type="text/css">
+    <link href="css/login.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 </head>
 
@@ -60,7 +60,7 @@ include 'nav.php';
                                 </div>
 
                                 <?php if ($error)
-                                    echo '<br><br><br> <div class="alert alert-danger" role="alert">' . $message . '</div>'; ?>
+                                    echo '<div class="form-group"> <div class="alert alert-danger" role="alert">' . $message . '</div></div>'; ?>
 
                                 <div class="form-group">
                                     <button id="salva-prezzi" type="button" class="form-control btn btn-register">Salva
@@ -68,15 +68,16 @@ include 'nav.php';
                                 </div>
 
 
-                                <div class="modal fade" id="prezziModal" tabindex="-1" role="dialog"
-                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal fade" id="prezziModal" tabindex="-1" role="dialog"aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
+                                            <div class="form-group">
                                             <div class="modal-header">
                                                 <h2>AGGIORNAMENTO PREZZI</h2>
-                                            </div>
+                                            </div> </div>
+                                            <div class="form-group">
                                             <div class="modal-body">Sei sicuro di voler modificare i prezzi?
-                                            </div>
+                                            </div></div>
 
                                             <div class="modal-footer">
                                                 <div class="form-group">
@@ -99,7 +100,6 @@ include 'nav.php';
                                         </div>
                                     </div>
                                 </div>
-
                             </form>
                         </div>
                     </div>

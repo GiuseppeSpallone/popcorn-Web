@@ -24,7 +24,8 @@ if ($password == $result['password']) {
     header("location: ../index.php");
 
 } else {
-    header("location: ../accesso_registrazione.php?error=autenticazione_fail");
+    header("location: ../accesso_registrazione.php?error_accesso=accesso_non_autenticato");
+    die();
 }
 
 $db_instance->connection->close();
