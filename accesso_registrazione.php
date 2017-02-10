@@ -96,15 +96,21 @@ include 'nav.php';
 
                                 <?php if ($errorAccesso)
                                     echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageAccesso . '</div></div>'; ?>
-
-                                <div class="col-sm-6 col-sm-offset-3">
-                                    <input type="submit" name="login-submit" id="login-submit" tabindex="3"
-                                           class="form-control btn btn-login" value="Accedi">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3">
+                                            <input type="submit" name="login-submit" id="login-submit" tabindex="3"
+                                                   class="form-control btn btn-login" value="Accedi">
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="col-sm-6 col-sm-offset-3">
-                                    <button id="recupero" type="button" class="form-control btn btn-login" tabindex="4">RECUPERA
-                                        PASSWORD
-                                    </button>
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3">
+                                            <input id="recupero" name="login-submit" id="login-submit" tabindex="4"
+                                                   class="form-control btn btn-login" value="Recupera password">
+                                        </div>
+                                    </div>
                                 </div>
                             </form>
                             <form id="register-form" action="check/registrazione.php" method="post" role="form"
@@ -193,15 +199,21 @@ include 'nav.php';
 
                     <?php if ($errorRecupero)
                         echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; ?>
-
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <input type="submit" name="recupero-submit" id="recupero-submit" tabindex="4"
-                               class="form-control btn btn-login" value="Invia">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <input type="submit" name="recupero-submit" id="recupero-submit" tabindex="4"
+                                       class="form-control btn btn-login" value="Invia">
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-sm-6 col-sm-offset-3">
-                        <input data-dismiss="modal" tabindex="5"
-                               class="form-control btn btn-register" value="No">
-
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <input data-dismiss="modal" tabindex="5"
+                                       class="form-control btn btn-register" value="No">
+                            </div>
+                        </div>
                     </div>
                 </form>
             </div>
