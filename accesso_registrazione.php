@@ -14,6 +14,10 @@ switch ($errorRegistrazione) {
         $messageRegistrazione = "Username già esistente";
         break;
 
+    case 'email_esistente':
+        $messageRegistrazione = "Email già esistente";
+        break;
+
     default:
         $messageRegistrazione = "Riprova...";
         break;

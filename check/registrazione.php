@@ -23,23 +23,38 @@ if ($password != $password2) {
 //Cripta la password
 $password = md5($password);
 
-//Controllo username
+//Controllo utente
 $controlloUsername = $db_instance->select(array('username'), 'utente', "username = '$username'");
 $numUsername = mysqli_num_rows($controlloUsername);
-if ($numUsername == 0) {
-    $result = $db_instance->insert('utente', array('username', 'email', 'password'), array($username, $email, $password));
-} else {
+
+$controlloMail = $db_instance->select(array('email'), 'utente', "email = '$email'");
+$numMail = mysqli_num_rows($controlloMail);
+
+if ($numUsername !== 0) {
     header("location: ../accesso_registrazione.php?error_registrazione=username_esistente");
     die();
+} else if ($numMail !== 0) {
+    header("location: ../accesso_registrazione.php?error_registrazione=email_esistente");
+    die();
+}else{
+    $result = $db_instance->insert('utente', array('username', 'email', 'password'), array($username, $email, $password));
 }
 
 if (!$result) {
     header("location: ../accesso_registrazione?error_registrazione.php");
     die();
 } else {
-    header("location: ../index.php");
-    //echo "Inserimenti effettuati correttamente.";
-    //creare messaggio di benvenuto
+    $oggetto = "Registrazione Popcorn";
+    $corpo = "Benvenuto in Popcorn " . $username;
+
+    if (mail("$email", $oggetto, $corpo)) {
+        //echo "Messaggio inviato con successo.";
+        header("location: ../index.php");
+        //echo "Inserimenti effettuati correttamente.";
+        //creare messaggio di benvenuto
+    } else {
+        //echo "Errore. Nessun messaggio inviato.";
+    }
 }
 
 $db_instance->connection->close();
