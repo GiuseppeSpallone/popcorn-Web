@@ -1,5 +1,21 @@
 <?php
 $recupero_email = $_REQUEST['utente'];
+
+$errorRecupero = $_REQUEST['error_recupero'];
+$messageRecupero = "";
+switch ($errorRecupero) {
+    case 'campi_vuoti':
+        $messageRecupero = "Non sono stati inseriti tutti i campi";
+        break;
+
+    case 'psw_non_coincidenti':
+        $messageRecupero = "Le password non coincidono";
+        break;
+
+    default:
+        $messageRecupero = "Riprova...";
+        break;
+}
 ?>
 
 <html>
@@ -35,6 +51,10 @@ include 'nav.php';
                                 <input type="password" name="conferma-nuova-password" id="conferma-nuova-password"
                                        tabindex="1" class="form-control" placeholder="Conferma nuova password">
                             </div>
+
+                            <?php if ($errorRecupero)
+                                echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; ?>
+
                             <div class="col-sm-6 col-sm-offset-3">
                                 <input type="submit" name="password-submit" id="film-submit" tabindex="14"
                                        class="form-control btn btn-film" value="Continua">

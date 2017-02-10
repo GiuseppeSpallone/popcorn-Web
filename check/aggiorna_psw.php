@@ -12,14 +12,14 @@ $recupero_username = $_REQUEST['utente'];
 
 //Controllo presenza campi
 if (!$password || !$password2) {
-    //header("location: ../accesso_registrazione.php?error_registrazione=campi_vuoti");
-    die("error 1");
+    header("location: ../recupero_psw.php?error_recupero=campi_vuoti");
+    die();
 }
 
 //Controllo coincidenza password
 if ($password != $password2) {
-    //header("location: ../accesso_registrazione.php?error_registrazione=psw_non_coincidenti");
-    die("error 2");
+    header("location: ../recupero_psw.php?error_recupero=psw_non_coincidenti");
+    die();
 }
 
 //Cripta la password
@@ -28,8 +28,8 @@ $password = md5($password);
 $result = $db_instance->update('utente', "password = '$password'", "email= '$email'");
 
 if (!$result) {
-    //header("location: ../accesso_registrazione?error_registrazione.php");
-    die("error 3");
+    header("location: ../recupero_psw.php?error_registrazione");
+    die();
 } else {
     $oggetto = "Nuova password Popcorn";
     $corpo = "La password è stata cambiata ";

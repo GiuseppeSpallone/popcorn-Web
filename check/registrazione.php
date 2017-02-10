@@ -41,7 +41,7 @@ if ($numUsername !== 0) {
 }
 
 if (!$result) {
-    header("location: ../accesso_registrazione?error_registrazione.php");
+    header("location: ../accesso_registrazione.php?error_registrazione");
     die();
 } else {
     $oggetto = "Registrazione Popcorn";
