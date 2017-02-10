@@ -34,6 +34,26 @@ switch ($errorAccesso) {
         $messageAccesso = "Riprova...";
         break;
 }
+
+$errorRecupero = $_REQUEST['error_recupero'];
+$messageRecupero = "";
+switch ($errorRecupero) {
+    case 'campi_vuoti':
+        $messageRecupero = "Non sono stati inseriti tutti i campi";
+        break;
+
+    case 'username_non_esistente':
+        $messageRecupero = "Username non esistente";
+        break;
+
+    case 'email_non_esistente':
+        $messageRecupero = "Email non esistente";
+        break;
+
+    default:
+        $messageRecupero = "Riprova...";
+        break;
+}
 ?>
 
 <html>
@@ -59,8 +79,7 @@ include 'nav.php';
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-12">
-                            <form id="login-form" action="check/accesso.php" method="post" role="form"
-                                  style="display: block;">
+                            <form id="login-form" action="check/accesso.php" method="post" role="form">
                                 <h2>ACCESSO</h2>
                                 <div id="login_form" class="form-group">
                                     <input type="text" name="username" id="username" tabindex="1" class="form-control"
@@ -81,6 +100,11 @@ include 'nav.php';
                                 <div class="col-sm-6 col-sm-offset-3">
                                     <input type="submit" name="login-submit" id="login-submit" tabindex="4"
                                            class="form-control btn btn-login" value="Accedi">
+                                </div>
+                                <div class="col-sm-6 col-sm-offset-3">
+                                    <button id="recupero" type="button" class="form-control btn btn-login">RECUPERA
+                                        PASSWORD
+                                    </button>
                                 </div>
                             </form>
                             <form id="register-form" action="check/registrazione.php" method="post" role="form"
@@ -138,6 +162,52 @@ include 'nav.php';
     </div>
 </div>
 
+<div class="modal fade" id="recuperoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="form-group">
+                <div class="modal-header">
+                    <h2>RECUPERO PASSWORD</h2>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="modal-body">La password arriverà per email
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <form id="recupero-form" action="check/recupero_psw.php" method="post" role="form">
+                    <div class="form-group">
+                        <input type="text" name="username-recupero" id="username-recupero" tabindex="1"
+                               class="form-control"
+                               placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email-recupero" id="email-recupero" tabindex="2"
+                               class="form-control" placeholder="Email">
+                    </div>
+                    <!-- <div class="col-xs-6 form-group pull-left checkbox">
+                        <input id="checkbox1" type="checkbox" name="remember">
+                        <label for="checkbox1">Remember Me</label>
+                    </div> -->
+
+                    <?php if ($errorRecupero)
+                        echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; ?>
+
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <input type="submit" name="recupero-submit" id="recupero-submit" tabindex="4"
+                               class="form-control btn btn-login" value="Invia">
+                    </div>
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <input data-dismiss="modal" tabindex="5"
+                               class="form-control btn btn-register" value="No">
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
