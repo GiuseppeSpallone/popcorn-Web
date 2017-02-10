@@ -1,3 +1,7 @@
+<?php
+$recupero_username = $_REQUEST['utente'];
+?>
+
 <html>
 
 <head>
@@ -21,10 +25,13 @@ include 'nav.php';
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-12">
-                            <form id="password-form" action="check/.php" method="post" role="form" style="display: block;">
+                            <form id="password-form" action="check/aggiorna_psw.php?utente=giuseppe.spallone95@gmail.com" method="post" role="form" style="display: block;">
                                 <h2>RECUPERO PASSWORD</h2>
                                 <div class="form-group">
-                                    <input type="text" name="nuova-password" id="nuova-password" tabindex="1" class="form-control" placeholder="Nuova password">
+                                    <input type="password" name="nuova-password" id="nuova-password" tabindex="1" class="form-control" placeholder="Nuova password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="conferma-nuova-password" id="conferma-nuova-password" tabindex="1" class="form-control" placeholder="Conferma nuova password">
                                 </div>
                                 <div class="col-sm-6 col-sm-offset-3">
                                     <input type="submit" name="password-submit" id="film-submit" tabindex="14" class="form-control btn btn-film" value="Continua">

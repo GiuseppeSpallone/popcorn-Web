@@ -42,12 +42,8 @@ switch ($errorRecupero) {
         $messageRecupero = "Non sono stati inseriti tutti i campi";
         break;
 
-    case 'username_non_esistente':
-        $messageRecupero = "Username non esistente";
-        break;
-
-    case 'email_non_esistente':
-        $messageRecupero = "Email non esistente";
+    case 'non_esistente':
+        $messageRecupero = "Username o email non esistente";
         break;
 
     default:
@@ -211,7 +207,7 @@ include 'nav.php';
                         <div class="row">
                             <div class="col-sm-6 col-sm-offset-3">
                                 <input data-dismiss="modal" tabindex="5"
-                                       class="form-control btn btn-register" value="No">
+                                       class="form-control btn btn-register" value="Chiudi">
                             </div>
                         </div>
                     </div>

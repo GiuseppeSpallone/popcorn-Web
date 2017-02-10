@@ -13,32 +13,26 @@ if (!$username || !$email) {
 }
 
 //Controllo utente
-$controlloUsername = $db_instance->select(array('username'), 'utente', "username = '$username'");
+$controlloUsername = $db_instance->select(array('username'), 'utente', "username = '$username' and email = '$email'");
 $numUsername = mysqli_num_rows($controlloUsername);
 
-$controlloMail = $db_instance->select(array('email'), 'utente', "email = '$email'");
-$numMail = mysqli_num_rows($controlloMail);
 
 if ($numUsername == 0) {
-    header("location: ../accesso_registrazione.php?error_recupero=username_non_esistente");
-    die();
-} else if ($numMail == 0) {
-    header("location: ../accesso_registrazione.php?error_recupero=email_non_esistente");
+    header("location: ../accesso_registrazione.php?error_recupero=non_esistente");
     die();
 } else {
-    $result = $db_instance->select(array('password'), 'utente', "username='$username' and email='$email'")->fetch_array();
+    $result = $db_instance->select(array('email'), 'utente', "username='$username' and email='$email'")->fetch_array();
 
-    $hash = $result['password'];
-
+    $hash = $result['email'];
 }
 
 if (!$result) {
-    header("location: ../accesso_registrazione?error_recupero.php");
+    header("location: ../accesso_registrazione.php?error_recupero");
     die();
 } else {
     $oggetto = "Recupero password Popcorn";
 
-    $corpo = "Clicca su http://localhost/recupero_psw.php per confermare la nuova password.";
+    $corpo = "Clicca su http://localhost/recupero_psw.php?utente=" . $hash . " per confermare la nuova password.";
 
     if (mail($email, $oggetto, $corpo)) {
         //echo "Messaggio inviato con successo.";
