@@ -1,7 +1,7 @@
 <?php
 require_once __DIR__ . '/../controllers/DbManager.php';
 
-//$email = $_REQUEST['utente'];
+$email = $_REQUEST['utente'];
 
 $db_instance = new DbManager();
 
@@ -25,7 +25,7 @@ if ($password != $password2) {
 //Cripta la password
 $password = md5($password);
 
-$result = $db_instance->update('utente', "password = '$password'", "username = 'giuseppe'");
+$result = $db_instance->update('utente', "password = '$password'", "email= '$email'");
 
 if (!$result) {
     //header("location: ../accesso_registrazione?error_registrazione.php");
@@ -34,7 +34,7 @@ if (!$result) {
     $oggetto = "Nuova password Popcorn";
     $corpo = "La password è stata cambiata ";
 
-    if (mail('giuseppe.spallone95@gmail.com', $oggetto, $corpo)) {
+    if (mail($email, $oggetto, $corpo)) {
         //echo "Messaggio inviato con successo.";
         header("location: ../accesso_registrazione.php");
         //echo "Inserimenti effettuati correttamente.";
