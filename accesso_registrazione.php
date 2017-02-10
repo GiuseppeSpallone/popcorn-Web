@@ -98,11 +98,11 @@ include 'nav.php';
                                     echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageAccesso . '</div></div>'; ?>
 
                                 <div class="col-sm-6 col-sm-offset-3">
-                                    <input type="submit" name="login-submit" id="login-submit" tabindex="4"
+                                    <input type="submit" name="login-submit" id="login-submit" tabindex="3"
                                            class="form-control btn btn-login" value="Accedi">
                                 </div>
                                 <div class="col-sm-6 col-sm-offset-3">
-                                    <button id="recupero" type="button" class="form-control btn btn-login">RECUPERA
+                                    <button id="recupero" type="button" class="form-control btn btn-login" tabindex="4">RECUPERA
                                         PASSWORD
                                     </button>
                                 </div>
@@ -115,15 +115,15 @@ include 'nav.php';
                                            placeholder="Username" value="">
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" name="email" id="email" tabindex="1" class="form-control"
+                                    <input type="email" name="email" id="email" tabindex="2" class="form-control"
                                            placeholder="Email Address" value="">
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="password" id="password" tabindex="2"
+                                    <input type="password" name="password" id="password" tabindex="3"
                                            class="form-control" placeholder="Password">
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="confirm-password" id="confirm-password" tabindex="2"
+                                    <input type="password" name="confirm-password" id="confirm-password" tabindex="4"
                                            class="form-control" placeholder="Confirm Password">
                                 </div>
 
@@ -134,7 +134,7 @@ include 'nav.php';
                                     <div class="row">
                                         <div class="col-sm-6 col-sm-offset-3">
                                             <input type="submit" name="register-submit" id="register-submit"
-                                                   tabindex="4" class="form-control btn btn-register"
+                                                   tabindex="4" class="form-control btn btn-register" tabindex="5"
                                                    value="Registrati">
                                         </div>
                                     </div>

@@ -15,10 +15,8 @@ if ($password == $result['password']) {
     $_SESSION['username'] = $result['username'];
     $_SESSION['password'] = $result['password'];
     $_SESSION['logged'] = true;
-
-    if ($username === "admin") {
+    if ($result['is_admin'] == true) {
         $_SESSION['private'] = true;
-        //controllo dal database
     }
 
     header("location: ../index.php");
