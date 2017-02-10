@@ -28,6 +28,7 @@
 }
 
 
+
 .panel {
   border-radius: 5px;
 }
@@ -68,7 +69,6 @@ label {
   transition: border 0.15s ease-in-out, color 0.15s ease-in-out;
 }
 .panel-film .radio label::after {
-    float: left;
   display: inline-block;
   position: absolute;
   width: 16px;
@@ -141,6 +141,7 @@ label {
   text-align: left;
 }
 
+
 .panel-film input[type="text"] {
   height: 45px;
   border: 0;
@@ -181,4 +182,26 @@ label {
   background-color: #2D3B55;
 }
 
+
+
+
+.btn-poster {
+  background-color: #E8E9EC;
+  outline: none;
+  color: #2D3B55;
+  font-size: 14px;
+  height: auto;
+  font-weight: normal;
+  padding: 14px 0;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.btn-poster:hover,
+.btn-poster:focus {
+  color: #fff;
+  background-color: #2D3B55;
+}
 

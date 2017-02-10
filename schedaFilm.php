@@ -1,3 +1,6 @@
+<?php
+include 'check/schedaFilm.php';
+?>
 <html>
 
 <head>
@@ -30,47 +33,47 @@
                         <tbody>
                             <tr>
                                 <td>Titolo originale</td>
-                                <td>Rogue One</td>
+                                <td> <?php echo $titolo; ?></td>
                             </tr>
                             <tr>
                                 <td>Nazione</td>
-                                <td>U.S.A.</td>
+                                <td><?php echo $nazione; ?></td>
                             </tr>
                             <tr>
                                 <td>Anno</td>
-                                <td>2016</td>
+                                <td><?php echo $anno; ?></td>
                             </tr>
                             <tr>
                                 <td>Genere</td>
-                                <td>Azione, Avventura, Fantastico</td>
+                                <td><?php echo $genere; ?></td>
                             </tr>
                             <tr>
                                 <td>Durata</td>
-                                <td>133′</td>
+                                <td><?php echo $durata.'\''; ?></td>
                             </tr>
                             <tr>
                                 <td>Regia</td>
-                                <td>Gareth Edwards</td>
+                                <td><?php echo $regia; ?></td>
                             </tr>
                             <tr>
                                 <td>Cast</td>
-                                <td>Felicity Jones, Mads Mikkelsen, Ben Mendelsohn, Alan Tudyk, Donnie Yen, Forest Whitaker, Diego Luna, Riz Ahmed</td>
+                                <td><?php echo $cast; ?></td>
                             </tr>
                             <tr>
                                 <td>Produzione</td>
-                                <td>Lucasfilm, Walt Disney Pictures</td>
+                                <td><?php echo $produzione; ?></td>
                             </tr>
                             <tr>
                                 <td>Distribuzione</td>
-                                <td>Walt Disney Studios Motion Pictures Italia</td>
+                                <td><?php echo $distribuzione; ?></td>
                             </tr>
                             <tr>
                                 <td>Data di uscita</td>
-                                <td>15 Dicembre 2016 (cinema)</td>
+                                <td><?php echo $data; ?></td>
                             </tr>
                             <tr>
                                 <td>Trama</td>
-                                <td>Un improbabile gruppo di eroi, in un periodo di conflitto, intraprende una missione per sottrarre i piani della più potente arma di distruzione di massa mai ideata dall’Impero, la Morte Nera. Questo evento, spingerà delle persone ordinarie a unirsi per realizzare imprese straordinarie, diventando parte di qualcosa di più grande.</td>
+                                <td><?php echo $trama; ?></td>
                             </tr>
                         </tbody>
                     </table>
