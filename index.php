@@ -5,7 +5,7 @@ include 'controllers/SessionManager.php';
 <html>
 
 <head>
-    <title>POPCORN</title>
+    <title>POP</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="coverflow/css/style.css" rel="stylesheet">

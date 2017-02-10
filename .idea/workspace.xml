@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/provagit" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/prova" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="provagit" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/provagit">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="154">
+              <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -95,7 +96,6 @@
         <option value="$PROJECT_DIR$/nav.php" />
         <option value="$PROJECT_DIR$/index2.php" />
         <option value="$PROJECT_DIR$/edit_prezzi2.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/check/email.php" />
         <option value="$PROJECT_DIR$/controllers/Email.php" />
         <option value="$PROJECT_DIR$/js/messaggi.js" />
@@ -109,6 +109,7 @@
         <option value="$PROJECT_DIR$/controllers/SessionManager.php" />
         <option value="$PROJECT_DIR$/edit_prezzi.php" />
         <option value="$PROJECT_DIR$/accesso_registrazione.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -325,7 +326,7 @@
       <workItem from="1486744409030" duration="1526000" />
       <workItem from="1486747893897" duration="6000" />
       <workItem from="1486748110780" duration="1154000" />
-      <workItem from="1486749610171" duration="21000" />
+      <workItem from="1486749610171" duration="239000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -404,11 +405,25 @@
       <option name="project" value="LOCAL" />
       <updated>1486744469374</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="prova git">
+      <created>1486749638711</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1486749638711</updated>
+    </task>
+    <task id="LOCAL-00013" summary="prova git 2">
+      <created>1486749749398</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1486749749398</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84773000" />
+    <option name="totallyTimeSpent" value="84991000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -499,7 +514,9 @@
     <MESSAGE value="Invio email alla registrazione" />
     <MESSAGE value="Avviata funzione recupera psw" />
     <MESSAGE value="La roba di Zollo che non sa usare git" />
-    <option name="LAST_COMMIT_MESSAGE" value="La roba di Zollo che non sa usare git" />
+    <MESSAGE value="prova git" />
+    <MESSAGE value="prova git 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="prova git 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -514,14 +531,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/accesso_registrazione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form_film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -719,14 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2376">
-          <caret line="108" column="51" lean-forward="false" selection-start-line="108" selection-start-column="51" selection-end-line="108" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/accesso.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -827,6 +828,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prova">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
           <folding />
         </state>
       </provider>
