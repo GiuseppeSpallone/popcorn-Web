@@ -3,11 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accesso_registrazione.php" afterPath="$PROJECT_DIR$/accesso_registrazione.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/aggiorna_psw.php" afterPath="$PROJECT_DIR$/check/aggiorna_psw.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/recupero_psw.php" afterPath="$PROJECT_DIR$/check/recupero_psw.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/SessionManager.php" afterPath="$PROJECT_DIR$/controllers/SessionManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recupero_psw.php" afterPath="$PROJECT_DIR$/recupero_psw.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -308,7 +303,7 @@
       <workItem from="1486800093157" duration="3081000" />
       <workItem from="1486803265399" duration="1082000" />
       <workItem from="1486804432048" duration="568000" />
-      <workItem from="1486805152037" duration="23000" />
+      <workItem from="1486805152037" duration="275000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -429,11 +424,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486764374449</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Recupera password completato (funzionante con la sessione) ps. la sicurezza non è un requisito funzionale">
+      <created>1486805400335</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1486805400335</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="98411000" />
+    <option name="totallyTimeSpent" value="98663000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,7 +532,8 @@
     <MESSAGE value="Avanzamento recupero password: in recupero_pwp.php bisogna mettere nell'action del form ..utente=$recupero_username.. poi su check/aggiorna_psq.php fare la request di utente e modificare query ed email" />
     <MESSAGE value="Recupero password funzionante" />
     <MESSAGE value="Aggiunti errori per recupero password, problema quando si vuole inserire la nuova password dopo il primo tentativo fallito (forse bisogna far uso delle sessioni)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunti errori per recupero password, problema quando si vuole inserire la nuova password dopo il primo tentativo fallito (forse bisogna far uso delle sessioni)" />
+    <MESSAGE value="Recupera password completato (funzionante con la sessione) ps. la sicurezza non è un requisito funzionale" />
+    <option name="LAST_COMMIT_MESSAGE" value="Recupera password completato (funzionante con la sessione) ps. la sicurezza non è un requisito funzionale" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
