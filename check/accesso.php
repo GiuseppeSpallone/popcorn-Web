@@ -11,6 +11,9 @@ $result = $db_instance->select([], 'utente', "username='$username' and password=
 
 if ($password == $result['password']) {
     session_start();
+    session_unset();
+    session_destroy();
+    session_start();
     //array globale delle variabili di sessione
     $_SESSION['username'] = $result['username'];
     $_SESSION['password'] = $result['password'];
