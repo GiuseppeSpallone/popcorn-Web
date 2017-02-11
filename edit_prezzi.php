@@ -47,15 +47,15 @@ include 'nav.php';
 
                                 <h2>ABBONAMENTI</h2>
                                 <div class="form-group">
-                                    <input type="number" name="3ingressi" tabindex="1" class="form-control"
+                                    <input type="number" name="3ingressi" tabindex="4" class="form-control"
                                            placeholder="3 Ingressi">
                                 </div>
                                 <div class="form-group">
-                                    <input type="number" name="5ingressi" tabindex="2" class="form-control"
+                                    <input type="number" name="5ingressi" tabindex="5" class="form-control"
                                            placeholder="5 Ingressi">
                                 </div>
                                 <div class="form-group">
-                                    <input type="number" name="10ingressi" tabindex="3" class="form-control"
+                                    <input type="number" name="10ingressi" tabindex="6" class="form-control"
                                            placeholder="10 Ingressi">
                                 </div>
 
@@ -63,7 +63,7 @@ include 'nav.php';
                                     echo '<div class="form-group"> <div class="alert alert-danger" role="alert">' . $message . '</div></div>'; ?>
 
                                 <div class="form-group">
-                                    <button id="salva-prezzi" type="button" class="form-control btn btn-register">Salva
+                                    <button id="salva-prezzi" type="button" class="form-control btn btn-register" tabindex="7">Salva
                                     </button>
                                 </div>
 

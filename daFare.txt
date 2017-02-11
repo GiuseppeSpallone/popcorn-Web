@@ -1,0 +1,5 @@
+conferma disconnessione account
+adattare responsive per mobile
+aggiustare button in schedaFilm.php
+messaggi di benvenuto all'accesso
+gestire gli errori con JS

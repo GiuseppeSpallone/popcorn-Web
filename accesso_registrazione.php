@@ -164,50 +164,50 @@ include 'nav.php';
     </div>
 </div>
 
-<div class="modal fade" id="recuperoModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="form-group">
-                <div class="modal-header">
-                    <h2>RECUPERO PASSWORD</h2>
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="modal-body">Le invieremo per e-mail il link per il recupero
-                </div>
-            </div>
-
-            <div class="modal-footer">
-                <form id="recupero-form" action="check/recupero_psw.php" method="post" role="form">
-                    <div class="form-group">
-                        <input type="text" name="username-recupero" id="username-recupero" tabindex="1"
-                               class="form-control"
-                               placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email-recupero" id="email-recupero" tabindex="2"
-                               class="form-control" placeholder="Email">
-                    </div>
-
-                    <?php if ($errorRecupero)
-                        echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; ?>
-                    <div class="form-group">
+<div class="modal fade" id="recuperoModal" tabindex="6" role="dialog" aria-hidden="true">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="panel panel-login">
+                    <div class="panel-body">
                         <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3">
-                                <input type="submit" name="recupero-submit" id="recupero-submit" tabindex="4"
-                                       class="form-control btn btn-login" value="Invia">
+                            <div class="col-lg-12">
+                                <form id="recupero-form" action="check/recupero_psw.php" method="post" role="form">
+                                    <h2>RECUPERO PASSWORD</h2>
+                                    <h2>Le invieremo il link per recuperare la password</h2>
+                                    <div id="login_form" class="form-group">
+                                        <input type="text" name="username-recupero" id="username-recupero" tabindex="7"
+                                               class="form-control"
+                                               placeholder="Username">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email-recupero" id="email-recupero" tabindex="8"
+                                               class="form-control" placeholder="Email">
+                                    </div>
+
+                                    <?php if ($errorRecupero)
+                                        echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; ?>
+
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-sm-offset-3">
+                                                <input type="submit" name="recupero-submit" id="recupero-submit"
+                                                       tabindex="9" class="form-control btn btn-login" value="Invia">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-sm-offset-3">
+                                                <input tabindex="10" class="form-control btn btn-login" value="Chiudi">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <div class="col-sm-6 col-sm-offset-3">
-                                <input data-dismiss="modal" tabindex="5"
-                                       class="form-control btn btn-register" value="Chiudi">
-                            </div>
-                        </div>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
     </div>
