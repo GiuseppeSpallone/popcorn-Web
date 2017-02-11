@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
+    <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="Risolto bug in recupera_psw.php e aggiustato cambio input con TAB per recupera_psw.php e edit_prezzi.php">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accesso_registrazione.php" afterPath="$PROJECT_DIR$/accesso_registrazione.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_prezzi.php" afterPath="$PROJECT_DIR$/edit_prezzi.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acquista.php" afterPath="$PROJECT_DIR$/acquista.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/carrello.php" afterPath="$PROJECT_DIR$/check/carrello.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/daFare.txt" afterPath="$PROJECT_DIR$/daFare.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedaFilm.php" afterPath="$PROJECT_DIR$/schedaFilm.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +21,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -54,13 +57,10 @@
         <option value="$PROJECT_DIR$/check/connessioneDB.php" />
         <option value="$PROJECT_DIR$/controllers/DbManager.php" />
         <option value="$PROJECT_DIR$/check/stampa_prezzi.php" />
-        <option value="$PROJECT_DIR$/check/carrello.php" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/check/prezzi.php" />
-        <option value="$PROJECT_DIR$/acquista.php" />
         <option value="$PROJECT_DIR$/contatti.php" />
         <option value="$PROJECT_DIR$/programmazione.php" />
-        <option value="$PROJECT_DIR$/schedaFilm.php" />
         <option value="$PROJECT_DIR$/prezzi.php" />
         <option value="$PROJECT_DIR$/nav.php" />
         <option value="$PROJECT_DIR$/index2.php" />
@@ -79,9 +79,14 @@
         <option value="$PROJECT_DIR$/check/disconnessione.php" />
         <option value="$PROJECT_DIR$/recupero_psw.php" />
         <option value="$PROJECT_DIR$/check/accesso.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/edit_prezzi.php" />
         <option value="$PROJECT_DIR$/accesso_registrazione.php" />
+        <option value="$PROJECT_DIR$/check/carrello.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/schedaFilm.php" />
+        <option value="$PROJECT_DIR$/acquista.php" />
+        <option value="$PROJECT_DIR$/schedaFilm2.php" />
+        <option value="$PROJECT_DIR$/daFare.txt" />
       </list>
     </option>
   </component>
@@ -113,8 +118,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -137,26 +140,14 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="check" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,7 +296,8 @@
       <workItem from="1486800093157" duration="3081000" />
       <workItem from="1486803265399" duration="1082000" />
       <workItem from="1486804432048" duration="568000" />
-      <workItem from="1486805152037" duration="3203000" />
+      <workItem from="1486805152037" duration="3726000" />
+      <workItem from="1486809060624" duration="2506000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -447,11 +439,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486806513548</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Risolto bug in recupera_psw.php e aggiustato cambio input con TAB per recupera_psw.php e edit_prezzi.php">
+      <created>1486808576123</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1486808576123</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101591000" />
+    <option name="totallyTimeSpent" value="104620000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,7 +465,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12864584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12760417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21564482" sideWeight="0.5088889" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -551,7 +550,8 @@
     <MESSAGE value="Recupera password completato (funzionante con la sessione) ps. la sicurezza non è un requisito funzionale" />
     <MESSAGE value="Recupera password completato (funzionante con la sessione) ps. la sicurezza non è un requisito non funzionale" />
     <MESSAGE value="Distruzione sessione di recupero psw" />
-    <option name="LAST_COMMIT_MESSAGE" value="Distruzione sessione di recupero psw" />
+    <MESSAGE value="Risolto bug in recupera_psw.php e aggiustato cambio input con TAB per recupera_psw.php e edit_prezzi.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="Risolto bug in recupera_psw.php e aggiustato cambio input con TAB per recupera_psw.php e edit_prezzi.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -560,7 +560,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/myCSS.css" />
     <entry file="file://$PROJECT_DIR$/css/myCSS.css" />
     <entry file="file://$PROJECT_DIR$/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -628,14 +627,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/PHPMailerAutoload.php" />
-    <entry file="file://$PROJECT_DIR$/acquista.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-26">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="42" selection-end-line="3" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/contatti.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -688,22 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schedaFilm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="35" column="52" lean-forward="false" selection-start-line="35" selection-start-column="52" selection-end-line="35" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/schedaFilm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provagit" />
     <entry file="file://$PROJECT_DIR$/prova" />
     <entry file="file://$PROJECT_DIR$/js/bootstrap.js">
@@ -717,22 +692,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/carrello.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -782,7 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="178" column="9" lean-forward="false" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,14 +785,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1487">
-          <caret line="127" column="80" lean-forward="false" selection-start-line="127" selection-start-column="80" selection-end-line="127" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/accesso.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -848,15 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/daFare.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,6 +813,74 @@
         <state relative-caret-position="300">
           <caret line="183" column="113" lean-forward="false" selection-start-line="183" selection-start-column="113" selection-end-line="183" selection-end-column="113" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/carrello.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="66" lean-forward="false" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/schedaFilm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acquista.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="54" column="51" lean-forward="false" selection-start-line="54" selection-start-column="51" selection-end-line="54" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="26" column="47" lean-forward="false" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedaFilm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="89" column="5" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="162" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daFare.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schedaFilm.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="163" column="6" lean-forward="false" selection-start-line="163" selection-start-column="6" selection-end-line="163" selection-end-column="6" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#table#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

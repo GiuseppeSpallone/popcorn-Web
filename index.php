@@ -24,7 +24,7 @@ include 'nav.php';
                 <li>
                     <div class="imgdiv">
 
-                        <a href="schedaFilm.html" role="button">
+                        <a href="schedaFilm.php" role="button">
                             <img src="coverflow/img/1.jpg" alt="">
                         </a>
 
