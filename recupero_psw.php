@@ -1,6 +1,16 @@
 <?php
-$recupero_email = $_REQUEST['utente'];
 
+include 'controllers/SessionManager.php';
+
+if ($_REQUEST['utente']) {
+    session_start();
+    $_SESSION['recupero'] = $_REQUEST['utente'];
+}
+
+
+?>
+
+<?php
 $errorRecupero = $_REQUEST['error_recupero'];
 $messageRecupero = "";
 switch ($errorRecupero) {
@@ -41,24 +51,25 @@ include 'nav.php';
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-12">
-                            <?php echo '<form id="password-form" action="check/aggiorna_psw.php?utente=' . $recupero_email . '" method="post" role="form" style="display: block;">' ?>
-                            <h2>RECUPERO PASSWORD</h2>
-                            <div class="form-group">
-                                <input type="password" name="nuova-password" id="nuova-password" tabindex="1"
-                                       class="form-control" placeholder="Nuova password">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" name="conferma-nuova-password" id="conferma-nuova-password"
-                                       tabindex="1" class="form-control" placeholder="Conferma nuova password">
-                            </div>
+                            <form id="password-form" action="check/aggiorna_psw.php" method="post" role="form"
+                                  style="display: block;">
+                                <h2>RECUPERO PASSWORD</h2>
+                                <div class="form-group">
+                                    <input type="password" name="nuova-password" id="nuova-password" tabindex="1"
+                                           class="form-control" placeholder="Nuova password">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" name="conferma-nuova-password" id="conferma-nuova-password"
+                                           tabindex="1" class="form-control" placeholder="Conferma nuova password">
+                                </div>
 
-                            <?php if ($errorRecupero)
-                                echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; ?>
+                                <?php if ($errorRecupero)
+                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; ?>
 
-                            <div class="col-sm-6 col-sm-offset-3">
-                                <input type="submit" name="password-submit" id="film-submit" tabindex="14"
-                                       class="form-control btn btn-film" value="Continua">
-                            </div>
+                                <div class="col-sm-6 col-sm-offset-3">
+                                    <input type="submit" name="password-submit" id="film-submit" tabindex="14"
+                                           class="form-control btn btn-film" value="Continua">
+                                </div>
                             </form>
                         </div>
                     </div>
@@ -67,6 +78,7 @@ include 'nav.php';
         </div>
     </div>
 </div>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
 <script src="js/form_film.js"></script>

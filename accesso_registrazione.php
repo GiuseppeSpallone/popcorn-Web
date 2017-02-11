@@ -173,7 +173,7 @@ include 'nav.php';
                 </div>
             </div>
             <div class="form-group">
-                <div class="modal-body">La password arriverà per email
+                <div class="modal-body">Le invieremo per e-mail il link per il recupero
                 </div>
             </div>
 
@@ -188,10 +188,6 @@ include 'nav.php';
                         <input type="email" name="email-recupero" id="email-recupero" tabindex="2"
                                class="form-control" placeholder="Email">
                     </div>
-                    <!-- <div class="col-xs-6 form-group pull-left checkbox">
-                        <input id="checkbox1" type="checkbox" name="remember">
-                        <label for="checkbox1">Remember Me</label>
-                    </div> -->
 
                     <?php if ($errorRecupero)
                         echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; ?>
