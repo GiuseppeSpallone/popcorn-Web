@@ -22,15 +22,18 @@ include 'nav.php';
 <div class="container">
     <div class="row">
 
-        <?php while ($resrow = $result->fetch_array(MYSQLI_ASSOC)) { ?>
+        <?php while ($film = $result->fetch_array(MYSQLI_ASSOC)) {
+            $replace_film = str_replace(' ','_',$film['titolo']);
+            ?>
+
 
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <a href="schedaFilm.php" role="button">
+                    <?php echo '<a href="schedaFilm.php?film=' . $replace_film . '" role="button">' ?>
                         <img src="image/1.jpg"></a>
 
                     <div class="caption">
-                        <h3> <?php echo $resrow['titolo'] ?></h3>
+                        <h3> <?php echo $film['titolo'] ?></h3>
 
                         <fieldset class="rating">
                             <input type="radio" id="star5" name="rating" value="5"/>

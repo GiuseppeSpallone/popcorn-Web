@@ -1,6 +1,9 @@
 <?php
 include 'check/schedaFilm.php';
+
+
 ?>
+
 <html>
 
 <head>
@@ -33,47 +36,47 @@ include 'nav.php';
                     <tbody>
                     <tr>
                         <td>Titolo originale</td>
-                        <td> <?php echo $titolo; ?></td>
+                        <td> <?php echo $resultFilm['titolo']; ?></td>
                     </tr>
                     <tr>
                         <td>Nazione</td>
-                        <td><?php echo $nazione; ?></td>
+                        <td><?php echo $resultFilm['nazione']; ?></td>
                     </tr>
                     <tr>
                         <td>Anno</td>
-                        <td><?php echo $anno; ?></td>
+                        <td><?php echo $resultFilm['anno']; ?></td>
                     </tr>
                     <tr>
                         <td>Genere</td>
-                        <td><?php echo $genere; ?></td>
+                        <td><?php echo $resultFilm['genere']; ?></td>
                     </tr>
                     <tr>
                         <td>Durata</td>
-                        <td><?php echo $durata . '\''; ?></td>
+                        <td><?php echo $resultFilm['durata'] . '\''; ?></td>
                     </tr>
                     <tr>
                         <td>Regia</td>
-                        <td><?php echo $regia; ?></td>
+                        <td><?php echo $resultFilm['regia']; ?></td>
                     </tr>
                     <tr>
                         <td>Cast</td>
-                        <td><?php echo $cast; ?></td>
+                        <td><?php echo $resultFilm['cast']; ?></td>
                     </tr>
                     <tr>
                         <td>Produzione</td>
-                        <td><?php echo $produzione; ?></td>
+                        <td><?php echo $resultFilm['produzione']; ?></td>
                     </tr>
                     <tr>
                         <td>Distribuzione</td>
-                        <td><?php echo $distribuzione; ?></td>
+                        <td><?php echo $resultFilm['distribuzione']; ?></td>
                     </tr>
                     <tr>
                         <td>Data di uscita</td>
-                        <td><?php echo $data; ?></td>
+                        <td><?php echo $resultFilm['data_uscita']; ?></td>
                     </tr>
                     <tr>
                         <td>Trama</td>
-                        <td><?php echo $trama; ?></td>
+                        <td><?php echo $resultFilm['trama']; ?></td>
                     </tr>
                     </tbody>
                 </table>
