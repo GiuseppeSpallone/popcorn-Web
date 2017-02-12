@@ -26,7 +26,7 @@ $valori = array($titolo, $nazione, $anno, $genere, $durata, $regia, $cast, $prod
 
 $result = $dbManager->insert('film', $campi, $valori);
 if ($result) {
-    header("location: ../index.php");
+    header("location: ../programmazione.php");
     die();
 
     $dbManager->connection->close();

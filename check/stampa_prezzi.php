@@ -8,7 +8,7 @@ $result = $db_instance->select([], 'offerta');
 $countPrezzi = mysqli_num_rows($result); //conteggiare il numero di records trovati all'interno del nostro db sulla base di una data query
 
 if ($countPrezzi == 0) {
-    //$vuoto = "NULL";
+    //vuoto
 } else {
     $resrow = mysqli_fetch_row($result); //array contenente i valori di ogni campo riscontrato nel recordset che potremo poi richiamare specificando il relativo indice numerico
 
