@@ -25,7 +25,9 @@ $print_class = 'class="active"';
                 if ($is_authorized) {
                     ?>
                     <li <?= ($selector == 4) ? $print_class : '' ?>><a href="form_film.php">Inserisci Film</a></li>
-                    <li <?= ($selector == 5) ? $print_class : '' ?>><a href="edit_prezzi.php">Modifica prezzi</a></li>
+                    <li <?= ($selector == 5) ? $print_class : '' ?>><a href="modifica_film.php">Modifica film</a></li>
+                    <li <?= ($selector == 6) ? $print_class : '' ?>><a href="edit_prezzi.php">Modifica prezzi</a></li>
+
                     <?php
                 }
                 ?>
@@ -36,7 +38,7 @@ $print_class = 'class="active"';
             if ($is_logged) { ?>
                 <ul class="nav navbar-nav navbar-right">
                     <?php if(!$is_authorized) {?>
-                    <li <?= ($selector == 6) ? $print_class : '' ?>><a href=".php">Carrello
+                    <li <?= ($selector == 7) ? $print_class : '' ?>><a href=".php">Carrello
                             <span class="badge">14</span> </a></li>
                     <?php } ?>
                     <li><a href="check/disconnessione.php">Disconnetti</a></li>
