@@ -40,7 +40,7 @@ include 'check/stampa_prezzi.php';
                             <div class="cd-price">
                                 <span class="cd-currency">&euro;</span>
                                 <span class="cd-value">
-                                    <?php echo $feriale; ?>
+                                    <?php echo $prezzo['feriale']; ?>
                                 </span>
                             </div>
                         </header>
@@ -53,7 +53,7 @@ include 'check/stampa_prezzi.php';
                             <div class="cd-price">
                                 <span class="cd-currency">&euro;</span>
                                 <span class="cd-value">
-                                    <?php echo $treIngressi; ?>
+                                    <?php echo $prezzo['3ingressi']; ?>
                                 </span>
                             </div>
                         </header>
@@ -69,7 +69,7 @@ include 'check/stampa_prezzi.php';
                             <div class="cd-price">
                                 <span class="cd-currency">&euro;</span>
                                 <span class="cd-value">
-                                    <?php echo $festivo; ?>
+                                    <?php echo $prezzo['festivo']; ?>
                                 </span>
                             </div>
                         </header>
@@ -82,7 +82,7 @@ include 'check/stampa_prezzi.php';
                             <div class="cd-price">
                                 <span class="cd-currency">&euro;</span>
                                 <span class="cd-value">
-                                    <?php echo $cinqueIngressi; ?>
+                                    <?php echo $prezzo['5ingressi']; ?>
                                 </span>
                             </div>
                         </header>
@@ -99,7 +99,7 @@ include 'check/stampa_prezzi.php';
                             <div class="cd-price">
                                 <span class="cd-currency">&euro;</span>
                                 <span class="cd-value">
-                                    <?php echo $treD; ?>
+                                    <?php echo $prezzo['3d']; ?>
                                 </span>
                             </div>
                         </header>
@@ -112,7 +112,7 @@ include 'check/stampa_prezzi.php';
                             <div class="cd-price">
                                 <span class="cd-currency">&euro;</span>
                                 <span class="cd-value">
-                                    <?php echo $dieciIngressi; ?>
+                                    <?php echo $prezzo['10ingressi']; ?>
                                 </span>
                             </div>
                         </header>

@@ -1,5 +1,5 @@
 <?php
-include 'check/schedaFilm.php';
+include 'check/stampa_film.php';
 
 
 ?>

@@ -22,7 +22,7 @@ include 'nav.php';
 <div class="container">
     <div class="row">
 
-        <?php while ($film = $result->fetch_array(MYSQLI_ASSOC)) {
+        <?php while ($film = $resultFilm->fetch_array(MYSQLI_ASSOC)) {
             $replace_film = str_replace(' ','_',$film['titolo']);
             ?>
 
