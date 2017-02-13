@@ -36,7 +36,7 @@ if ($numUsername !== 0) {
 } else if ($numMail !== 0) {
     header("location: ../accesso_registrazione.php?error_registrazione=email_esistente");
     die();
-}else{
+} else {
     $result = $db_instance->insert('utente', array('username', 'email', 'password'), array($username, $email, $password));
 }
 
@@ -44,6 +44,23 @@ if (!$result) {
     header("location: ../accesso_registrazione.php?error_registrazione");
     die();
 } else {
+
+    //login, includere accesso.php
+    $accesso = $db_instance->select([], 'utente', "username='$username' and password='$password'")->fetch_assoc();
+
+    session_start();
+    session_unset();
+    session_destroy();
+    session_start();
+
+    $_SESSION['username'] = $accesso['username'];
+    $_SESSION['password'] = $accesso['password'];
+    $_SESSION['logged'] = true;
+    if ($result['is_admin'] == true) {
+        $_SESSION['private'] = true;
+    }
+
+    //email
     $oggetto = "Registrazione Popcorn";
     $corpo = "Benvenuto in Popcorn " . $username;
 
