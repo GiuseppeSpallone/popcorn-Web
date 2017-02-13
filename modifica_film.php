@@ -49,8 +49,13 @@ include 'nav.php';
                         <?php echo '<form id="elimina" action="check/elimina_film.php?elimina=' . $replace_film . ' " method="post" role="form">'; ?>
 
                         <div class="form-group">
-                            <button id="elimina-film" type="button" class="btn btn-danger" tabindex="">Elimina
+
+                             <button  type="submit" class="btn btn-danger" tabindex="">Elimina
                             </button>
+
+                            <!-- <input name="elimina-film" type="button" tabindex="" id="elimina-film"
+                                   class="btn btn-danger" value="Elimina">
+                            </input> -->
                         </div>
 
                         <div class="modal fade" id="eliminaModal" tabindex="-1" role="dialog" aria-hidden="true">
