@@ -14,13 +14,25 @@ include 'check/stampa_film.php';
 
 <body>
 <?php
-$selector = 5;
+$selector = 4;
 include 'nav.php';
 ?>
 
 
 <div class="container">
     <div class="row">
+
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <a href="form_film.php" role="button">
+                    <img src="image/X.jpg"></a>
+
+                <div class="caption">
+                    <h3> Inserisci un nuovo film </h3>
+                </div>
+
+            </div>
+        </div>
 
         <?php while ($film = $resultFilm->fetch_array(MYSQLI_ASSOC)) {
             $replace_film = str_replace(' ', '_', $film['titolo']);
@@ -33,7 +45,7 @@ include 'nav.php';
                     <img src="image/1.jpg"></a>
 
                     <div class="caption">
-                        <h3> <?php echo $film['titolo'] ?></h3>
+                        <h3> <?php echo $film['titolo'] ?> </h3>
                         <a href="" class="btn btn-warning" role="button">Modifica</a>
                         <a href="" class="btn btn-danger" role="button">Elimina</a>
                     </div>
