@@ -1,5 +1,5 @@
 <?php
-$errorRegistrazione = $_REQUEST['error_registrazione'];
+/*$errorRegistrazione = $_REQUEST['error_registrazione'];
 $messageRegistrazione = "";
 switch ($errorRegistrazione) {
     case 'campi_vuoti':
@@ -50,7 +50,7 @@ switch ($errorRecupero) {
         $messageRecupero = "Riprova...";
         break;
 }
-?>
+*/?>
 
 <html>
 
@@ -60,6 +60,13 @@ switch ($errorRecupero) {
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/login.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/messaggi.js"></script>
+    <script src= "js/error_manage.js"></script>
 </head>
 
 <body>
@@ -68,6 +75,17 @@ $selector = 7;
 include 'nav.php';
 ?>
 
+<style>
+
+    div.no_show{
+        display: none;
+
+    }
+
+</style>
+
+
+
 <div class="container">
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
@@ -75,7 +93,7 @@ include 'nav.php';
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-12">
-                            <form id="login-form" action="check/accesso.php" method="post" role="form">
+                            <form id="login-form" role="form">
                                 <h2>ACCESSO</h2>
                                 <div id="login_form" class="form-group">
                                     <input type="text" name="username" id="username" tabindex="1" class="form-control"
@@ -90,8 +108,12 @@ include 'nav.php';
                                     <label for="checkbox1">Remember Me</label>
                                 </div> -->
 
-                                <?php if ($errorAccesso)
-                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageAccesso . '</div></div>'; ?>
+                                <div id="errorLogin"  class="alert alert-danger no_show" role="alert">Utente o password non corretti.</div>
+                                <div id="errorVuoti"  class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
+
+<!--
+                                --><?php /*if ($errorAccesso)
+                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageAccesso . '</div></div>'; */?>
                                 <div class="form-group">
                                     <div class="row">
                                         <div class="col-sm-6 col-sm-offset-3">
@@ -109,11 +131,10 @@ include 'nav.php';
                                     </div>
                                 </div>
                             </form>
-                            <form id="register-form" action="check/registrazione.php" method="post" role="form"
-                                  style="display: none;">
+                            <form id="register-form"  role="form" style="display: none;">
                                 <h2>REGISTRAZIONE</h2>
                                 <div class="form-group">
-                                    <input type="text" name="username" id="username" tabindex="1" class="form-control"
+                                    <input type="text" name="username" id="username-reg" tabindex="1" class="form-control"
                                            placeholder="Username" value="">
                                 </div>
                                 <div class="form-group">
@@ -121,7 +142,7 @@ include 'nav.php';
                                            placeholder="Email Address" value="">
                                 </div>
                                 <div class="form-group">
-                                    <input type="password" name="password" id="password" tabindex="3"
+                                    <input type="password" name="password" id="password-reg" tabindex="3"
                                            class="form-control" placeholder="Password">
                                 </div>
                                 <div class="form-group">
@@ -129,8 +150,13 @@ include 'nav.php';
                                            class="form-control" placeholder="Confirm Password">
                                 </div>
 
-                                <?php if ($errorRegistrazione)
-                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRegistrazione . '</div></div>'; ?>
+                                <div id="errorReg"  class="alert alert-danger no_show" role="alert">Username non disponibile.</div>
+                                <div id="errorVuoti"  class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
+                                <div id="errorDismatch"  class="alert alert-danger no_show" role="alert">Le password non coincidono.</div>
+
+
+                               <!-- --><?php /*if ($errorRegistrazione)
+                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRegistrazione . '</div></div>'; */?>
 
                                 <div class="form-group">
                                     <div class="row">
@@ -172,7 +198,7 @@ include 'nav.php';
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-lg-12">
-                                <form id="recupero-form" action="check/recupero_psw.php" method="post" role="form">
+                                <form id="recupero-form" role="form">
                                     <h2>RECUPERO PASSWORD</h2>
                                     <h2>Le invieremo il link per recuperare la password</h2>
                                     <div id="login_form" class="form-group">
@@ -185,8 +211,8 @@ include 'nav.php';
                                                class="form-control" placeholder="Email">
                                     </div>
 
-                                    <?php if ($errorRecupero)
-                                        echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; ?>
+                                 <!--   --><?php /*if ($errorRecupero)
+                                        echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; */?>
 
                                     <div class="form-group">
                                         <div class="row">
@@ -213,10 +239,6 @@ include 'nav.php';
     </div>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/login.js"></script>
-<script src="js/messaggi.js"></script>
 
 </body>
 
