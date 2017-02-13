@@ -1,4 +1,0 @@
-conferma disconnessione account
-adattare responsive per mobile
-messaggi di benvenuto all'accesso
-gestire gli errori con JS

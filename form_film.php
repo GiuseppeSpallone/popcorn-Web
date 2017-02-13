@@ -91,7 +91,7 @@ include 'nav.php';
                                    -->
 
                                 <div class="col-xs-6 form-group pull-left radio">
-                                    <input id="prog" type="radio" name="prog" tabindex="14" class="form-control">
+                                    <input id="prog" type="radio" name="prog" tabindex="12" class="form-control">
                                     <label for="prog">In Programmazione</label>
 
                                     <input id="pross" type="radio" name="prog" tabindex="13" class="form-control">

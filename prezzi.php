@@ -19,6 +19,7 @@ include 'check/stampa_prezzi.php';
     include 'nav.php';
     ?>
 
+    <br>
     <div class="cd-pricing-container cd-has-margins">
         <div class="cd-pricing-switcher">
             <p class="fieldset">

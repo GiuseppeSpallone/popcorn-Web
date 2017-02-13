@@ -55,6 +55,5 @@ $print_class = 'class="active"';
         </div>
     </div>
 </nav>
-<br> <br> <br>
 
 

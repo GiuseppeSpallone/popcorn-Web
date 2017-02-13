@@ -13,3 +13,10 @@ function recuperoPassword(){
     $("#recuperoModal").modal('show');
 }
 
+/* occorre un altro selettore perchè il button elimina è in un ciclo e vengono generati n button con lo stesso id
+$("#elimina-film").click(eliminaFilm);
+
+function eliminaFilm(){
+    $("#eliminaModal").modal('show');
+}*/
+

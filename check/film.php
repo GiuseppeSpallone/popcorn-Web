@@ -1,12 +1,12 @@
 <?php
 require_once '../controllers/DbManager.php';
 
-$dbManager = new DBManager();
+$db_instance = new DBManager();
 
 
 $titolo = filter_input(INPUT_POST, 'titolo');
 $nazione = filter_input(INPUT_POST, 'nazione');
-$anno = filter_input(INPUT_POST, 'data');
+$anno = filter_input(INPUT_POST, 'anno');
 $genere = filter_input(INPUT_POST, 'genere');
 $durata = filter_input(INPUT_POST, 'durata');
 $regia = filter_input(INPUT_POST, 'regia');
@@ -23,14 +23,12 @@ $campi = array("titolo", "nazione", "anno", "genere", "durata", "regia", "cast",
 
 $valori = array($titolo, $nazione, $anno, $genere, $durata, $regia, $cast, $produzione, $distribuzione, $data_uscita, $trama, 'image/' . $titolo, $in_prog);
 
-$result = $dbManager->insert('film', $campi, $valori);
+$result = $db_instance->insert('film', $campi, $valori);
 if ($result) {
     header("location: ../modifica_film.php");
     die();
-
-    $dbManager->connection->close();
-
 }
+$db_instance->connection->close();
 
 //TODO
 /*    
