@@ -1,4 +1,11 @@
-conferma disconnessione account
-adattare responsive per mobile
-messaggi di benvenuto all'accesso
-gestire gli errori con JS
+1. Aggiungere conferma elimina film
+
+2. Unificare lo stile per conferma modifica prezzi, elimina film, recupero password
+
+3. Aggiungere conferma disconnessione account
+
+4. Adattare responsive per mobile
+
+5. Aggiungere messaggio di benvenuto all'accesso
+
+6. Gestire gli errori con JS
