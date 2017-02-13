@@ -13,3 +13,10 @@ function recuperoPassword(){
     $("#recuperoModal").modal('show');
 }
 
+
+$("#elimina-film").click(eliminaFilm);
+
+function eliminaFilm(){
+    $("#eliminaModal").modal('show');
+}
+
