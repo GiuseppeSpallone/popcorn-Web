@@ -32,8 +32,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="462">
-                <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <first_editor relative-caret-position="484">
+                <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -372,7 +372,7 @@
       <workItem from="1486979215468" duration="1650000" />
       <workItem from="1486981042604" duration="205000" />
       <workItem from="1486994750053" duration="5050000" />
-      <workItem from="1487001461015" duration="2961000" />
+      <workItem from="1487001461015" duration="3208000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -612,11 +612,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487004402644</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Aggiunte funzionalità in readme.md">
+      <created>1487004432773</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1487004432773</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137728000" />
+    <option name="totallyTimeSpent" value="137975000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1064,8 +1071,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="462">
-            <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <first_editor relative-caret-position="484">
+            <caret line="22" column="16" lean-forward="false" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
             <folding />
           </first_editor>
           <second_editor />
