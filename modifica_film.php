@@ -51,7 +51,7 @@ include 'nav.php';
                                class="btn btn-danger" value="Elimina">
                         </form>
 
-                        <?php echo '<form id="modifica-film" action="check/modifica_film.php?modifica=' . $replace_film . '" method="post" role="form">'; ?>
+                        <?php echo '<form id="modifica-film" action="form_modifica_film.php?modifica=' . $replace_film . '" method="post" role="form">'; ?>
                         <input type="submit" name="modifica-submit" id="modifica-submit" tabindex=""
                                class="btn btn-warning" value="Modifica">
                         </form>

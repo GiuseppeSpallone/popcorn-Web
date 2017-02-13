@@ -8,6 +8,11 @@ $titolo = str_replace('_', ' ', $titolo);
 
 $result = $db_instance->queryString("DELETE FROM film WHERE titolo = '$titolo'");
 
+if ($result) {
+    header("location: ../modifica_film.php");
+    die();
+}
+
 
 $db_instance->connection->close();
 ?>
