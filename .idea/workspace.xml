@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/form_modifica_film.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/elimina_film.php" afterPath="$PROJECT_DIR$/check/elimina_film.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/modifica_film.php" afterPath="$PROJECT_DIR$/check/modifica_film.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modifica_film.php" afterPath="$PROJECT_DIR$/modifica_film.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/film.php" afterPath="$PROJECT_DIR$/check/film.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +17,18 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="film.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/check/film.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-140">
+              <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +94,6 @@
         <option value="$PROJECT_DIR$/nav.php" />
         <option value="$PROJECT_DIR$/edit_prezzi.php" />
         <option value="$PROJECT_DIR$/acquista.php" />
-        <option value="$PROJECT_DIR$/check/film.php" />
         <option value="$PROJECT_DIR$/accesso_registrazione.php" />
         <option value="$PROJECT_DIR$/daFare.txt" />
         <option value="$PROJECT_DIR$/form_film.php" />
@@ -94,6 +101,7 @@
         <option value="$PROJECT_DIR$/check/elimina_film.php" />
         <option value="$PROJECT_DIR$/form_modifica_film.php" />
         <option value="$PROJECT_DIR$/check/modifica_film.php" />
+        <option value="$PROJECT_DIR$/check/film.php" />
       </list>
     </option>
   </component>
@@ -137,34 +145,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="check" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -333,7 +313,8 @@
       <workItem from="1486964046727" duration="9494000" />
       <workItem from="1486975951580" duration="2226000" />
       <workItem from="1486979132383" duration="39000" />
-      <workItem from="1486979215468" duration="1593000" />
+      <workItem from="1486979215468" duration="1650000" />
+      <workItem from="1486981042604" duration="188000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -517,11 +498,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486973655296</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Modifica film funzionante, mancano avvisi di conferma e gestione degli errori">
+      <created>1486980846314</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1486980846314</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129455000" />
+    <option name="totallyTimeSpent" value="129700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -603,7 +591,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Creato modifica prezzi" />
     <MESSAGE value="Aggiunto inserimento e modifica dei prezzi dei biglietti per l'amministratore" />
     <MESSAGE value="Creato DbManager" />
     <MESSAGE value="aa" />
@@ -628,7 +615,8 @@
     <MESSAGE value="Aggiunta scermata modifica film" />
     <MESSAGE value="Da ora per aggiungere una film bisogna andare prima in modifica film" />
     <MESSAGE value="Aggiunto tasto indietro inserisci film e sistemato il chiudi di recupera password" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunto tasto indietro inserisci film e sistemato il chiudi di recupera password" />
+    <MESSAGE value="Modifica film funzionante, mancano avvisi di conferma e gestione degli errori" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifica film funzionante, mancano avvisi di conferma e gestione degli errori" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -900,14 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2398">
-          <caret line="109" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/elimina_film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -934,14 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check/modifica_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/prezzi.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -950,10 +922,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/form_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="98" column="38" lean-forward="true" selection-start-line="98" selection-start-column="38" selection-end-line="98" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/modifica_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/check/film.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="-140">
+          <caret line="27" column="38" lean-forward="false" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
           <folding />
         </state>
       </provider>
