@@ -22,11 +22,10 @@ if ($password == $result['password']) {
         $_SESSION['private'] = true;
     }
 
-    header("location: ../index.php");
+    echo "ok";
 
 } else {
-    header("location: ../accesso_registrazione.php?error_accesso=accesso_non_autenticato");
-    die();
+    echo "Errore";
 }
 
 $db_instance->connection->close();
