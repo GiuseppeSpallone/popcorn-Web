@@ -24,7 +24,7 @@ include 'nav.php';
                             <form id="film-form" action="check/film.php" method="post" role="form"
                                   style="display: block;">
                                 <h2>Inserisci Film</h2>
-                                <div id="film_form" class="form-group">
+                                <div class="form-group">
                                     <input type="text" name="titolo" id="titolo" tabindex="1" class="form-control"
                                            placeholder="Titolo" value="">
                                 </div>

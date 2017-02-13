@@ -46,8 +46,15 @@ include 'nav.php';
 
                     <div class="caption">
                         <h3> <?php echo $film['titolo'] ?> </h3>
-                        <a href="" class="btn btn-warning" role="button">Modifica</a>
-                        <a href="" class="btn btn-danger" role="button">Elimina</a>
+                        <?php echo '<form id="elimina-film" action="check/elimina_film.php?elimina=' . $replace_film . ' " method="post" role="form">'; ?>
+                        <input type="submit" name="elimina-submit" id="elimina-submit" tabindex=""
+                               class="btn btn-danger" value="Elimina">
+                        </form>
+
+                        <?php echo '<form id="modifica-film" action="check/modifica_film.php?modifica=' . $replace_film . '" method="post" role="form">'; ?>
+                        <input type="submit" name="modifica-submit" id="modifica-submit" tabindex=""
+                               class="btn btn-warning" value="Modifica">
+                        </form>
                     </div>
 
                 </div>
