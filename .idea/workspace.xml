@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accesso_registrazione.php" afterPath="$PROJECT_DIR$/accesso_registrazione.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/accesso.php" afterPath="$PROJECT_DIR$/check/accesso.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/registrazione.php" afterPath="$PROJECT_DIR$/check/registrazione.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/login.js" afterPath="$PROJECT_DIR$/js/login.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -735,11 +731,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486980846314</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="eliminazione gestione errori tramite url + error_manage.js per gestire errori tramite ajax">
+      <created>1487007337997</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1487007337997</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="147538000" />
+    <option name="totallyTimeSpent" value="148001000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -820,7 +823,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Aggiunto inserimento e modifica dei prezzi dei biglietti per l'amministratore" />
     <MESSAGE value="Creato DbManager" />
     <MESSAGE value="aa" />
     <MESSAGE value="1.0" />
@@ -845,7 +847,8 @@
     <MESSAGE value="Da ora per aggiungere una film bisogna andare prima in modifica film" />
     <MESSAGE value="Aggiunto tasto indietro inserisci film e sistemato il chiudi di recupera password" />
     <MESSAGE value="Modifica film funzionante, mancano avvisi di conferma e gestione degli errori" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modifica film funzionante, mancano avvisi di conferma e gestione degli errori" />
+    <MESSAGE value="eliminazione gestione errori tramite url + error_manage.js per gestire errori tramite ajax" />
+    <option name="LAST_COMMIT_MESSAGE" value="eliminazione gestione errori tramite url + error_manage.js per gestire errori tramite ajax" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
