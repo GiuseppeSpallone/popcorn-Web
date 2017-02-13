@@ -79,7 +79,7 @@ include 'nav.php';
 
                             </tr>
                             <tr>
-                                <td><a href="acquista.php" class="btn btn-primary" role="button">Acquista</a></td>
+                                <td><a href="acquista.php" class="btn btn-success" role="button">Acquista</a></td>
                             </tr>
                             </tbody>
                         </table>

@@ -100,6 +100,12 @@ include 'nav.php';
                         <input type="submit" name="modifica-submit" id="modifica-submit" tabindex=""
                                class="btn btn-warning" value="Modifica">
                         </form>
+
+                        <?php echo '<form id="modifica-film" action="form_modifica_orari.php?modifica=' . $replace_film . '" method="post" role="form">'; ?>
+                        <input type="submit" name="modifica-submit" id="modifica-submit" tabindex=""
+                               class="btn btn-primary" value="Orari">
+                        </form>
+
                     </div>
 
                 </div>

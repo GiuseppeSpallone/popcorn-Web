@@ -1,14 +1,8 @@
 <?php
-include 'check/stampa_prezzi.php';
 
-$error = $_REQUEST['errorPrezzi'];
-$message = "";
-switch ($error) {
-    case 'mancanoCampi':
-        $message = "Non sono stati inseriti tutti i campi";
-        break;
+$titolo = $_REQUEST['modifica'];
+$titoloFilm = str_replace('_', ' ', $titolo);
 
-}
 ?>
 <html>
 
@@ -22,7 +16,7 @@ switch ($error) {
 
 <body>
 <?php
-$selector = 5;
+$selector = 4;
 include 'nav.php';
 ?>
 
@@ -33,55 +27,80 @@ include 'nav.php';
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-12">
-                            <form id="biglietti-form" action="check/prezzi.php" method="post" role="form">
-                                <h2>BIGLIETTI</h2>
+                            <form id="biglietti-form" action="check/.php" method="post" role="form">
+                                <h2> <?php echo $titoloFilm ?> </h2>
+                                <h2>ORARI </h2>
                                 <div class="form-group">
-                                    <?php echo'<input type="number" name="feriali" tabindex="1" class="form-control"
-                                           placeholder="Feriali" value="' . $prezzo['feriale'] . '">'; ?>
+                                    <label for="sel2">Orario 1</label>
+                                    <select class="form-control" id="sel2">
+                                        <option>16:00</option>
+                                        <option>17:00</option>
+                                        <option>18:00</option>
+                                        <option>19:00</option>
+                                        <option>20:00</option>
+                                        <option>21:00</option>
+                                        <option>22:00</option>
+                                    </select>
                                 </div>
                                 <div class="form-group">
-                                    <?php echo '<input type="number" name="festivi" tabindex="2" class="form-control"
-                                           placeholder="Festivi" value="' . $prezzo['festivo'] . '">'; ?>
+                                    <label for="sel2">Orario 2</label>
+                                    <select class="form-control" id="sel2">
+                                        <option>16:00</option>
+                                        <option>17:00</option>
+                                        <option>18:00</option>
+                                        <option>19:00</option>
+                                        <option>20:00</option>
+                                        <option>21:00</option>
+                                        <option>22:00</option>
+                                    </select>
                                 </div>
                                 <div class="form-group">
-                                    <?php echo'<input type="number" name="3d" tabindex="3" class="form-control"
-                                     placeholder="3D" value="' . $prezzo['3d'] . '">'; ?>
+                                    <label for="sel2">Orario 3</label>
+                                    <select class="form-control" id="sel2">
+                                        <option>16:00</option>
+                                        <option>17:00</option>
+                                        <option>18:00</option>
+                                        <option>19:00</option>
+                                        <option>20:00</option>
+                                        <option>21:00</option>
+                                        <option>22:00</option>
+                                    </select>
                                 </div>
 
-                                <h2>ABBONAMENTI</h2>
+                                <h2>SALA</h2>
                                 <div class="form-group">
-                                    <?php echo'<input type="number" name="3ingressi" tabindex="4" class="form-control"
-                                           placeholder="3 Ingressi" value="' . $prezzo['3ingressi'] . '">'; ?>
-                                </div>
-                                <div class="form-group">
-                                    <?php echo'<input type="number" name="5ingressi" tabindex="5" class="form-control"
-                                           placeholder="5 Ingressi" value="' . $prezzo['5ingressi'] . '">'; ?>
-                                </div>
-                                <div class="form-group">
-                                    <?php echo'<input type="number" name="10ingressi" tabindex="6" class="form-control"
-                                           placeholder="10 Ingressi" value="' . $prezzo['10ingressi'] . '">'; ?>
+                                    <select class="form-control" id="sel2">
+                                        <option>1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                        <option>4</option>
+                                    </select>
                                 </div>
 
-                                <?php if ($error)
-                                    echo '<div class="form-group"> <div class="alert alert-danger" role="alert">' . $message . '</div></div>'; ?>
-
                                 <div class="form-group">
-                                    <button id="salva-prezzi" type="button" class="form-control btn btn-login"
-                                            tabindex="7">Salva
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3">
+                                            <a href="modifica_film.php" class="form-control btn btn-login">Indietro</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button id="salva-orari" type="button" class="form-control btn btn-login"
+                                            tabindex="">Salva
                                     </button>
                                 </div>
 
 
-                                <div class="modal fade" id="prezziModal" tabindex="-1" role="dialog" aria-hidden="true">
+                                <div class="modal fade" id="orariModal" tabindex="-1" role="dialog" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
                                             <div class="form-group">
                                                 <div class="modal-header">
-                                                    <h2>AGGIORNAMENTO PREZZI</h2>
+                                                    <h2>AGGIORNAMENTO ORARI E SALE</h2>
                                                 </div>
                                             </div>
                                             <div class="form-group">
-                                                <div class="modal-body">Sei sicuro di voler modificare i prezzi?
+                                                <div class="modal-body">Sei sicuro di voler modificare orari e sala?
                                                 </div>
                                             </div>
 
@@ -89,7 +108,7 @@ include 'nav.php';
                                                 <div class="form-group">
                                                     <div class="row">
                                                         <div class="col-sm-6 col-sm-offset-3">
-                                                            <input type="submit" id="prezzi-submit" tabindex="4"
+                                                            <input type="submit" id="orari-submit" tabindex="4"
                                                                    class="form-control btn btn-register" value="Si">
                                                         </div>
                                                     </div>

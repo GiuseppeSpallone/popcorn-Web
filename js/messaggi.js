@@ -20,3 +20,11 @@ function eliminaFilm(){
     $("#eliminaModal").modal('show');
 }*/
 
+$("#salva-orari").click(modificaOrari);
+
+function modificaOrari(){
+    $("#orariModal").modal('show');
+}
+
+
+
