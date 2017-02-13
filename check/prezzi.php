@@ -23,6 +23,9 @@ if ($countPrezzi == 0) {
     $result = $db_instance->insert('offerta',
         array('feriale', 'festivo', '3d', '3ingressi', '5ingressi', '10ingressi'),
         array($prezzoFeriale, $prezzoFestivo, $prezzoTreD, $prezzo3Ingressi, $prezzo5Ingressi, $prezzo10Ingressi));
+
+    header("location: ../prezzi.php");
+
 } else {
 
     $result = $db_instance->update('offerta', "feriale ='$prezzoFeriale',
@@ -31,14 +34,10 @@ if ($countPrezzi == 0) {
                   3ingressi = '$prezzo3Ingressi',
                   5ingressi = '$prezzo5Ingressi',
                   10ingressi = '$prezzo10Ingressi'", "id=0");
+
+    header("location: ../edit_prezzi.php");
 }
 
-if ($result) {
-    header("location: ../prezzi.php");
-    //echo "Inserimenti effettuati correttamente.";
-} else {
-    //inserire errore
-}
 
 $db_instance->connection->close();
 
