@@ -9,7 +9,7 @@ $titoloFilm = str_replace('_',' ',$titoloFilm);
 
 $titolo = filter_input(INPUT_POST, 'titolo');
 $nazione = filter_input(INPUT_POST, 'nazione');
-$anno = filter_input(INPUT_POST, 'data');
+$anno = filter_input(INPUT_POST, 'anno');
 $genere = filter_input(INPUT_POST, 'genere');
 $durata = filter_input(INPUT_POST, 'durata');
 $regia = filter_input(INPUT_POST, 'regia');
