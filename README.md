@@ -2,10 +2,10 @@
 
 Popcorn è un progetto per l'esame di programmazione web 
 
-### Installazione
+## Installazione
 
-### Funzionalità
-  #####Utente
+## Funzionalità
+  ####Utente
   - Accesso al sistema
     - Crea profilo
     - Accedi al profilo
@@ -19,7 +19,7 @@ Popcorn è un progetto per l'esame di programmazione web
     - Visualizza sale
   - Gestore contatti
     - Visualizza contatti
-  #####Amministratore 
+  ####Amministratore 
   - Accesso al sistema
     - Accedi al profilo
     - Uscita dal profilo
