@@ -199,7 +199,7 @@ include 'nav.php';
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-sm-6 col-sm-offset-3">
-                                                <input tabindex="10" class="form-control btn btn-login" value="Chiudi">
+                                                <input tabindex="10" class="form-control btn btn-login" data-dismiss="modal" value="Chiudi">
                                             </div>
                                         </div>
                                     </div>

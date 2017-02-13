@@ -17,7 +17,6 @@ $data_uscita = filter_input(INPUT_POST, 'data_uscita');
 $trama = filter_input(INPUT_POST, 'trama');
 //
 
-
 if (filter_input(INPUT_POST, 'prog', FILTER_VALIDATE_BOOLEAN) == true) $in_prog = 1; else $in_prog = 0;
 
 $campi = array("titolo", "nazione", "anno", "genere", "durata", "regia", "cast", "produzione", "distribuzione", "data_uscita", "trama", "id_poster", "in_progr");
