@@ -1,8 +1,12 @@
 <?php
 include 'check/stampa_orari_sale.php';
+include 'controllers/SessionManager.php';
 
-$titolo = $_REQUEST['modifica'];
-$titoloFilm = str_replace('_', ' ', $titolo);
+if ($_REQUEST['modifica']) {
+    session_start();
+    $titoloFilm = $_REQUEST['modifica'];
+    $_SESSION['film'] = $titoloFilm;
+}
 
 ?>
 <html>

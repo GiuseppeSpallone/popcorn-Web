@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/check/orari.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/check/sale.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/check/stampa_orari_sale.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/form_modifica_orari.php" afterPath="$PROJECT_DIR$/form_modifica_orari_sale.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/orari.php" afterPath="$PROJECT_DIR$/check/orari.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/sale.php" afterPath="$PROJECT_DIR$/check/sale.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/SessionManager.php" afterPath="$PROJECT_DIR$/controllers/SessionManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_modifica_orari.php" afterPath="$PROJECT_DIR$/form_modifica_orari.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/messaggi.js" afterPath="$PROJECT_DIR$/js/messaggi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modifica_film.php" afterPath="$PROJECT_DIR$/modifica_film.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recupero_psw.php" afterPath="$PROJECT_DIR$/recupero_psw.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,16 +23,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="form_modifica_orari.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/form_modifica_orari.php">
+      <file leaf-file-name="sale.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/check/sale.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-528">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+            <state relative-caret-position="413">
+              <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
               <folding>
-                <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <marker date="1487070933114" expanded="true" signature="977:1006" ph="SELECT MAX(i... sale_film" />
               </folding>
             </state>
           </provider>
@@ -66,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/check/edit_prezzi.php" />
         <option value="$PROJECT_DIR$/check/SessionController.php" />
         <option value="$PROJECT_DIR$/check/connessioneDB.php" />
         <option value="$PROJECT_DIR$/controllers/DbManager.php" />
@@ -81,7 +77,6 @@
         <option value="$PROJECT_DIR$/check/recupero_psw.php" />
         <option value="$PROJECT_DIR$/check/aggiorna_psw.php" />
         <option value="$PROJECT_DIR$/check/disconnessione.php" />
-        <option value="$PROJECT_DIR$/recupero_psw.php" />
         <option value="$PROJECT_DIR$/check/carrello.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/schedaFilm2.php" />
@@ -98,7 +93,6 @@
         <option value="$PROJECT_DIR$/acquista.php" />
         <option value="$PROJECT_DIR$/daFare.txt" />
         <option value="$PROJECT_DIR$/form_film.php" />
-        <option value="$PROJECT_DIR$/modifica_film.php" />
         <option value="$PROJECT_DIR$/check/elimina_film.php" />
         <option value="$PROJECT_DIR$/form_modifica_film.php" />
         <option value="$PROJECT_DIR$/check/modifica_film.php" />
@@ -112,11 +106,14 @@
         <option value="$PROJECT_DIR$/js/error_manage.js" />
         <option value="$PROJECT_DIR$/check/orari_sale.php" />
         <option value="$PROJECT_DIR$/js/messaggi.js" />
-        <option value="$PROJECT_DIR$/check/orari.php" />
-        <option value="$PROJECT_DIR$/check/sale.php" />
         <option value="$PROJECT_DIR$/form_modifica_orari.php" />
-        <option value="$PROJECT_DIR$/controllers/SessionManager.php" />
         <option value="$PROJECT_DIR$/check/stampa_orari_sale.php" />
+        <option value="$PROJECT_DIR$/modifica_film.php" />
+        <option value="$PROJECT_DIR$/controllers/SessionManager.php" />
+        <option value="$PROJECT_DIR$/check/orari.php" />
+        <option value="$PROJECT_DIR$/form_modifica_orari_sale.php" />
+        <option value="$PROJECT_DIR$/recupero_psw.php" />
+        <option value="$PROJECT_DIR$/check/sale.php" />
       </list>
     </option>
   </component>
@@ -358,7 +355,7 @@
       <workItem from="1486979132383" duration="39000" />
       <workItem from="1486979215468" duration="1650000" />
       <workItem from="1486981042604" duration="188000" />
-      <workItem from="1487058541745" duration="10924000" />
+      <workItem from="1487058541745" duration="12623000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -556,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487007337997</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Aggiunta pagina per inserire o modificare gli orari e le sale dei film, la modifica funziona, l'inserimento non funziona perchè non so come portarmi dietro il film con le sale e il film con gli orari">
+      <created>1487069572295</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1487069572295</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158925000" />
+    <option name="totallyTimeSpent" value="160624000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -579,7 +583,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21564482" sideWeight="0.5088889" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15038419" sideWeight="0.4911111" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16136114" sideWeight="0.4911111" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -641,7 +645,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Creato DbManager" />
     <MESSAGE value="aa" />
     <MESSAGE value="1.0" />
     <MESSAGE value="Aggiunti errori per accesso e registrazione (da gestire ancora con JS)" />
@@ -666,7 +669,8 @@
     <MESSAGE value="Aggiunto tasto indietro inserisci film e sistemato il chiudi di recupera password" />
     <MESSAGE value="Modifica film funzionante, mancano avvisi di conferma e gestione degli errori" />
     <MESSAGE value="eliminazione gestione errori tramite url + error_manage.js per gestire errori tramite ajax" />
-    <option name="LAST_COMMIT_MESSAGE" value="eliminazione gestione errori tramite url + error_manage.js per gestire errori tramite ajax" />
+    <MESSAGE value="Aggiunta pagina per inserire o modificare gli orari e le sale dei film, la modifica funziona, l'inserimento non funziona perchè non so come portarmi dietro il film con le sale e il film con gli orari" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta pagina per inserire o modificare gli orari e le sale dei film, la modifica funziona, l'inserimento non funziona perchè non so come portarmi dietro il film con le sale e il film con gli orari" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -675,7 +679,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/check/email.php" />
     <entry file="file://$PROJECT_DIR$/form_film2.php" />
     <entry file="file://$PROJECT_DIR$/provagit" />
     <entry file="file://$PROJECT_DIR$/prova" />
@@ -704,13 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="178" column="9" lean-forward="false" selection-start-line="178" selection-start-column="9" selection-end-line="178" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/disconnessione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -816,14 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modifica_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="53" column="87" lean-forward="false" selection-start-line="53" selection-start-column="87" selection-end-line="53" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form_film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2091">
@@ -883,14 +871,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recupero_psw.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1760">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/error_manage.js" />
     <entry file="file://$PROJECT_DIR$/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
@@ -934,39 +914,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check/aggiorna_psw.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/stampa_film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/orari.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1487069401164" expanded="true" signature="847:878" ph="SELECT MAX(i... orari" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/sale.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <marker date="1487069401176" expanded="true" signature="834:863" ph="SELECT MAX(i... sale_film" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -986,14 +938,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SessionManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="47" lean-forward="false" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/stampa_orari_sale.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -1002,15 +946,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form_modifica_orari.php">
+    <entry file="file://$PROJECT_DIR$/controllers/SessionManager.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-528">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+        <state relative-caret-position="154">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/modifica_orari_sale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_modifica_orari_sale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <marker date="1487070042535" expanded="false" signature="2552:4592" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifica_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="103" column="93" lean-forward="false" selection-start-line="103" selection-start-column="93" selection-end-line="103" selection-end-column="93" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recupero_psw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/aggiorna_psw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/orari.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="29" column="107" lean-forward="false" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="107" />
+          <folding>
+            <marker date="1487070420854" expanded="true" signature="990:1021" ph="SELECT MAX(i... orari" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/disconnessione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/sale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="31" column="45" lean-forward="true" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <marker date="1487070933114" expanded="true" signature="977:1006" ph="SELECT MAX(i... sale_film" />
           </folding>
         </state>
       </provider>

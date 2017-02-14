@@ -1,11 +1,15 @@
 <?php
-require_once __DIR__ . '/../controllers/SessionManager.php';
 require_once __DIR__ . '/../controllers/DbManager.php';
+require_once __DIR__ . '/../controllers/SessionManager.php';
 
 $db_instance = new DbManager();
 
 //recupero id sale
 $id_sale = $_REQUEST['id_sale'];
+
+//recupero id film
+$id_film = $db_instance->select(array('id'), 'film', "titolo = '$titolo_film'")->fetch_array();
+$id_film = $id_film['id'];
 
 $primaSala = filter_input(INPUT_POST, 'sala1');
 $secondaSala = filter_input(INPUT_POST, 'sala2');
@@ -23,7 +27,7 @@ if ($id_sale) {
     $new_id_sale = $new_id_sale['MAX(id)'];
 
     //inserimento id nella tabella prog_film
-    $result = $db_instance->insert('prog_film', array('id_sale'),array($new_id_sale));
+    $result = $db_instance->insert('prog_film', array('id_film','id_sale'), array($id_film, $new_id_sale));
 
     header("location: ../modifica_film.php");
 
