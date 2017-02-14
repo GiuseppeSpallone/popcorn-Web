@@ -26,5 +26,11 @@ function modificaOrari(){
     $("#orariModal").modal('show');
 }
 
+$("#salva-sale").click(modificaSale);
+
+function modificaSale(){
+    $("#saleModal").modal('show');
+}
+
 
 
