@@ -7,7 +7,6 @@ if ($_REQUEST['utente']) {
     $_SESSION['recupero'] = $_REQUEST['utente'];
 }
 
-
 ?>
 
 <?php
