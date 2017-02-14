@@ -20,17 +20,10 @@ function eliminaFilm(){
     $("#eliminaModal").modal('show');
 }*/
 
-$("#salva-orari").click(modificaOrari);
+$("#salva-orari-sale").click(modificaOrariSale);
 
-function modificaOrari(){
-    $("#orariModal").modal('show');
+function modificaOrariSale(){
+    $("#orari-saleModal").modal('show');
 }
-
-$("#salva-sale").click(modificaSale);
-
-function modificaSale(){
-    $("#saleModal").modal('show');
-}
-
 
 
