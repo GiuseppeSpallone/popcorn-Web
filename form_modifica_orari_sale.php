@@ -99,11 +99,11 @@ include 'nav.php';
                                 <div class="modal-content">
                                     <div class="form-group">
                                         <div class="modal-header">
-                                            <h2>AGGIORNAMENTO ORARI</h2>
+                                            <h2>AGGIORNAMENTO ORARI E SALE</h2>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <div class="modal-body">Sei sicuro di voler modificare gli orari?
+                                        <div class="modal-body">Sei sicuro di voler modificare gli orari e le sale?
                                         </div>
                                     </div>
 
