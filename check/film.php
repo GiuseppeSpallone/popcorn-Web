@@ -25,9 +25,8 @@ $valori = array($titolo, $nazione, $anno, $genere, $durata, $regia, $cast, $prod
 
 $result = $db_instance->insert('film', $campi, $valori);
 if ($result) {
-    header("location: ../modifica_film.php");
-    die();
-}
+    echo "ok";
+}else {echo "errore";}
 $db_instance->connection->close();
 
 //TODO

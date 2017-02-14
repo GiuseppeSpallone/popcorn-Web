@@ -7,10 +7,10 @@ $username = filter_input(INPUT_POST, 'username-recupero');
 $email = filter_input(INPUT_POST, 'email-recupero');
 
 //Controllo presenza campi
-if (!$username || !$email) {
+/*if (!$username || !$email) {
     header("location: ../accesso_registrazione.php?error_recupero=campi_vuoti");
     die();
-}
+}*/
 
 //Controllo utente
 $controlloUtente = $db_instance->select(array('username'), 'utente', "username = '$username' and email = '$email'");
@@ -18,28 +18,31 @@ $numUtente = mysqli_num_rows($controlloUtente);
 
 
 if ($numUtente == 0) {
-    header("location: ../accesso_registrazione.php?error_recupero=non_esistente");
-    die();
+    echo "Utente non esistente";
+   /* header("location: ../accesso_registrazione.php?error_recupero=non_esistente");
+    die();*/
 } else {
     $result = $db_instance->select(array('username', 'email'), 'utente', "username='$username' and email='$email'")->fetch_array();
 }
 
 if (!$result) {
-    header("location: ../accesso_registrazione.php?error_recupero");
-    die();
+    echo "Errore recupero";
+    /*header("location: ../accesso_registrazione.php?error_recupero");
+    die();*/
 } else {
     $oggetto = "Recupero password Popcorn";
 
     $corpo = "Clicca su http://localhost/recupero_psw.php?utente=" . $result['username'] . " per confermare la nuova password.";
 
-    if (mail($result['email'], $oggetto, $corpo)) {
+   /* if (mail($result['email'], $oggetto, $corpo)) {
         //echo "Messaggio inviato con successo.";
-        header("location: ../accesso_registrazione.php");
+
         //echo "Inserimenti effettuati correttamente.";
         //creare messaggio di benvenuto
     } else {
         //echo "Errore. Nessun messaggio inviato.";
-    }
+    }*/
+    echo "ok";
 }
 
 $db_instance->connection->close();

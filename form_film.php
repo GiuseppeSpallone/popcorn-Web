@@ -6,6 +6,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/form_film.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<script src="js/error_film.js"></script>
 </head>
 
 <body>
@@ -13,6 +14,13 @@
 $selector = 4;
 include 'nav.php';
 ?>
+
+
+<style>
+    div.no_show{
+        display: none;
+    }
+</style>
 
 <div class="container">
     <div class="row">
@@ -24,52 +32,55 @@ include 'nav.php';
                             <form id="film-form" action="check/film.php" method="post" role="form"
                                   style="display: block;">
                                 <h2>Inserisci Film</h2>
+                                <div id="errorVuoti"  class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
+                                <div id="errorIns"  class="alert alert-danger no_show" role="alert">Errore inserimento.</div>
+
                                 <div class="form-group">
-                                    <input type="text" name="titolo" id="titolo" tabindex="1" class="form-control"
+                                    <input type="text" name="titolo" id="titolo" tabindex="1" class="form-control form-input"
                                            placeholder="Titolo" value="">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="nazione" id="nazione" tabindex="2" class="form-control"
+                                    <input type="text" name="nazione" id="nazione" tabindex="2" class="form-control form-input"
                                            placeholder="Nazione">
                                 </div>
 
                                 <div class="form-group">
                                     <label for="anno">Anno di produzione</label>
                                     <input type="number" name="anno" id="anno" min="1900" max="2099"
-                                           class="form-control" tabindex="3" value="2017"/>
+                                           class="form-control form-input" tabindex="3" value="2017"/>
                                 </div>
 
                                 <div class="form-group">
-                                    <input type="text" name="genere" id="genere" tabindex="4" class="form-control"
+                                    <input type="text" name="genere" id="genere" tabindex="4" class="form-control form-input"
                                            placeholder="Genere">
                                 </div>
                                 <div class="form-group">
-                                    <input type="number" name="durata" id="durata" tabindex="5" class="form-control"
+                                    <input type="number" name="durata" id="durata" tabindex="5" class="form-control form-input"
                                            placeholder="Durata (in minuti)">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="regia" id="regia" tabindex="6" class="form-control"
+                                    <input type="text" name="regia" id="regia" tabindex="6" class="form-control form-input"
                                            placeholder="Regia">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="cast" id="cast" tabindex="7" class="form-control"
+                                    <input type="text" name="cast" id="cast" tabindex="7" class="form-control form-input"
                                            placeholder="Cast">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" name="produzione" id="produzione" tabindex="8"
-                                           class="form-control" placeholder="Produzione">
+                                           class="form-control form-input" placeholder="Produzione">
                                 </div>
                                 <div class="form-group">
                                     <input type="text" name="distribuzione" id="distribuzione" tabindex="9"
-                                           class="form-control" placeholder="Distribuzione">
+                                           class="form-control form-input" placeholder="Distribuzione">
                                 </div>
                                 <div class="form-group">
                                     <label for="anno">Anno di uscita</label>
                                     <input type="date" name="data_uscita" id="data_uscita" tabindex="10"
-                                           class="form-control">
+                                           class="form-control form-input">
                                 </div>
                                 <div class="form-group">
-                                    <input type="text" name="trama" id="trama" tabindex="11" class="form-control"
+                                    <input type="text" name="trama" id="trama" tabindex="11" class="form-control form-input"
                                            placeholder="Trama">
                                 </div>
 
@@ -97,6 +108,9 @@ include 'nav.php';
                                     <input id="pross" type="radio" name="prog" tabindex="13" class="form-control">
                                     <label for="pross">Prossimamente</label>
                                 </div>
+
+
+
                                 <div class="form-group">
                                     <div class="row">
                                         <div class="col-sm-6 col-sm-offset-3">
@@ -104,6 +118,8 @@ include 'nav.php';
                                         </div>
                                     </div>
                                 </div>
+
+
                                 <div class="form-group">
                                     <div class="row">
                                         <div class="col-sm-6 col-sm-offset-3">
@@ -122,7 +138,7 @@ include 'nav.php';
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/form_film.js"></script>
+<script src="js/error_film.js"></script>
 
 
 </body>

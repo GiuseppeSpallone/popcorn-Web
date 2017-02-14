@@ -11,7 +11,7 @@ if ($_REQUEST['utente']) {
 ?>
 
 <?php
-$errorRecupero = $_REQUEST['error_recupero'];
+/*$errorRecupero = $_REQUEST['error_recupero'];
 $messageRecupero = "";
 switch ($errorRecupero) {
     case 'campi_vuoti':
@@ -26,7 +26,7 @@ switch ($errorRecupero) {
         $messageRecupero = "Riprova...";
         break;
 }
-?>
+*/?>
 
 <html>
 
@@ -36,6 +36,7 @@ switch ($errorRecupero) {
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/form_film.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <script src="js/error_manage.js"></script>
 </head>
 
 <body>
@@ -51,8 +52,7 @@ include 'nav.php';
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-12">
-                            <form id="password-form" action="check/aggiorna_psw.php" method="post" role="form"
-                                  style="display: block;">
+                            <form id="password-form"  role="form" style="display: block;">
                                 <h2>RECUPERO PASSWORD</h2>
                                 <div class="form-group">
                                     <input type="password" name="nuova-password" id="nuova-password" tabindex="1"
@@ -62,9 +62,10 @@ include 'nav.php';
                                     <input type="password" name="conferma-nuova-password" id="conferma-nuova-password"
                                            tabindex="1" class="form-control" placeholder="Conferma nuova password">
                                 </div>
+                                <div id="errorRec"  class="alert alert-danger no_show" role="alert"></div>
 
-                                <?php if ($errorRecupero)
-                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; ?>
+                               <!-- --><?php /*if ($errorRecupero)
+                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; */?>
 
                                 <div class="col-sm-6 col-sm-offset-3">
                                     <input type="submit" name="password-submit" id="film-submit" tabindex="14"

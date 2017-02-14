@@ -49,6 +49,16 @@ label {
   display: inline-block;
   position: relative;
 }
+
+
+.panel-recupero .checkbox label {
+  padding-left: 25px;
+  font-weight: 300;
+  display: inline-block;
+  position: relative;
+}
+
+
 .panel-login .checkbox {
  padding-left: 20px;
 }
@@ -119,6 +129,17 @@ label {
   padding: 20px 30px;
   border-bottom-leftt-radius: 5px;
 }
+
+
+.panel-recupero .form-group {
+  padding: 0 30px;
+}
+.panel-recupero>.panel-heading .recupero {
+  padding: 20px 30px;
+  border-bottom-leftt-radius: 5px;
+}
+
+
 .panel-login>.panel-heading .register {
   padding: 20px 30px;
   background: #2d3b55;
@@ -209,4 +230,48 @@ label {
 .btn-register:focus {
   color: #fff;
   background-color: #2D3B55;
+}
+
+
+
+
+.panel-recupero {
+  border: none;
+  -webkit-box-shadow: 0px 0px 49px 14px rgba(188,190,194,0.39);
+  -moz-box-shadow: 0px 0px 49px 14px rgba(188,190,194,0.39);
+  box-shadow: 0px 0px 49px 14px rgba(188,190,194,0.39);
+}
+
+
+.btn-recupero {
+  background-color: #E8E9EC;
+  outline: none;
+  color: #2D3B55;
+  font-size: 14px;
+  height: auto;
+  font-weight: normal;
+  padding: 14px 0;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+}
+.btn-recupero:hover,
+.btn-recupero:focus {
+  color: #fff;
+  background-color: #2D3B55;
+}
+
+.panel-recupero input[type="text"],.panel-recupero input[type="email"]{
+  height: 45px;
+  border: 0;
+  font-size: 16px;
+  -webkit-transition: all 0.1s linear;
+  -moz-transition: all 0.1s linear;
+  transition: all 0.1s linear;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 0px;
+  padding: 6px 0px;
 }
