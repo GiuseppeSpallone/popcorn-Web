@@ -144,11 +144,12 @@ $(document).ready(function() {
                 if (esito == "ok") {
                     window.location.href = "index.php";
                 }else if (esito == "Username esistente"){
-                    alert("zio porcone");
                     $("div#errorReg").removeClass("no_show").addClass("to_show");
                 } else if (esito == "Email esistente") {
                     $("div#errorReg").removeClass("no_show").addClass("to_show");
                 }else if (esito == "No result") {
+                    $("div#errorReg").removeClass("no_show").addClass("to_show");
+                }else if (esito == "Email non inviata") {
                     $("div#errorReg").removeClass("no_show").addClass("to_show");
                 }
             },
@@ -170,7 +171,7 @@ $(document).ready(function() {
         var data  = $(this).serialize();
         $.ajax({
             type: "POST",
-            url: "check/recupero_psw.php",
+            url: "check/aggiorna_psw.php",
             data: data,
             dataType: "html",
             success: function(esito){

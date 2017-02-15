@@ -36,8 +36,9 @@ if ($numUsername != 0) {
    echo "Email esistente";
 }else{
     $result = $db_instance->insert('utente', array('username', 'email', 'password'), array($username, $email, $password));
+
     if (!$result) {
-        echo "No result";
+            echo "No result";
     } else {
         $oggetto = "Registrazione Popcorn";
         $corpo = "Benvenuto in Popcorn " . $username;
@@ -52,8 +53,6 @@ if ($numUsername != 0) {
              echo "Email non inviata";
          }
 
-
-        echo "ok";
     }
 }
 

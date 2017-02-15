@@ -62,20 +62,20 @@ include 'nav.php';
                             <thead>
                             <tr>
                                 <th>Orari</th>
-                                <th>Sala 1</th>
+                                <th>Sale</th>
                             </tr>
                             </thead>
                             <tr>
-                                <td>Festivo</td>
-                                <td>16:00</td>
+                                <?php echo'<td>' .$film['primo'].'</td>'; ?>
+                                <?php echo'<td>' .$film['id_prima'].'</td>'; ?>
                             </tr>
                             <tr>
-                                <td>Feriale</td>
-                                <td>18:30</td>
+                                <?php echo'<td>' .$film['secondo'].'</td>'; ?>
+                                <?php echo'<td>' .$film['id_seconda'].'</td>'; ?>
                             </tr>
                             <tr>
-                                <td>Feriale</td>
-                                <td>21:15</td>
+                                <?php echo'<td>' .$film['terzo'].'</td>'; ?>
+                                <?php echo'<td>' .$film['id_terza'].'</td>'; ?>
 
                             </tr>
                             <tr>
