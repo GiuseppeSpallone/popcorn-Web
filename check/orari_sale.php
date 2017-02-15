@@ -1,19 +1,26 @@
 <?php
 require_once __DIR__ . '/../controllers/DbManager.php';
-require_once __DIR__ . '/../controllers/SessionManager.php';
 
 $db_instance = new DbManager();
 
-$replace_titoloFilm = str_replace(' ', '_', $titoloFilm);
+$titolo = $_REQUEST['modifica'];
+$titolo = str_replace('_', ' ', $titolo);
 
 //recupero id film
-$id_film = $db_instance->select(array('id'), 'film', "titolo = '$titolo_film'")->fetch_array();
+$id_film = $db_instance->select(array('id'), 'film', "titolo = '$titolo'")->fetch_array();
 $id_film = $id_film['id'];
 
-/*print_r($id_film);
-print_r($id__sale);
-print_r($id__orari);
-die();*/
+//recupero id orari e id sale del film
+$id= $db_instance->select(array('id_orari', 'id_sale'),'prog_film', "id_film = '$id_film'" )->fetch_array();
+$id_orari = $id['id_orari'];
+$id_sale= $id['id_sale'];
+
+/*
+print_r($id_film);
+print_r($id_sale);
+print_r($id_orari);
+die();
+*/
 
 $primoOrario = filter_input(INPUT_POST, 'orario1');
 $secondoOrario = filter_input(INPUT_POST, 'orario2');
@@ -23,9 +30,9 @@ $primaSala = filter_input(INPUT_POST, 'sala1');
 $secondaSala = filter_input(INPUT_POST, 'sala2');
 $terzaSala = filter_input(INPUT_POST, 'sala3');
 
-if ($id__orari) {
-    $resultOrari = $db_instance->update('orari', "primo = '$primoOrario', secondo = '$secondoOrario', terzo = '$terzoOrario'", "id_orari = '$id__orari'");
-    $resultSale = $db_instance->update('sale_film', "id_prima = '$primaSala', id_seconda = '$secondaSala', id_terza = '$terzaSala'", "id = '$id__sale'");
+if ($id_orari || $id_sale) {
+    $resultOrari = $db_instance->update('orari', "primo = '$primoOrario', secondo = '$secondoOrario', terzo = '$terzoOrario'", "id_orari = '$id_orari'");
+    $resultSale = $db_instance->update('sale_film', "id_prima = '$primaSala', id_seconda = '$secondaSala', id_terza = '$terzaSala'", "id = '$id_sale'");
 
     header("location: ../modifica_film.php");
     die();

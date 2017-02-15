@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/elimina_film.php" afterPath="$PROJECT_DIR$/check/elimina_film.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/orari_sale.php" afterPath="$PROJECT_DIR$/check/orari_sale.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/SessionManager.php" afterPath="$PROJECT_DIR$/controllers/SessionManager.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_modifica_orari_sale.php" afterPath="$PROJECT_DIR$/form_modifica_orari_sale.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,7 +20,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,13 +92,13 @@
         <option value="$PROJECT_DIR$/check/stampa_orari_sale.php" />
         <option value="$PROJECT_DIR$/recupero_psw.php" />
         <option value="$PROJECT_DIR$/js/messaggi.js" />
-        <option value="$PROJECT_DIR$/controllers/SessionManager.php" />
         <option value="$PROJECT_DIR$/check/sale.php" />
         <option value="$PROJECT_DIR$/check/orari.php" />
-        <option value="$PROJECT_DIR$/check/orari_sale.php" />
-        <option value="$PROJECT_DIR$/check/elimina_film.php" />
         <option value="$PROJECT_DIR$/modifica_film.php" />
+        <option value="$PROJECT_DIR$/check/elimina_film.php" />
+        <option value="$PROJECT_DIR$/controllers/SessionManager.php" />
         <option value="$PROJECT_DIR$/form_modifica_orari_sale.php" />
+        <option value="$PROJECT_DIR$/check/orari_sale.php" />
       </list>
     </option>
   </component>
@@ -130,6 +133,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -173,7 +177,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,6 +200,123 @@
       <recent name="C:\Users\Giuseppe\Desktop\popcorn" />
       <recent name="C:\Users\Giuseppe\Desktop\popcorn\check" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/accesso_registrazione.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/check/film.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/check/recupero_psw.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/login.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/form_film.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/recupero_psw.php</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/error_film.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/error_manage.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="JavaScript Debug.form_film.php">
     <configuration default="false" name="form_film.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/popcorn/form_film.php">
@@ -338,7 +458,8 @@
       <workItem from="1486979215468" duration="1650000" />
       <workItem from="1486981042604" duration="188000" />
       <workItem from="1487058541745" duration="18119000" />
-      <workItem from="1487081593234" duration="3962000" />
+      <workItem from="1487081593234" duration="3985000" />
+      <workItem from="1487152659220" duration="1835000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -564,11 +685,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487085071495</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Aggiunti button con immagini a modifica film">
+      <created>1487085608664</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1487085608664</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="170082000" />
+    <option name="totallyTimeSpent" value="171940000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -747,23 +875,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/check/schedaFilm.php" />
-    <entry file="file://$PROJECT_DIR$/check/stampa_prezzi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/daFare.txt" />
-    <entry file="file://$PROJECT_DIR$/check/modifica_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-140">
@@ -777,7 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2332">
           <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,14 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check/accesso.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="15" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/modifica_orari_sale.php" />
     <entry file="file://$PROJECT_DIR$/check/aggiorna_psw.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -845,15 +947,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
           <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SessionManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -866,38 +959,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/check/sale.php" />
-    <entry file="file://$PROJECT_DIR$/check/elimina_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="79" lean-forward="false" selection-start-line="24" selection-start-column="79" selection-end-line="24" selection-end-column="79" />
-          <folding>
-            <marker date="1487076561614" expanded="true" signature="593:641" ph="DELETE FROM " />
-            <marker date="1487076561614" expanded="true" signature="714:760" ph="DELETE FROM " />
-            <marker date="1487076561614" expanded="true" signature="832:875" ph="DELETE FROM " />
-            <marker date="1487076561614" expanded="true" signature="938:979" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/orari_sale.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-          <folding>
-            <marker date="1487075956357" expanded="true" signature="1387:1418" ph="SELECT MAX(i... orari" />
-            <marker date="1487075956357" expanded="true" signature="1750:1779" ph="SELECT MAX(i... sale_film" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/stampa_orari_sale.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modifica_film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -965,26 +1026,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/form_modifica_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2486">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1323">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form_modifica_orari_sale.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-729">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1025,6 +1070,118 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/accesso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/elimina_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <marker date="1487153883593" expanded="true" signature="593:641" ph="DELETE FROM " />
+            <marker date="1487153883593" expanded="true" signature="714:760" ph="DELETE FROM " />
+            <marker date="1487153883593" expanded="true" signature="832:875" ph="DELETE FROM " />
+            <marker date="1487153883593" expanded="true" signature="938:979" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/stampa_prezzi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/modifica_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/stampa_orari_sale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/orari_sale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding>
+            <marker date="1487154326270" expanded="true" signature="1551:1582" ph="SELECT MAX(i... orari" />
+            <marker date="1487154326270" expanded="true" signature="1914:1943" ph="SELECT MAX(i... sale_film" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_modifica_orari_sale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="35" column="105" lean-forward="false" selection-start-line="35" selection-start-column="105" selection-end-line="35" selection-end-column="105" />
+          <folding>
+            <marker date="1487154287648" expanded="true" signature="1113:1320" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="1168:1320" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="1272:1320" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="1604:1652" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="1938:1986" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="2298:2449" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="2401:2449" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="2731:2779" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="3063:3111" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="3426:3672" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="3538:3637" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="3726:4127" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="3776:4092" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="3851:4053" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="3920:4010" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="4276:6333" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="4347:6302" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="4407:6267" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="4468:4705" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="4535:4662" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="4766:4972" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="4831:4929" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="5036:6228" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="5101:5616" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="5163:5569" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="5250:5518" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="5355:5463" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="5681:6185" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="5743:6138" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="5830:6087" ph="..." />
+            <marker date="1487154287648" expanded="true" signature="5924:6032" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SessionManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="63" lean-forward="false" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_modifica_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2486">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="39" />
           <folding />
         </state>
       </provider>
