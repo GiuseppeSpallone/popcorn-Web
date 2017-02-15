@@ -23,14 +23,14 @@ include 'nav.php';
     <div class="row">
 
         <?php while ($film = $resultFilm->fetch_array(MYSQLI_ASSOC)) {
-            $replace_film = str_replace(' ','_',$film['titolo']);
+            $replace_film = str_replace(' ', '_', $film['titolo']);
             ?>
 
 
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <?php echo '<a href="schedaFilm.php?film=' . $replace_film . '" role="button">' ?>
-                        <img src="image/1.jpg"></a>
+                    <img src="image/1.jpg"></a>
 
                     <div class="caption">
                         <h3> <?php echo $film['titolo'] ?></h3>
@@ -79,7 +79,7 @@ include 'nav.php';
 
                             </tr>
                             <tr>
-                                <td><a href="acquista.php" class="btn btn-success" role="button">Acquista</a></td>
+                                <?php echo '<td><a href="acquista.php?acquista=' . $replace_film . '" class="btn btn-success" role="button">Acquista</a></td>' ?>
                             </tr>
                             </tbody>
                         </table>
