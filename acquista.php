@@ -1,14 +1,24 @@
-<html>
+<?php
 
-<head>
-    <title>POPCORN</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/carrello.css" rel="stylesheet" type="text/css">
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-</head>
+include 'controllers/SessionManager.php';
 
-<body>
+if ($is_logged) {
+
+    include 'check/stampa_film.php';
+    include 'check/stampa_orari_sale.php';
+    ?>
+
+    <html>
+
+    <head>
+        <title>POPCORN</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+        <link href="css/carrello.css" rel="stylesheet" type="text/css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+
+    <body>
     <?php
     $selector = 6;
     include 'nav.php';
@@ -17,46 +27,53 @@
     <div class="container" style="background-color:#fff">
         <table id="cart" class="table table-hover table-condensed">
             <thead>
-                <tr>
-                    <th style="width:50%">Product</th>
-                    <th style="width:10%">Price</th>
-                    <th style="width:8%">Quantity</th>
-                    <th style="width:22%" class="text-center">Subtotal</th>
-                    <th style="width:10%"></th>
-                </tr>
+            <tr>
+                <th style="width:50%">Prodotto</th>
+                <th style="width:8%">Quantità</th>
+                <th style="width:8%">Giorno</th>
+                <th style="width:8%">Orario</th>
+                <th style="width:10%"></th>
+            </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td data-th="Product">
-                        <div class="row">
-                            <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..." class="img-responsive" /></div>
-                            <div class="col-sm-10">
-                                <h4 class="nomargin">Product 1</h4>
-                                <p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet.</p>
-                            </div>
+            <tr>
+                <td data-th="Prodotto">
+                    <div class="row">
+                        <div class="col-sm-2 hidden-xs"><img src="http://placehold.it/100x100" alt="..."
+                                                             class="img-responsive"/></div>
+                        <div class="col-sm-10">
+                            <?php echo '<h4 class="nomargin">' . $resultFilm['titolo'] . '</h4>'; ?>
                         </div>
-                    </td>
-                    <td data-th="Price">$1.99</td>
-                    <td data-th="Quantity">
-                        <input type="number" class="form-control text-center" value="1">
-                    </td>
-                    <td data-th="Subtotal" class="text-center">1.99</td>
-                    <td class="actions" data-th="">
-                        <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                        <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                    </td>
-                </tr>
+                    </div>
+                </td>
+                <td data-th="Quantità">
+                    <input type="number" class="form-control text-center" value="1">
+                </td>
+                <td data-th="Giorno">
+                    <input type="date" class="" value="1">
+                </td>
+                <td data-th="Ora">
+                    <select class="form-control text-centerl" id="orario">
+                        <?php echo '<option>' . $resultOrari['primo'] . '</option>' ?>
+                        <?php echo '<option>' . $resultOrari['secondo'] . '</option>' ?>
+                        <?php echo '<option>' . $resultOrari['terzo'] . '</option>' ?>
+                    </select>
+                </td>
+                <td class="actions" data-th="">
+                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
+                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
+                </td>
+            </tr>
             </tbody>
             <tfoot>
-                <tr class="visible-xs">
-                    <td class="text-center"><strong>Total 1.99</strong></td>
-                </tr>
-                <tr>
-                    <td><a href="programmazione.php" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue Shopping</a></td>
-                    <td colspan="2" class="hidden-xs"></td>
-                    <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
-                    <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
-                </tr>
+            <tr>
+                <td><a href="programmazione.php" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue
+                        Shopping</a>
+                </td>
+                <td colspan="2" class="hidden-xs"></td>
+                <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
+                <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+            </tr>
             </tfoot>
         </table>
     </div>
@@ -64,6 +81,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
 
-</body>
+    </body>
 
-</html>
+    </html>
+<?php } else {
+    header("location: ../accesso_registrazione.php");
+    //aggiungere messeggio
+} ?>

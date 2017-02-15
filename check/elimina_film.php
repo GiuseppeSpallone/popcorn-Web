@@ -28,8 +28,6 @@ $result = $db_instance->queryString("DELETE FROM sale_film WHERE id = '$id_sale'
 $result = $db_instance->queryString("DELETE FROM film WHERE titolo = '$titolo'");
 
 
-
-
 if ($result) {
     header("location: ../modifica_film.php");
     die();

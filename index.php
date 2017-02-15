@@ -125,7 +125,7 @@ include 'nav.php';
 
 <?php
 if ($is_logged) {
-    echo '<div class="alert alert-success" role="alert">Benvenuto ' . $username  . '</div>)';
+    echo '<div class="alert alert-success" role="alert">Benvenuto ' . $username  .'</div>)';
 }
 ?>
 

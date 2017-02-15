@@ -10,7 +10,7 @@ if ($_REQUEST['utente']) {
 ?>
 
 <?php
-/*$errorRecupero = $_REQUEST['error_recupero'];
+$errorRecupero = $_REQUEST['error_recupero'];
 $messageRecupero = "";
 switch ($errorRecupero) {
     case 'campi_vuoti':
@@ -25,7 +25,7 @@ switch ($errorRecupero) {
         $messageRecupero = "Riprova...";
         break;
 }
-*/?>
+?>
 
 <html>
 
