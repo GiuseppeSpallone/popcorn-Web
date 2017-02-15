@@ -128,5 +128,6 @@ if ($is_authorized) {
 
     </html>
 <?php } else {
-    echo 'Non sei autorizzato';
+    header("location: ../accesso_registrazione.php");
+    //aggiungere messeggio
 } ?>
