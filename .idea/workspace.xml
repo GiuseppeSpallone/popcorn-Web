@@ -3,12 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/acquista.php" afterPath="$PROJECT_DIR$/acquista.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit_prezzi.php" afterPath="$PROJECT_DIR$/edit_prezzi.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_film.php" afterPath="$PROJECT_DIR$/form_film.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_modifica_film.php" afterPath="$PROJECT_DIR$/form_modifica_film.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_modifica_orari_sale.php" afterPath="$PROJECT_DIR$/form_modifica_orari_sale.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modifica_film.php" afterPath="$PROJECT_DIR$/modifica_film.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +17,21 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="569">
+                <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,7 +75,6 @@
         <option value="$PROJECT_DIR$/check/disconnessione.php" />
         <option value="$PROJECT_DIR$/check/carrello.php" />
         <option value="$PROJECT_DIR$/schedaFilm2.php" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/programmazione2.php" />
         <option value="$PROJECT_DIR$/schedaFilm.php" />
         <option value="$PROJECT_DIR$/check/stampa_prezzi.php" />
@@ -101,6 +109,7 @@
         <option value="$PROJECT_DIR$/form_film.php" />
         <option value="$PROJECT_DIR$/edit_prezzi.php" />
         <option value="$PROJECT_DIR$/acquista.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -332,7 +341,7 @@
       <workItem from="1487081593234" duration="3985000" />
       <workItem from="1487152659220" duration="1835000" />
       <workItem from="1487155627638" duration="3773000" />
-      <workItem from="1487168621480" duration="1251000" />
+      <workItem from="1487168621480" duration="1702000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -579,11 +588,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487158949255</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Aggiunti controlli per amministratore e utente">
+      <created>1487169986882</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1487169986882</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="176964000" />
+    <option name="totallyTimeSpent" value="177415000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -596,9 +612,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14791666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14791666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21564482" sideWeight="0.5088889" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -664,7 +680,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Avviata funzione recupera psw" />
     <MESSAGE value="La roba di Zollo che non sa usare git" />
     <MESSAGE value="prova git" />
     <MESSAGE value="prova git 2" />
@@ -689,7 +704,8 @@
     <MESSAGE value="Aggiunti button con immagini a modifica film" />
     <MESSAGE value="Aggiustata sessione recupero_psw" />
     <MESSAGE value="Aggiustato acquisto.php, stampa il film da acquistare e i relativi orari" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiustato acquisto.php, stampa il film da acquistare e i relativi orari" />
+    <MESSAGE value="Aggiunti controlli per amministratore e utente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunti controlli per amministratore e utente" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -732,16 +748,6 @@
         <state relative-caret-position="654">
           <caret line="89" column="5" lean-forward="false" selection-start-line="89" selection-start-column="4" selection-end-line="162" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -1014,6 +1020,17 @@
         <state relative-caret-position="88">
           <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="14" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="569">
+            <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

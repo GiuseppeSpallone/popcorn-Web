@@ -16,7 +16,7 @@ Popcorn è un progetto per l'esame di programmazione web
 6. Gestire gli errori con JS
 
 ## Funzionalità
-Utente:
+Guest:
   - Accesso al sistema
     - Crea profilo
     - Accedi al profilo
@@ -30,6 +30,27 @@ Utente:
     - Visualizza sale
   - Gestore contatti
     - Visualizza contatti
+   
+User:
+  - Accesso al sistema
+    - Crea profilo
+    - Accedi al profilo
+    - Uscita dal profilo
+    - Recupero password
+  - Gestione film
+    - Visualizza film
+    - Visualizza orari
+  - Gestione prezzi e sale
+    - Visualizza prezzi biglietti
+    - Visualizza sale
+  - Gestore contatti
+    - Visualizza contatti  
+  - Gestore acquisti
+    - Visualizzare carrello
+    - Aggiungere biglietti nel carrello
+    - Rimuovere biglietti dal carrello
+    - Acquistare biglietti con PayPal 
+        
     
 Amministratore: 
   - Accesso al sistema
@@ -40,7 +61,10 @@ Amministratore:
     - Inserimento film
     - Modifica film
     - Elimina film
-  - Gestione prezzi e sale
+  - Gestore orari e sale film
+    - Aggiunta orari e sale per film
+    - Modifica orari e sale per film
+  - Gestione prezzi 
      - Modifica prezzi biglietti
 
    
