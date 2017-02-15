@@ -32,7 +32,7 @@ if (!$result) {
 } else {
     $oggetto = "Recupero password Popcorn";
 
-    $corpo = "Clicca su http://localhost/recupero_psw.php?utente=" . $result['username'] . " per confermare la nuova password.";
+    $corpo = "Clicca su http://localhost/recupero_psw.php?rec=" . md5($result['username']) . " per confermare la nuova password.";
 
    if (mail($result['email'], $oggetto, $corpo)) {
        echo "ok";

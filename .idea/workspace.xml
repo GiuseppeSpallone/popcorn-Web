@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="Aggiustato recupera password.. FUNZIONA TUTTO">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/recupero.js" />
+    <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_film.php" afterPath="$PROJECT_DIR$/form_film.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_modifica_film.php" afterPath="$PROJECT_DIR$/form_modifica_film.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nav.php" afterPath="$PROJECT_DIR$/nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/aggiorna_psw.php" afterPath="$PROJECT_DIR$/check/aggiorna_psw.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/recupero_psw.php" afterPath="$PROJECT_DIR$/check/recupero_psw.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recupero_psw.php" afterPath="$PROJECT_DIR$/recupero_psw.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,51 +20,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="accesso_registrazione.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accesso_registrazione.php">
+      <file leaf-file-name="recupero_psw.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/check/recupero_psw.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="604">
-              <caret line="80" column="22" lean-forward="true" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_film.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form_film.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_modifica_film.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/form_modifica_film.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1518">
-              <caret line="85" column="38" lean-forward="false" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="acquista.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acquista.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="89" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accesso.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check/accesso.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="44" />
+            <state relative-caret-position="396">
+              <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -74,38 +33,18 @@
       <file leaf-file-name="recupero_psw.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recupero_psw.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="-616">
+              <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="recupero.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/recupero.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="aggiorna_psw.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="aggiorna_psw.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/check/aggiorna_psw.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error_manage.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/error_manage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/controllers/SessionManager.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -186,7 +125,6 @@
         <option value="$PROJECT_DIR$/edit_prezzi.php" />
         <option value="$PROJECT_DIR$/form_modifica_orari_sale.php" />
         <option value="$PROJECT_DIR$/modifica_film.php" />
-        <option value="$PROJECT_DIR$/check/recupero_psw.php" />
         <option value="$PROJECT_DIR$/check/registrazione.php" />
         <option value="$PROJECT_DIR$/check/stampa_film.php" />
         <option value="$PROJECT_DIR$/check/orari_sale.php" />
@@ -195,11 +133,12 @@
         <option value="$PROJECT_DIR$/js/error_manage.js" />
         <option value="$PROJECT_DIR$/js/recupero.js" />
         <option value="$PROJECT_DIR$/controllers/SessionManager.php" />
-        <option value="$PROJECT_DIR$/check/aggiorna_psw.php" />
-        <option value="$PROJECT_DIR$/recupero_psw.php" />
         <option value="$PROJECT_DIR$/nav.php" />
         <option value="$PROJECT_DIR$/form_film.php" />
         <option value="$PROJECT_DIR$/form_modifica_film.php" />
+        <option value="$PROJECT_DIR$/check/recupero_psw.php" />
+        <option value="$PROJECT_DIR$/recupero_psw.php" />
+        <option value="$PROJECT_DIR$/check/aggiorna_psw.php" />
       </list>
     </option>
   </component>
@@ -557,7 +496,7 @@
       <workItem from="1487152659220" duration="1835000" />
       <workItem from="1487155627638" duration="3773000" />
       <workItem from="1487168621480" duration="2321000" />
-      <workItem from="1487171812994" duration="9975000" />
+      <workItem from="1487171812994" duration="11749000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -839,11 +778,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487181819669</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="rimosso carrello e prossimamente, programmazione per film">
+      <created>1487182109036</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1487182109036</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188009000" />
+    <option name="totallyTimeSpent" value="189783000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -925,7 +871,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Avanzamento recupero password: in recupero_pwp.php bisogna mettere nell'action del form ..utente=$recupero_username.. poi su check/aggiorna_psq.php fare la request di utente e modificare query ed email" />
     <MESSAGE value="Recupero password funzionante" />
     <MESSAGE value="Aggiunti errori per recupero password, problema quando si vuole inserire la nuova password dopo il primo tentativo fallito (forse bisogna far uso delle sessioni)" />
     <MESSAGE value="Recupera password completato (funzionante con la sessione) ps. la sicurezza non è un requisito funzionale" />
@@ -950,7 +895,8 @@
     <MESSAGE value="decommentate le email" />
     <MESSAGE value="delle cose" />
     <MESSAGE value="Aggiustato recupera password.. FUNZIONA TUTTO" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiustato recupera password.. FUNZIONA TUTTO" />
+    <MESSAGE value="rimosso carrello e prossimamente, programmazione per film" />
+    <option name="LAST_COMMIT_MESSAGE" value="rimosso carrello e prossimamente, programmazione per film" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1208,14 +1154,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check/recupero_psw.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/error_film.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
@@ -1228,46 +1166,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="556">
           <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/accesso.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/aggiorna_psw.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acquista.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="89" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SessionManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/error_manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1288,22 +1186,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recupero_psw.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/recupero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form_film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1316,6 +1198,70 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1518">
           <caret line="85" column="38" lean-forward="false" selection-start-line="85" selection-start-column="38" selection-end-line="85" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acquista.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="89" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/accesso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/recupero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/error_manage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/recupero_psw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recupero_psw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-616">
+          <caret line="4" column="42" lean-forward="false" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SessionManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/aggiorna_psw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

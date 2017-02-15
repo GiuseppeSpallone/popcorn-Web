@@ -4,9 +4,6 @@ require_once __DIR__ . '/../controllers/SessionManager.php';
 
 $db_instance = new DbManager();
 
-$password = filter_input(INPUT_POST, 'nuova-password');
-$password2 = filter_input(INPUT_POST, 'conferma-nuova-password');
-
 /*//Controllo presenza campi
 if (!$password || !$password2) {
     header("location: ../recupero_psw.php?error_recupero=campi_vuoti");
@@ -19,19 +16,30 @@ if ($password != $password2) {
     die();
 }*/
 
+$utenti = $db_instance->select(array('username'), 'utente');
+
+while ($row = msql_fetch_array($utenti, MYSQLI_ASSOC)) {
+    if ($username_recupero_psw == md5($row['username'])) {
+        $utente = $row['username'];
+    }
+}
+
+$password = filter_input(INPUT_POST, 'nuova-password');
+$password2 = filter_input(INPUT_POST, 'conferma-nuova-password');
+
 //Cripta la password
 $password = md5($password);
 
-$result = $db_instance->update('utente', "password = '$password'", "username= '$username_recupero_psw '");
+$result = $db_instance->update('utente', "password = '$password'", "username= '$utente '");
 
 if (!$result) {
     session_unset();
     session_destroy();
-echo "Errore aggiornamento";
+    echo "Errore aggiornamento";
 } else {
     session_unset();
     session_destroy();
-    $email = $db_instance->select(array('email'), 'utente', "username = '$username_recupero_psw '")->fetch_assoc();
+    $email = $db_instance->select(array('email'), 'utente', "username = '$utente '")->fetch_assoc();
 
     $oggetto = "Nuova password Popcorn";
     $corpo = "La password è stata cambiata ";
@@ -46,7 +54,6 @@ echo "Errore aggiornamento";
     }
 
 }
-
 $db_instance->connection->close();
 
 ?>

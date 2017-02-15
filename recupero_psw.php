@@ -1,8 +1,8 @@
 <?php
 include 'controllers/SessionManager.php';
-if ($_REQUEST['utente']) {
+if ($_REQUEST['rec']) {
     session_start();
-    $_SESSION['recupero'] = $_REQUEST['utente'];
+    $_SESSION['recupero'] = $_REQUEST['rec'];
 }
 ?>
 
