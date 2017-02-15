@@ -34,15 +34,16 @@ if (!$result) {
 
     $corpo = "Clicca su http://localhost/recupero_psw.php?utente=" . $result['username'] . " per confermare la nuova password.";
 
-   /* if (mail($result['email'], $oggetto, $corpo)) {
+   if (mail($result['email'], $oggetto, $corpo)) {
+       echo "ok";
         //echo "Messaggio inviato con successo.";
 
         //echo "Inserimenti effettuati correttamente.";
         //creare messaggio di benvenuto
     } else {
-        //echo "Errore. Nessun messaggio inviato.";
-    }*/
-    echo "ok";
+        echo "Errore nessuna email inviata.";
+    }
+
 }
 
 $db_instance->connection->close();

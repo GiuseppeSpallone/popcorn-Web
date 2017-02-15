@@ -44,7 +44,7 @@ if (!$result) {
     $oggetto = "Registrazione Popcorn";
     $corpo = "Benvenuto in Popcorn " . $username;
 
-   /* if (mail($email, $oggetto, $corpo)) {
+    if (mail($email, $oggetto, $corpo)) {
         //echo "Messaggio inviato con successo.";
         echo "ok";
        // header("location: ../index.php");
@@ -52,7 +52,7 @@ if (!$result) {
         //creare messaggio di benvenuto
     } else {
         echo "Email non inviata";
-    }*/
+    }
 
 
    echo "ok";
