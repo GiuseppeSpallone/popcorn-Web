@@ -33,30 +33,27 @@ $numMail = mysqli_num_rows($controlloMail);
 if ($numUsername != 0) {
     echo "Username esistente";
 } else if ($numMail != 0) {
-   echo "Email esistente";
-}else{
+    echo "Email esistente";
+} else {
     $result = $db_instance->insert('utente', array('username', 'email', 'password'), array($username, $email, $password));
     if (!$result) {
         echo "No result";
     } else {
-        $oggetto = "Registrazione Popcorn";
-        $corpo = "Benvenuto in Popcorn " . $username;
+        /* $oggetto = "Registrazione Popcorn";
+         $corpo = "Benvenuto in Popcorn " . $username;
 
-         if (mail($email, $oggetto, $corpo)) {
-             //echo "Messaggio inviato con successo.";
-             echo "ok";
-            // header("location: ../index.php");
-             //echo "Inserimenti effettuati correttamente.";
-             //creare messaggio di benvenuto
-         } else {
-             echo "Email non inviata";
-         }
-
-
+          if (mail($email, $oggetto, $corpo)) {
+              //echo "Messaggio inviato con successo.";
+              echo "ok";
+             // header("location: ../index.php");
+              //echo "Inserimenti effettuati correttamente.";
+              //creare messaggio di benvenuto
+          } else {
+              echo "Email non inviata";
+          }*/
         echo "ok";
     }
 }
-
 
 
 $db_instance->connection->close();

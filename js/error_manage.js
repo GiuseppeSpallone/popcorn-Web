@@ -28,8 +28,11 @@ $(document).ready(function() {
         var input=$(this);
         var is_name=input.val();
         if(is_name) {
-            $("div#errorReg").removeClass("to_show").addClass("no_show");
+            $("div#errorDismatch").removeClass("to_show").addClass("no_show");
             $("div#errorVuoti").removeClass("to_show").addClass("no_show");
+            $("div#errorSend").removeClass("to_show").addClass("no_show");
+            $("div#errorEmail").removeClass("to_show").addClass("no_show");
+            $("div#errorUtente").removeClass("to_show").addClass("no_show");
 
         }else{$("div#errorVuoti").removeClass("no_show").addClass("to_show");
         }
@@ -39,8 +42,12 @@ $(document).ready(function() {
         var input=$(this);
         var is_name=input.val();
         if(is_name) {
-            $("div#errorReg").removeClass("to_show").addClass("no_show");
+            $("div#errorDismatch").removeClass("to_show").addClass("no_show");
             $("div#errorVuoti").removeClass("to_show").addClass("no_show");
+            $("div#errorSend").removeClass("to_show").addClass("no_show");
+            $("div#errorEmail").removeClass("to_show").addClass("no_show");
+            $("div#errorUtente").removeClass("to_show").addClass("no_show");
+
 
         }else{$("div#errorVuoti").removeClass("no_show").addClass("to_show");}
     });
@@ -49,8 +56,11 @@ $(document).ready(function() {
         var input=$(this);
         var is_name=input.val();
         if(is_name) {
-            $("div#errorReg").removeClass("to_show").addClass("no_show");
+            $("div#errorDismatch").removeClass("to_show").addClass("no_show");
             $("div#errorVuoti").removeClass("to_show").addClass("no_show");
+            $("div#errorSend").removeClass("to_show").addClass("no_show");
+            $("div#errorEmail").removeClass("to_show").addClass("no_show");
+            $("div#errorUtente").removeClass("to_show").addClass("no_show");
 
         }else{$("div#errorVuoti").removeClass("no_show").addClass("to_show");}
     });
@@ -144,12 +154,13 @@ $(document).ready(function() {
                 if (esito == "ok") {
                     window.location.href = "index.php";
                 }else if (esito == "Username esistente"){
-                    alert("zio porcone");
-                    $("div#errorReg").removeClass("no_show").addClass("to_show");
+                    $("div#errorUtente").removeClass("no_show").addClass("to_show");
                 } else if (esito == "Email esistente") {
-                    $("div#errorReg").removeClass("no_show").addClass("to_show");
+                    $("div#errorEmail").removeClass("no_show").addClass("to_show");
                 }else if (esito == "No result") {
                     $("div#errorReg").removeClass("no_show").addClass("to_show");
+                }else if (esito == "Email non inviata") {
+                    $("div#errorSend").removeClass("no_show").addClass("to_show");
                 }
             },
             error: function(xhr, status, error) {
@@ -176,13 +187,13 @@ $(document).ready(function() {
             success: function(esito){
                 if (esito == "ok") {
                     window.location.href = "index.php";
-                }else if (esito == "Utente non esistente"){    ///TOCHECK!!!!!!!!!!!!!
+                }else if (esito == "Utente non esistente"){
                     $("div#errorUtente").removeClass("no_show").addClass("to_show");
 
-                }else if (esito == "Errore recupero"){         ///TOCHECK!!!!!!!!!!!!!!!
+                }else if (esito == "Errore recupero"){
                     $("div#errorRec").removeClass("no_show").addClass("to_show");
 
-                }else if (esito == "Errore nessuna email inviata."){         ///TOCHECK!!!!!!!!!!!!!!!
+                }else if (esito == "Errore nessuna email inviata."){
                     $("div#errorRec").removeClass("no_show").addClass("to_show");
 
                 }},

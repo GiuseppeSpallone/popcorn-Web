@@ -152,7 +152,9 @@ include 'nav.php';
                                            class="form-control" placeholder="Confirm Password">
                                 </div>
 
-                                <div id="errorReg"  class="alert alert-danger no_show" role="alert">Username non disponibile.</div>
+                                <div id="errorSend"  class="alert alert-danger no_show" role="alert">Email non inviata. </div>
+                                <div id="errorEmail"  class="alert alert-danger no_show" role="alert">Email non disponibile</div>
+                                <div id="errorUtente"  class="alert alert-danger no_show" role="alert">Username non disponibile.</div>
                                 <div id="errorVuoti"  class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
                                 <div id="errorDismatch"  class="alert alert-danger no_show" role="alert">Le password non coincidono.</div>
 
