@@ -84,14 +84,6 @@ if ($is_authorized) {
                                     <?php echo '<input type="text" name="trama" id="trama" tabindex="11" class="form-control"
                                        placeholder="Trama" value="' . $resultFilm['trama'] . '">'; ?>
                                 </div>
-
-                                <div class="col-xs-6 form-group pull-left radio">
-                                    <input id="prog" type="radio" name="prog" tabindex="12" class="form-control">
-                                    <label for="prog">In Programmazione</label>
-
-                                    <input id="pross" type="radio" name="prog" tabindex="13" class="form-control">
-                                    <label for="pross">Prossimamente</label>
-                                </div>
                                 <div class="form-group">
                                     <div class="row">
                                         <div class="col-sm-6 col-sm-offset-3">

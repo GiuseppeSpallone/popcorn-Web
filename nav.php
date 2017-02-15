@@ -36,10 +36,6 @@ $print_class = 'class="active"';
             <?php
             if ($is_logged) { ?>
                 <ul class="nav navbar-nav navbar-right">
-                    <?php if(!$is_authorized) {?>
-                    <li <?= ($selector == 6) ? $print_class : '' ?>><a href=".php">Carrello
-                            <span class="badge">14</span> </a></li>
-                    <?php } ?>
                     <li><a href="check/disconnessione.php">Disconnetti</a></li>
                 </ul>
                 <?php
