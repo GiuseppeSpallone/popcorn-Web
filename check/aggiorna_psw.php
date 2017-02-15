@@ -7,7 +7,7 @@ $db_instance = new DbManager();
 $password = filter_input(INPUT_POST, 'nuova-password');
 $password2 = filter_input(INPUT_POST, 'conferma-nuova-password');
 
-//Controllo presenza campi
+/*//Controllo presenza campi
 if (!$password || !$password2) {
     header("location: ../recupero_psw.php?error_recupero=campi_vuoti");
     die();
@@ -17,36 +17,34 @@ if (!$password || !$password2) {
 if ($password != $password2) {
     header("location: ../recupero_psw.php?error_recupero=psw_non_coincidenti");
     die();
-}
+}*/
 
 //Cripta la password
 $password = md5($password);
 
-$result = $db_instance->update('utente', "password = '$password'", "username= '$username_recupero_psw'");
+$result = $db_instance->update('utente', "password = '$password'", "username= '$username_recupero_psw '");
 
 if (!$result) {
     session_unset();
     session_destroy();
-
-    header("location: ../recupero_psw.php?error_recupero");
-    die();
+echo "Errore aggiornamento";
 } else {
-    $email = $db_instance->select(array('email'), 'utente', "username = '$username_recupero_psw'")->fetch_assoc();
+    session_unset();
+    session_destroy();
+    $email = $db_instance->select(array('email'), 'utente', "username = '$username_recupero_psw '")->fetch_assoc();
 
     $oggetto = "Nuova password Popcorn";
     $corpo = "La password è stata cambiata ";
 
     if (mail($email['email'], $oggetto, $corpo)) {
         //echo "Messaggio inviato con successo.";
-        header("location: ../accesso_registrazione.php");
-        die();
+        echo "ok";
         //echo "Inserimenti effettuati correttamente.";
         //creare messaggio di benvenuto
     } else {
-        //echo "Errore. Nessun messaggio inviato.";
+        echo "Errore nessuna email inviata.";
     }
-    session_unset();
-    session_destroy();
+
 }
 
 $db_instance->connection->close();
