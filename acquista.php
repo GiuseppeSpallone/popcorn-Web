@@ -1,4 +1,9 @@
 <?php
+
+include 'controllers/SessionManager.php';
+
+if ($is_logged) {
+
 include 'check/stampa_film.php';
 include 'check/stampa_orari_sale.php';
 ?>
@@ -78,3 +83,6 @@ include 'nav.php';
 </body>
 
 </html>
+<?php } else {
+    echo 'Non sei loggato ';
+} ?>
