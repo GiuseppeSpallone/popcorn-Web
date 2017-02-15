@@ -94,7 +94,7 @@ $(document).ready(function() {
 
 //TO DO non funge vedi form film!
 
-    $('form > input').keyup(function() {
+    /*$('form > input').keyup(function() {
 
         var empty = false;
         $('form > input').each(function() {
@@ -108,7 +108,7 @@ $(document).ready(function() {
         } else {
             $('submit').removeAttr('disabled'); }
     });
-
+*/
 
     $("form#login-form").on("submit", function(){
         var data  = $(this).serialize();
@@ -144,9 +144,14 @@ $(document).ready(function() {
                 if (esito == "ok") {
                     window.location.href = "index.php";
                 }else if (esito == "Username esistente"){
-                    //MANCANO ELSE IF !!!!!!!!!!!!!!!!
+                    alert("zio porcone");
                     $("div#errorReg").removeClass("no_show").addClass("to_show");
-}},
+                } else if (esito == "Email esistente") {
+                    $("div#errorReg").removeClass("no_show").addClass("to_show");
+                }else if (esito == "No result") {
+                    $("div#errorReg").removeClass("no_show").addClass("to_show");
+                }
+            },
             error: function(xhr, status, error) {
                 alert("Male registrazione!");
             }
@@ -175,6 +180,9 @@ $(document).ready(function() {
                     $("div#errorUtente").removeClass("no_show").addClass("to_show");
 
                 }else if (esito == "Errore recupero"){         ///TOCHECK!!!!!!!!!!!!!!!
+                    $("div#errorRec").removeClass("no_show").addClass("to_show");
+
+                }else if (esito == "Errore nessuna email inviata."){         ///TOCHECK!!!!!!!!!!!!!!!
                     $("div#errorRec").removeClass("no_show").addClass("to_show");
 
                 }},
