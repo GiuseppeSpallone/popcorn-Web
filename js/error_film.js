@@ -36,8 +36,7 @@ $(document).ready(function() {
                 dataType: "html",
                 success: function(esito){
                     if (esito == "ok") {
-                        alert(data);
-                        window.location.href = "form_modifica_orari_sale.php?modifica="+$("#titolo").val();
+                        window.location.href = "form_modifica_orari_sale.php?modifica=" + $("#titolo").val();
                     }else{
                         $("div#errorIns").removeClass("no_show").addClass("to_show");
                     }},

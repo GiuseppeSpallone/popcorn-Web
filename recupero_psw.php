@@ -11,6 +11,7 @@ if ($_REQUEST['utente']) {
 
 <?php
 $errorRecupero = $_REQUEST['error_recupero'];
+
 $messageRecupero = "";
 switch ($errorRecupero) {
     case 'campi_vuoti':

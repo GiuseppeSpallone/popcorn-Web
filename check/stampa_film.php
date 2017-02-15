@@ -23,7 +23,10 @@ if ($_REQUEST['film']) {
     $resultFilm = $db_instance->select([], 'film', "titolo = '$replace_titolo'")->fetch_array();
 } else {
     //programmazione e modifica film(AMMINISTRATORE)
-    $resultFilm = $db_instance->select(array('titolo'), 'film');
+    $resultFilm = $db_instance->queryString("SELECT titolo, primo, secondo, terzo, id_prima, id_seconda, id_terza
+FROM((film INNER JOIN prog_film ON film.id = id_film)
+INNER JOIN sale_film ON id_sale = sale_film.id)
+INNER JOIN orari ON orari.id_orari = prog_film.id_orari");
 }
 
 
