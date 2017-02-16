@@ -24,9 +24,10 @@ $resultUtenti = $db_instance->select(array('username'), 'utente');
     }
 }*/
 
-while($utenti = $resultUtenti->fetch_array(MYSQLI_ASSOC)){
-    if($username_recupero_psw == md5($resultUtenti['username'])){
-        $utente = $resultUtenti['username'];
+while($row = $resultUtenti->fetch_assoc()){
+    if($username_recupero_psw == md5($row['username'])){
+        $utente = $row['username'];
+        break;
     }
 }
 
