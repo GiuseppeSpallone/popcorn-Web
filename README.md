@@ -70,6 +70,7 @@ Amministratore:
 ## Cosa abbiamo usato
     bootstrap per il css e js
     cssjquery per la coverflow
+    jQuery per gli script
     
 ## Credits
     Il logo Popcorn è stato realizzato da Claudio De Padova
