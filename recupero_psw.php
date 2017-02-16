@@ -38,7 +38,7 @@ include 'nav.php';
                 <div class="panel-body">
                     <div class="row">
                         <div class="col-lg-12">
-                            <form id="password-form"  role="form" style="display: block;">
+                            <form id="recupero-form"  role="form" style="display: block;">
                                 <h2>RECUPERO PASSWORD</h2>
                                 <div class="form-group">
                                     <input type="password" name="nuova-password" id="nuova-password" tabindex="1"

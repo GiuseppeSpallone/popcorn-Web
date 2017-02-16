@@ -16,11 +16,17 @@ if ($password != $password2) {
     die();
 }*/
 
-$utenti = $db_instance->select(array('username'), 'utente');
+$resultUtenti = $db_instance->select(array('username'), 'utente');
 
-while ($row = msql_fetch_array($utenti, MYSQLI_ASSOC)) {
+/*while ($row = msql_fetch_array($resultUtenti, MYSQLI_ASSOC)) {
     if ($username_recupero_psw == md5($row['username'])) {
         $utente = $row['username'];
+    }
+}*/
+
+while($utenti = $resultUtenti->fetch_array(MYSQLI_ASSOC)){
+    if($username_recupero_psw == md5($resultUtenti['username'])){
+        $utente = $resultUtenti['username'];
     }
 }
 
@@ -30,7 +36,7 @@ $password2 = filter_input(INPUT_POST, 'conferma-nuova-password');
 //Cripta la password
 $password = md5($password);
 
-$result = $db_instance->update('utente', "password = '$password'", "username= '$utente '");
+$result = $db_instance->update('utente', "password = '$password'", "username= '$utente'");
 
 if (!$result) {
     session_unset();
@@ -39,7 +45,7 @@ if (!$result) {
 } else {
     session_unset();
     session_destroy();
-    $email = $db_instance->select(array('email'), 'utente', "username = '$utente '")->fetch_assoc();
+    $email = $db_instance->select(array('email'), 'utente', "username = '$utente'")->fetch_assoc();
 
     $oggetto = "Nuova password Popcorn";
     $corpo = "La password è stata cambiata ";

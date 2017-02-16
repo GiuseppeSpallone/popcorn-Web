@@ -15,7 +15,7 @@ $(document).ready(function() {
         }else{$("div#errorDismatch").removeClass("no_show").addClass("to_show");}
     });
 
-$("form#password-form").on("submit", function(){
+$("form#recupero-form").on("submit", function(){
     var data  = $(this).serialize();
     $.ajax({
         type: "POST",
@@ -24,11 +24,14 @@ $("form#password-form").on("submit", function(){
         dataType: "html",
         success: function(esito){
             if (esito == "ok") {
+                alert("ok");
                 window.location.href = "index.php";
             }else if (esito == "Errore aggiornamento"){
+                alert("errore agg");
                 $("div#errorAgg").removeClass("no_show").addClass("to_show");
 
             }else if (esito == "Errore nessuna email inviata."){
+                alert("error email");
                 $("div#errorEmail").removeClass("no_show").addClass("to_show");
 
             }},
