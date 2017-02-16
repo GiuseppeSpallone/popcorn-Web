@@ -38,7 +38,7 @@ if (!$result) {
                   </head>
                   <body>
                       <img src="https://cldup.com/1AYvlq29Z3.png">
-                      <h1> Clicca su http://localhost/recupero_psw.php?rec='. md5($result['username']) . 'per confermare la nuova password</h1>
+                      <h1> Clicca su http://localhost/recupero_psw.php?rec='. md5($result['username']) . ' per confermare la nuova password</h1>
                   </body>
                   </html>';
     $html = "MIME-Version: 1.0\r\n";

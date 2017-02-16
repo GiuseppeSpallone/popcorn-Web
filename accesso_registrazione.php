@@ -194,54 +194,53 @@ include 'nav.php';
     </div>
 </div>
 
-<div class="modal fade" id="recuperoModal" tabindex="6" role="dialog" aria-hidden="false">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <div class="panel panel-recupero">
-                    <div class="panel-body">
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <form id="recupero-form"  role="form">
-                                    <h2>RECUPERO PASSWORD</h2>
-                                    <h2>Le invieremo il link per recuperare la password</h2>
-                                    <div class="form-group">
-                                        <input type="text" name="username-recupero" id="username-recupero" tabindex="7"
-                                               class="form-control" placeholder="Username">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email-recupero" id="email-recupero" tabindex="8"
-                                               class="form-control" placeholder="Email">
-                                    </div>
+<div class="modal fade" id="recuperoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="form-group">
+                <div class="modal-header">
+                    <h2>RECUPERO PASSWORD</h2>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="modal-body">Le invieremo il link per recuperare la password
+                </div>
+            </div>
 
-                                    <div id="errorRec"  class="alert alert-danger no_show" role="alert">Errore Recupero</div>
-                                    <div id="errorUtente"  class="alert alert-danger no_show" role="alert">Utente non trovato</div>
-                                    <div id="errorVuoti"  class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
+            <div class="modal-footer">
+                <div class="form-group">
+                    <input type="text" name="username-recupero" id="username-recupero" tabindex="7"
+                           class="form-control" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email-recupero" id="email-recupero" tabindex="8"
+                           class="form-control" placeholder="Email">
+                </div>
+
+                <div id="errorRec"  class="alert alert-danger no_show" role="alert">Errore Recupero</div>
+                <div id="errorUtente"  class="alert alert-danger no_show" role="alert">Utente non trovato</div>
+                <div id="errorVuoti"  class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
 
 
-                                 <!--   --><?php /*if ($errorRecupero)
+                <!--   --><?php /*if ($errorRecupero)
                                         echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; */?>
 
-                                    <div class="form-group">
-                                        <div class="row">
-                                            <div class="col-sm-6 col-sm-offset-3">
-                                                <input type="submit" name="recupero-submit" id="recupero-submit"
-                                                       tabindex="9" class="form-control btn btn-login" value="Invia">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="row">
-                                            <div class="col-sm-6 col-sm-offset-3">
-                                                <input tabindex="10" class="form-control btn btn-login" data-dismiss="modal" value="Chiudi">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <input type="submit" name="recupero-submit" id="recupero-submit"
+                                   tabindex="9" class="form-control btn btn-login" value="Invia">
                         </div>
                     </div>
                 </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <input tabindex="10" class="form-control btn btn-login" data-dismiss="modal" value="Chiudi">
+                        </div>
+                    </div>
+                </div>
+                </form>
             </div>
         </div>
     </div>
