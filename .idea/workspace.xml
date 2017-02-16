@@ -37,8 +37,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="44">
-                <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+              <first_editor relative-caret-position="198">
+                <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -396,7 +396,7 @@
       <workItem from="1487171812994" duration="11795000" />
       <workItem from="1487254299836" duration="3140000" />
       <workItem from="1487258502088" duration="1092000" />
-      <workItem from="1487264623107" duration="547000" />
+      <workItem from="1487264623107" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -706,11 +706,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487256461152</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Modificato readme">
+      <created>1487265181845</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1487265181845</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194978000" />
+    <option name="totallyTimeSpent" value="195039000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -810,14 +817,14 @@
     <MESSAGE value="Aggiustata sessione recupero_psw" />
     <MESSAGE value="Aggiustato acquisto.php, stampa il film da acquistare e i relativi orari" />
     <MESSAGE value="Aggiunti controlli per amministratore e utente" />
-    <MESSAGE value="Modificato readme" />
     <MESSAGE value="decommentate le email" />
     <MESSAGE value="delle cose" />
     <MESSAGE value="Aggiustato recupera password.. FUNZIONA TUTTO" />
     <MESSAGE value="rimosso carrello e prossimamente, programmazione per film" />
     <MESSAGE value="Da aggiustare il recupera psw in aggiorna_psw.php" />
     <MESSAGE value="Aggiunta immagine in inserisci nuovo film e aggiunto logo alle email" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiunta immagine in inserisci nuovo film e aggiunto logo alle email" />
+    <MESSAGE value="Modificato readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modificato readme" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1197,8 +1204,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="44">
-            <caret line="2" column="65" lean-forward="false" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+          <first_editor relative-caret-position="198">
+            <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             <folding />
           </first_editor>
           <second_editor />
