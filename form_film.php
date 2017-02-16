@@ -99,6 +99,9 @@ if ($is_authorized) { ?>
                                                placeholder="Trama">
                                     </div>
 
+                                    <iframe id="carica-poster" src ="caricaFilm.php"  width="400" height="450"></iframe>
+
+
                                     <!--<div id="carica-poster" class="col-sm-6 col-sm-offset-3">
                                     <input type="button"  name="poster-button" id="poster-button" tabindex="12" class="form-control btn btn-film" value="Carica Poster" onclick="location.href ='caricaFilm.php'">
 
