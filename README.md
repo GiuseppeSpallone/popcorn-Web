@@ -80,8 +80,5 @@ Amministratore:
 4. Aggiungere film prossimamente
    
   
-
-https://cloudup.com/c0aHxwOuamT
-
 **Free Software, Hell Yeah!**
 
