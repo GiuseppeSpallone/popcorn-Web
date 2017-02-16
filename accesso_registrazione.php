@@ -50,12 +50,13 @@ switch ($errorRecupero) {
         $messageRecupero = "Riprova...";
         break;
 }
-*/?>
+*/ ?>
 
 <html>
 
 <head>
-    <title>POPCORN</title>
+    <title>Popcorn</title>
+    <link rel="icon" href="/logo/Pop.png" type="image/png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/login.css" rel="stylesheet" type="text/css">
@@ -66,7 +67,7 @@ switch ($errorRecupero) {
     <script src="js/bootstrap.js"></script>
     <script src="js/login.js"></script>
     <script src="js/messaggi.js"></script>
-    <script src= "js/error_manage.js"></script>
+    <script src="js/error_manage.js"></script>
 </head>
 
 <body>
@@ -77,13 +78,12 @@ include 'nav.php';
 
 <style>
 
-    div.no_show{
+    div.no_show {
         display: none;
 
     }
 
 </style>
-
 
 
 <div class="container">
@@ -108,12 +108,14 @@ include 'nav.php';
                                     <label for="checkbox1">Remember Me</label>
                                 </div> -->
 
-                                <div id="errorLogin"  class="alert alert-danger no_show" role="alert">Utente o password non corretti.</div>
-                                <div id="errorVuoti"  class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
+                                <div id="errorLogin" class="alert alert-danger no_show" role="alert">Utente o password
+                                    non corretti.
+                                </div>
+                                <div id="errorVuoti" class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
 
-<!--
-                                --><?php /*if ($errorAccesso)
-                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageAccesso . '</div></div>'; */?>
+                                <!--
+                                                                --><?php /*if ($errorAccesso)
+                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageAccesso . '</div></div>'; */ ?>
                                 <div class="form-group">
                                     <div class="row">
                                         <div class="col-sm-6 col-sm-offset-3">
@@ -128,15 +130,17 @@ include 'nav.php';
                                     <div class="row">
                                         <div class="col-sm-6 col-sm-offset-3">
                                             <input type="button" id="recupero" name="recupero-btn" tabindex="4"
-                                                   class="form-control btn btn-login" value="Recupera password" onclick="recuperoPassword()">
+                                                   class="form-control btn btn-login" value="Recupera password"
+                                                   onclick="recuperoPassword()">
                                         </div>
                                     </div>
                                 </div>
                             </form>
-                            <form id="register-form"  role="form" style="display: none;">
+                            <form id="register-form" role="form" style="display: none;">
                                 <h2>REGISTRAZIONE</h2>
                                 <div class="form-group">
-                                    <input type="text" name="username" id="username-reg" tabindex="1" class="form-control"
+                                    <input type="text" name="username" id="username-reg" tabindex="1"
+                                           class="form-control"
                                            placeholder="Username" value="">
                                 </div>
                                 <div class="form-group">
@@ -152,15 +156,22 @@ include 'nav.php';
                                            class="form-control" placeholder="Confirm Password">
                                 </div>
 
-                                <div id="errorSend"  class="alert alert-danger no_show" role="alert">Email non inviata. </div>
-                                <div id="errorEmail"  class="alert alert-danger no_show" role="alert">Email non disponibile</div>
-                                <div id="errorUtente"  class="alert alert-danger no_show" role="alert">Username non disponibile.</div>
-                                <div id="errorVuoti"  class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
-                                <div id="errorDismatch"  class="alert alert-danger no_show" role="alert">Le password non coincidono.</div>
+                                <div id="errorSend" class="alert alert-danger no_show" role="alert">Email non inviata.
+                                </div>
+                                <div id="errorEmail" class="alert alert-danger no_show" role="alert">Email non
+                                    disponibile
+                                </div>
+                                <div id="errorUtente" class="alert alert-danger no_show" role="alert">Username non
+                                    disponibile.
+                                </div>
+                                <div id="errorVuoti" class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
+                                <div id="errorDismatch" class="alert alert-danger no_show" role="alert">Le password non
+                                    coincidono.
+                                </div>
 
 
-                               <!-- --><?php /*if ($errorRegistrazione)
-                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRegistrazione . '</div></div>'; */?>
+                                <!-- --><?php /*if ($errorRegistrazione)
+                                    echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRegistrazione . '</div></div>'; */ ?>
 
                                 <div class="form-group">
                                     <div class="row">
@@ -194,54 +205,55 @@ include 'nav.php';
     </div>
 </div>
 
-<div class="modal fade" id="recuperoModal" tabindex="6" role="dialog" aria-hidden="false">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 col-md-offset-3">
-                <div class="panel panel-recupero">
-                    <div class="panel-body">
+<div class="modal fade" id="recuperoModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="form-group">
+                <div class="modal-header">
+                    <h2>RECUPERO PASSWORD</h2>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="modal-body">Le invieremo il link per recuperare la password
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <form id="recupero-form" role="form">
+                    <div class="form-group">
+                        <input type="text" name="username-recupero" id="username-recupero" tabindex="7"
+                               class="form-control" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email-recupero" id="email-recupero" tabindex="8"
+                               class="form-control" placeholder="Email">
+                    </div>
+
+                    <div id="errorRec" class="alert alert-danger no_show" role="alert">Errore Recupero</div>
+                    <div id="errorUtente" class="alert alert-danger no_show" role="alert">Utente non trovato</div>
+                    <div id="errorVuoti" class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
+
+
+                    <!--   --><?php /*if ($errorRecupero)
+                                        echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; */ ?>
+
+                    <div class="form-group">
                         <div class="row">
-                            <div class="col-lg-12">
-                                <form id="recupero-form"  role="form">
-                                    <h2>RECUPERO PASSWORD</h2>
-                                    <h2>Le invieremo il link per recuperare la password</h2>
-                                    <div class="form-group">
-                                        <input type="text" name="username-recupero" id="username-recupero" tabindex="7"
-                                               class="form-control" placeholder="Username">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email-recupero" id="email-recupero" tabindex="8"
-                                               class="form-control" placeholder="Email">
-                                    </div>
-
-                                    <div id="errorRec"  class="alert alert-danger no_show" role="alert">Errore Recupero</div>
-                                    <div id="errorUtente"  class="alert alert-danger no_show" role="alert">Utente non trovato</div>
-                                    <div id="errorVuoti"  class="alert alert-danger no_show" role="alert">Campi vuoti.</div>
-
-
-                                 <!--   --><?php /*if ($errorRecupero)
-                                        echo '<div class="form-group"><div class="alert alert-danger" role="alert">' . $messageRecupero . '</div></div>'; */?>
-
-                                    <div class="form-group">
-                                        <div class="row">
-                                            <div class="col-sm-6 col-sm-offset-3">
-                                                <input type="submit" name="recupero-submit" id="recupero-submit"
-                                                       tabindex="9" class="form-control btn btn-login" value="Invia">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="row">
-                                            <div class="col-sm-6 col-sm-offset-3">
-                                                <input tabindex="10" class="form-control btn btn-login" data-dismiss="modal" value="Chiudi">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <input type="submit" name="recupero-submit" id="recupero-submit"
+                                       tabindex="9" class="form-control btn btn-login" value="Invia">
                             </div>
                         </div>
                     </div>
-                </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <input tabindex="10" class="form-control btn btn-login" data-dismiss="modal"
+                                       value="Chiudi">
+                            </div>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

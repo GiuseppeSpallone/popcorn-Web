@@ -7,7 +7,8 @@ include 'check/stampa_film.php';
 <html>
 
 <head>
-    <title>POPCORN</title>
+    <title>Popcorn</title>
+    <link rel="icon" href="/logo/Pop.png" type="image/png" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/comments.css" rel="stylesheet" type="text/css">
@@ -81,9 +82,9 @@ include 'nav.php';
                     </tbody>
                 </table>
             </div>
-                <a href="programmazione.php" class="btn btn-warning btn-block"><i class="fa fa-angle-left"></i>Torna
+                <a href="programmazione.php" class="btn btn-warning btn-block"><i class="fa fa-angle-left"></i> Torna
                     indietro</a>
-                <a href="acquista.php" class="btn btn-success btn-block">Acquista <i class="fa fa-angle-right"></i></a>
+            <?php echo '<a href="acquista.php?acquista=' . $resultFilm['titolo'] . '" class="btn btn-success btn-block" role="button">Acquista <i class="fa fa-angle-right"></i></a>' ?>
 
         </div>
 
