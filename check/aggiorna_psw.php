@@ -48,9 +48,20 @@ if (!$result) {
     $email = $db_instance->select(array('email'), 'utente', "username = '$utente'")->fetch_assoc();
 
     $oggetto = "Nuova password Popcorn";
-    $corpo = "La password è stata cambiata ";
 
-    if (mail($email['email'], $oggetto, $corpo)) {
+    $corpo = '<html>
+                  <head>
+  
+                  </head>
+                  <body>
+                      <img src="https://cldup.com/1AYvlq29Z3.png">
+                      <h1> La password è stata cambiata </h1>
+                  </body>
+                  </html>';
+    $html = "MIME-Version: 1.0\r\n";
+    $html .= "Content-type: text/html; charset=iso-8859-1\r\n";
+
+    if (mail($email['email'], $oggetto, $corpo, $html)) {
         //echo "Messaggio inviato con successo.";
         echo "ok";
         //echo "Inserimenti effettuati correttamente.";
