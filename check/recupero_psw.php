@@ -32,9 +32,19 @@ if (!$result) {
 } else {
     $oggetto = "Recupero password Popcorn";
 
-    $corpo = "Clicca su http://localhost/recupero_psw.php?rec=" . md5($result['username']) . " per confermare la nuova password.";
+    $corpo = '<html>
+                  <head>
+  
+                  </head>
+                  <body>
+                      <img src="https://cldup.com/1AYvlq29Z3.png">
+                      <h1> Clicca su http://localhost/recupero_psw.php?rec='. md5($result['username']) . 'per confermare la nuova password</h1>
+                  </body>
+                  </html>';
+    $html = "MIME-Version: 1.0\r\n";
+    $html .= "Content-type: text/html; charset=iso-8859-1\r\n";
 
-   if (mail($result['email'], $oggetto, $corpo)) {
+   if (mail($result['email'], $oggetto, $corpo, $html)) {
        echo "ok";
         //echo "Messaggio inviato con successo.";
 

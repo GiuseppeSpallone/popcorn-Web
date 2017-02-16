@@ -4,8 +4,9 @@
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/aggiorna_psw.php" afterPath="$PROJECT_DIR$/check/aggiorna_psw.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/recupero.js" afterPath="$PROJECT_DIR$/js/recupero.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recupero_psw.php" afterPath="$PROJECT_DIR$/recupero_psw.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/recupero_psw.php" afterPath="$PROJECT_DIR$/check/recupero_psw.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/registrazione.php" afterPath="$PROJECT_DIR$/check/registrazione.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modifica_film.php" afterPath="$PROJECT_DIR$/modifica_film.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,38 +20,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="aggiorna_psw.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/check/aggiorna_psw.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recupero.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/recupero.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="recupero_psw.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recupero_psw.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="40" column="51" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -114,8 +84,6 @@
         <option value="$PROJECT_DIR$/acquista.php" />
         <option value="$PROJECT_DIR$/edit_prezzi.php" />
         <option value="$PROJECT_DIR$/form_modifica_orari_sale.php" />
-        <option value="$PROJECT_DIR$/modifica_film.php" />
-        <option value="$PROJECT_DIR$/check/registrazione.php" />
         <option value="$PROJECT_DIR$/check/stampa_film.php" />
         <option value="$PROJECT_DIR$/check/orari_sale.php" />
         <option value="$PROJECT_DIR$/js/error_film.js" />
@@ -125,10 +93,12 @@
         <option value="$PROJECT_DIR$/nav.php" />
         <option value="$PROJECT_DIR$/form_film.php" />
         <option value="$PROJECT_DIR$/form_modifica_film.php" />
-        <option value="$PROJECT_DIR$/check/recupero_psw.php" />
-        <option value="$PROJECT_DIR$/check/aggiorna_psw.php" />
         <option value="$PROJECT_DIR$/recupero_psw.php" />
         <option value="$PROJECT_DIR$/js/recupero.js" />
+        <option value="$PROJECT_DIR$/modifica_film.php" />
+        <option value="$PROJECT_DIR$/check/registrazione.php" />
+        <option value="$PROJECT_DIR$/check/recupero_psw.php" />
+        <option value="$PROJECT_DIR$/check/aggiorna_psw.php" />
       </list>
     </option>
   </component>
@@ -173,20 +143,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -376,7 +332,7 @@
       <workItem from="1487155627638" duration="3773000" />
       <workItem from="1487168621480" duration="2321000" />
       <workItem from="1487171812994" duration="11795000" />
-      <workItem from="1487254299836" duration="1038000" />
+      <workItem from="1487254299836" duration="2124000" />
     </task>
     <task id="LOCAL-00001" summary="Creato modifica prezzi">
       <created>1486486302255</created>
@@ -672,11 +628,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487183887034</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="Da aggiustare il recupera psw in aggiorna_psw.php">
+      <created>1487255347462</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1487255347462</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190867000" />
+    <option name="totallyTimeSpent" value="191953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -689,9 +652,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15104167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21564482" sideWeight="0.5088889" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -827,7 +790,6 @@
         <state relative-caret-position="17">
           <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <marker date="1487177186492" expanded="true" signature="4022:4066" ph="..." />
           </folding>
         </state>
@@ -924,16 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="393">
-            <caret line="66" column="20" lean-forward="false" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/disconnessione.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -958,14 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check/registrazione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="47" column="23" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/elimina_film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -976,14 +920,6 @@
             <marker date="1487153883593" expanded="true" signature="832:875" ph="DELETE FROM " />
             <marker date="1487153883593" expanded="true" signature="938:979" ph="DELETE FROM " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modifica_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1086,30 +1022,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check/recupero_psw.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="34" column="61" lean-forward="false" selection-start-line="34" selection-start-column="61" selection-end-line="34" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/stampa_film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="682">
           <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmazione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="23" lean-forward="true" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
-          <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <marker date="1487177186492" expanded="true" signature="4022:4066" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1129,14 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/recupero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/recupero_psw.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1145,11 +1054,79 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/recupero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="21" lean-forward="false" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifica_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="29" column="52" lean-forward="false" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmazione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="32" column="43" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="43" />
+          <folding>
+            <marker date="1487177186492" expanded="true" signature="4022:4066" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/check/aggiorna_psw.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="28" column="44" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="432">
+          <caret line="63" column="53" lean-forward="false" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
+          <folding>
+            <marker date="1487256423429" expanded="true" signature="1456:1716" ph="..." />
+            <marker date="1487256423429" expanded="true" signature="1481:1510" ph="..." />
+            <marker date="1487256423429" expanded="true" signature="1535:1690" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/registrazione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="54" column="67" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="54" selection-end-column="67" />
+          <folding>
+            <marker date="1487256208166" expanded="true" signature="1376:1644" ph="..." />
+            <marker date="1487256208166" expanded="true" signature="1401:1430" ph="..." />
+            <marker date="1487256208166" expanded="true" signature="1455:1487" ph="..." />
+            <marker date="1487256208166" expanded="true" signature="1455:1570" ph="..." />
+            <marker date="1487256208166" expanded="true" signature="1455:1571" ph="..." />
+            <marker date="1487256208166" expanded="true" signature="1455:1618" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="11" lean-forward="true" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="43" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/recupero_psw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="46" column="53" lean-forward="false" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+          <folding>
+            <marker date="1487256423474" expanded="true" signature="1038:1380" ph="..." />
+            <marker date="1487256423474" expanded="true" signature="1063:1092" ph="..." />
+            <marker date="1487256423474" expanded="true" signature="1117:1354" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

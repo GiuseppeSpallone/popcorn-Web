@@ -33,29 +33,39 @@ $numMail = mysqli_num_rows($controlloMail);
 if ($numUsername != 0) {
     echo "Username esistente";
 } else if ($numMail != 0) {
-   echo "Email esistente";
-}else{
+    echo "Email esistente";
+} else {
     $result = $db_instance->insert('utente', array('username', 'email', 'password'), array($username, $email, $password));
 
     if (!$result) {
-            echo "No result";
+        echo "No result";
     } else {
         $oggetto = "Registrazione Popcorn";
-        $corpo = "Benvenuto in Popcorn " . $username;
 
-         if (mail($email, $oggetto, $corpo)) {
-             //echo "Messaggio inviato con successo.";
-             echo "ok";
+        $corpo = '<html>
+                  <head>
+  
+                  </head>
+                  <body>
+                      <img src="https://cldup.com/1AYvlq29Z3.png">
+                      <h1> Benvenuto in Popcorn '. $username . '</h1>
+                  </body>
+                  </html>';
+        $html = "MIME-Version: 1.0\r\n";
+        $html .= "Content-type: text/html; charset=iso-8859-1\r\n";
+
+        if (mail($email, $oggetto, $corpo, $html)) {
+            //echo "Messaggio inviato con successo.";
+            echo "ok";
             // header("location: ../index.php");
-             //echo "Inserimenti effettuati correttamente.";
-             //creare messaggio di benvenuto
-         } else {
-             echo "Email non inviata";
-         }
+            //echo "Inserimenti effettuati correttamente.";
+            //creare messaggio di benvenuto
+        } else {
+            echo "Email non inviata";
+        }
 
     }
 }
-
 
 
 $db_instance->connection->close();
