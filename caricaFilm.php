@@ -1,40 +1,44 @@
+<?php
+include 'controllers/SessionManager.php';
+
+
+if ($is_authorized) {
+
+if ($_REQUEST['titolo']) {
+    $titoloFilm = $_REQUEST['titolo'];
+} ?>
+
+<script> var titolo = "<?php echo  $titoloFilm; ?>" </script>
 
 <html>
 <head>
-<meta charset=utf-8>
-<meta name="viewport" content="width=620">
-<title>Carica Poster</title></head>
+    <title>Ajax Image Upload Using PHP and jQuery</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed|Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
 <body>
+<div class="main">
+    <?php echo '<div id="titoloPoster">' . $titoloFilm . '</div>'; ?>
 
-    <header>
-        <script src='jquery.min.js'></script>
-        <script src='ajaxupload.js'></script>
-    </header>
-
-<script>
-    var preview = $('#preview'); //id of the preview image
-    new AjaxUpload('imageUpload', {
-        action: 'saveimage.php', //the php script that receives and saves the image
-        name: 'image', //The saveimagephp will find the image info in the variable $_FILES['image']
-        onSubmit: function(file, extension) {
-            preview.attr('src', 'loading.gif'); //replace the image SRC with an animated GIF with a 'loading...' message
-        },
-        onComplete: function(file, response) {
-            preview.load(function(){
-                preview.unbind();
-            });
-            preview.attr('src', response); //make the preview image display the uploaded file
-            $('#uploadedimg').val(response); //drop the path to the file into the hidden field
-        }
-    });
-
-</script>
-    <form >
-        <img id="preview" src="" width="100px" height="100px" />
-        <label>Upload a picture: <input id="imageUpload" type="file" name="image"/></label>
-        <input type="hidden" name="uploadedImg"></input>
-        <input type="submit" value="Save the picture"/>
+    <hr>
+    <form id="uploadimage" action="" method="post" enctype="multipart/form-data">
+        <div id="image_preview"><img id="previewing" src="noimage.png" /></div>
+        <hr id="line">
+        <div id="selectImage">
+            <label>Select Your Image</label><br/>
+            <input type="file" name="file" id="file" required />
+            <input type="submit" value="Upload" class="submit" />
+        </div>
     </form>
-
+</div>
+<h4 id='loading' >loading..</h4>
+<div id="message"></div>
 </body>
 </html>
+<?php } else {
+    header("location: ../accesso_registrazione.php");
+    //aggiungere messeggio
+} ?>
