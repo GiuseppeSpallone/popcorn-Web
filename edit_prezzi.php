@@ -75,43 +75,6 @@ if ($is_authorized) {
                                         </button>
                                     </div>
 
-
-                                    <div class="modal fade" id="prezziModal" tabindex="-1" role="dialog"
-                                         aria-hidden="true">
-                                        <div class="modal-dialog" role="document">
-                                            <div class="modal-content">
-                                                <div class="form-group">
-                                                    <div class="modal-header">
-                                                        <h2>AGGIORNAMENTO PREZZI</h2>
-                                                    </div>
-                                                </div>
-                                                <div class="form-group">
-                                                    <div class="modal-body">Sei sicuro di voler modificare i prezzi?
-                                                    </div>
-                                                </div>
-
-                                                <div class="modal-footer">
-                                                    <div class="form-group">
-                                                        <div class="row">
-                                                            <div class="col-sm-6 col-sm-offset-3">
-                                                                <input type="submit" id="prezzi-submit" tabindex="4"
-                                                                       class="form-control btn btn-register" value="Si">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="form-group">
-                                                        <div class="row">
-                                                            <div class="col-sm-6 col-sm-offset-3">
-                                                                <input data-dismiss="modal" tabindex="5"
-                                                                       class="form-control btn btn-register" value="No">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                     </div>
@@ -120,6 +83,42 @@ if ($is_authorized) {
         </div>
     </div>
 
+    <div class="modal fade" id="prezziModal" tabindex="-1" role="dialog"
+         aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="form-group">
+                    <div class="modal-header">
+                        <h2>AGGIORNAMENTO PREZZI</h2>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="modal-body">Sei sicuro di voler modificare i prezzi?
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <input type="submit" id="prezzi-submit" tabindex="4"
+                                       class="form-control btn btn-register" value="Si">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-offset-3">
+                                <input data-dismiss="modal" tabindex="5"
+                                       class="form-control btn btn-register" value="No">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/login.js"></script>
