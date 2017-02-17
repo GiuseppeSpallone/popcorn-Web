@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logo/illustrator/Aggiungi.ai" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/accesso_registrazione.php" afterPath="$PROJECT_DIR$/accesso_registrazione.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/accesso.php" afterPath="$PROJECT_DIR$/check/accesso.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contatti.php" afterPath="$PROJECT_DIR$/contatti.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/error_manage.js" afterPath="$PROJECT_DIR$/js/error_manage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modifica_film.php" afterPath="$PROJECT_DIR$/modifica_film.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nav.php" afterPath="$PROJECT_DIR$/nav.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/prezzi.php" afterPath="$PROJECT_DIR$/prezzi.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -164,21 +156,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="popcorn" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="check" />
+              <option name="myItemId" value="logo" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -358,21 +336,7 @@
       <workItem from="1487258502088" duration="1092000" />
       <workItem from="1487264623107" duration="1696000" />
       <workItem from="1487269455874" duration="43000" />
-      <workItem from="1487287194084" duration="6853000" />
-    </task>
-    <task id="LOCAL-00001" summary="Creato modifica prezzi">
-      <created>1486486302255</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1486486302255</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Creato modifica prezzi">
-      <created>1486487064001</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1486487064001</updated>
+      <workItem from="1487287194084" duration="6974000" />
     </task>
     <task id="LOCAL-00003" summary="Aggiunto inserimento e modifica dei prezzi dei biglietti per l'amministratore">
       <created>1486551319746</created>
@@ -703,11 +667,25 @@
       <option name="project" value="LOCAL" />
       <updated>1487292114439</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="Iniziato il messaggio di benvenuto, guarda error_manage.js">
+      <created>1487294103174</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1487294103176</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Aggiunti file">
+      <created>1487294166582</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1487294166583</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="203023000" />
+    <option name="totallyTimeSpent" value="203144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -789,8 +767,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Recupera password completato (funzionante con la sessione) ps. la sicurezza non è un requisito non funzionale" />
-    <MESSAGE value="Distruzione sessione di recupero psw" />
     <MESSAGE value="Risolto bug in recupera_psw.php e aggiustato cambio input con TAB per recupera_psw.php e edit_prezzi.php" />
     <MESSAGE value="programmazione.php genera dinamicamente i contenuti (genera solo il div e il nome del film)" />
     <MESSAGE value="check/schedaFilm.php in check /stampa_film.php  (stampa film in programmazione e scheda film)" />
@@ -814,7 +790,9 @@
     <MESSAGE value="Aggiunta immagine in inserisci nuovo film e aggiunto logo alle email" />
     <MESSAGE value="Modificato readme" />
     <MESSAGE value="Iniziato l'acquisto e aggiustato il conferma salva prezzi" />
-    <option name="LAST_COMMIT_MESSAGE" value="Iniziato l'acquisto e aggiustato il conferma salva prezzi" />
+    <MESSAGE value="Iniziato il messaggio di benvenuto, guarda error_manage.js" />
+    <MESSAGE value="Aggiunti file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Aggiunti file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
