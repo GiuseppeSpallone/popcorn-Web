@@ -12,11 +12,15 @@ if ($is_logged) {
 
     <head>
         <title>Popcorn</title>
-        <link rel="icon" href="/logo/Pop.png" type="image/png" />
+        <link rel="icon" href="/logo/Pop.png" type="image/png"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
         <link href="css/carrello.css" rel="stylesheet" type="text/css">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/error_manage.js"></script>
     </head>
 
     <body>
@@ -24,6 +28,15 @@ if ($is_logged) {
     $selector = 6;
     include 'nav.php';
     ?>
+
+    <style>
+
+        td.no_show {
+            display: none;
+
+        }
+
+    </style>
 
     <div class="container" style="background-color:#fff">
         <table id="cart" class="table table-hover table-condensed">
@@ -33,7 +46,6 @@ if ($is_logged) {
                 <th style="width:8%">Quantità</th>
                 <th style="width:8%">Giorno</th>
                 <th style="width:8%">Orario</th>
-                <th style="width:10%"></th>
             </tr>
             </thead>
             <tbody>
@@ -47,23 +59,21 @@ if ($is_logged) {
                         </div>
                     </div>
                 </td>
-                <td data-th="Quantità">
-                    <input type="number" class="form-control text-center" value="1">
-                </td>
-                <td data-th="Giorno">
-                    <input type="date" class="" value="1">
-                </td>
-                <td data-th="Ora">
-                    <select class="form-control text-centerl" id="orario">
-                        <?php echo '<option>' . $resultOrari['primo'] . '</option>' ?>
-                        <?php echo '<option>' . $resultOrari['secondo'] . '</option>' ?>
-                        <?php echo '<option>' . $resultOrari['terzo'] . '</option>' ?>
-                    </select>
-                </td>
-                <td class="actions" data-th="">
-                    <button class="btn btn-info btn-sm"><i class="fa fa-refresh"></i></button>
-                    <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button>
-                </td>
+                <form id="acquista" role="form">
+                    <td data-th="Quantità">
+                        <input name="quantita" id="quantita" type="number" class="form-control text-center" value="1">
+                    </td>
+                    <td data-th="Giorno">
+                        <input name="data" id="data" type="date" class="" value="1">
+                    </td>
+                    <td data-th="Ora">
+                        <select class="form-control text-centerl" name="orario" id="orario">
+                            <?php echo '<option>' . $resultOrari['primo'] . '</option>' ?>
+                            <?php echo '<option>' . $resultOrari['secondo'] . '</option>' ?>
+                            <?php echo '<option>' . $resultOrari['terzo'] . '</option>' ?>
+                        </select>
+                    </td>
+
             </tr>
             </tbody>
             <tfoot>
@@ -71,17 +81,14 @@ if ($is_logged) {
                 <td><a href="programmazione.php" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue
                         Shopping</a>
                 </td>
-                <td colspan="2" class="hidden-xs"></td>
-                <td class="hidden-xs text-center"><strong>Total $1.99</strong></td>
-                <td><a href="#" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+                <td><input class="btn btn-success btn-block" type="submit" value="Checkout"> </td>
+                <td id="totale" class="hidden-xs text-center no_show"><strong> </strong></td>
+
             </tr>
+            </form>
             </tfoot>
         </table>
     </div>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-
     </body>
 
     </html>

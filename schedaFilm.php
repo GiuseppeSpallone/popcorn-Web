@@ -20,7 +20,7 @@ include 'check/stampa_film.php';
 $selector = 1;
 include 'nav.php';
 ?>
-
+<br><br><br>
 <div class="container">
 
     <div class="row">
