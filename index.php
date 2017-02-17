@@ -16,14 +16,6 @@ $div_to_show = $_REQUEST['logged'];
     <script src="js/bootstrap.js"></script>
     <script src="js/error_manage.js"></script>
 
-    <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>-->
-    <script src="coverflow/js/coverflow.min.js"></script>
-    <script>
-        $coverflow = $("#coverflow").coverflow({
-            "path": "coverflow/"
-        });
-    </script>
-
     <script>
         $(document).ready(function () {
             var div_to_show = "<?php echo $div_to_show;?>";
@@ -37,6 +29,14 @@ $div_to_show = $_REQUEST['logged'];
             });
     </script>
 
+    <style>
+        .carousel-inner > .item > img,
+        .carousel-inner > .item > a > img {
+            width: 35%;
+            margin: auto;
+        }
+    </style>
+
 
 </head>
 
@@ -46,113 +46,58 @@ $selector = 0;
 include 'nav.php';
 ?>
 
-
-
 <div class="container">
-    <div id="coverflow">
-        <div class="covers">
-            <ul>
-                <li>
-                    <div class="imgdiv">
+    <br>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
 
-                        <a href="schedaFilm.php" role="button">
-                            <img src="coverflow/img/1.jpg" alt="">
-                        </a>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" role="listbox">
 
-                    </div>
-                    <div class="text">
+            <div class="item active">
+                <img src="image/1.jpg" width="460" height="345">
+                <div class="carousel-caption">
+                </div>
+            </div>
 
-                    </div>
-                </li>
-                <li>
-                    <div class="imgdiv">
-                        <a>
-                            <img src="coverflow/img/2.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="text">
+            <div class="item">
+                <img src="image/2.jpg" width="460" height="345">
+                <div class="carousel-caption">
+                </div>
+            </div>
 
-                    </div>
-                </li>
-                <li>
-                    <div class="imgdiv">
-                        <a>
-                            <img src="coverflow/img/3.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="text">
+            <div class="item">
+                <img src="image/3.jpg" width="460" height="345">
+                <div class="carousel-caption">
+                </div>
+            </div>
 
-                    </div>
-                </li>
-                <li>
-                    <div class="imgdiv">
-                        <a>
-                            <img src="coverflow/img/4.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="text">
+            <div class="item">
+                <img src="image/4.jpg" width="460" height="345">
+                <div class="carousel-caption">
+                </div>
+            </div>
 
-                    </div>
-                </li>
-                <li>
-                    <div class="imgdiv">
-                        <a>
-                            <img src="coverflow/img/5.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="text">
-
-                    </div>
-                </li>
-                <li>
-                    <div class="imgdiv">
-                        <a>
-                            <img src="coverflow/img/6.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="text">
-
-                    </div>
-                </li>
-                <li>
-                    <div class="imgdiv">
-                        <a>
-                            <img src="coverflow/img/7.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="text">
-
-                    </div>
-                </li>
-                <li>
-                    <div class="imgdiv">
-                        <a>
-                            <img src="coverflow/img/8.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="text">
-
-                    </div>
-                </li>
-                <li>
-                    <div class="imgdiv">
-                        <a>
-                            <img src="coverflow/img/9.jpg" alt="">
-                        </a>
-                    </div>
-                    <div class="text">
-
-                    </div>
-                </li>
-            </ul>
-            <div class="Controller"></div>
         </div>
 
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
 </div>
-<br>
-<br>
-<br>
+
 
 
 <div id="user" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"
@@ -168,10 +113,5 @@ include 'nav.php';
         <div class="alert alert-warning" role="alert">Benvenuto su Popcorn <?php echo $username ?></div>
     </div>
 </div>
-
-
 </body>
-
-
-
 </html>

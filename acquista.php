@@ -6,7 +6,6 @@ if ($is_logged) {
 
     include 'check/stampa_film.php';
     include 'check/stampa_orari_sale.php';
-    include 'check/acquista.php';
     ?>
 
     <html>
@@ -82,9 +81,9 @@ if ($is_logged) {
                 <td><a href="programmazione.php" class="btn btn-warning"><i class="fa fa-angle-left"></i> Continue
                         Shopping</a>
                 </td>
-                <td colspan="2" class="hidden-xs"></td>
-                <td id="totale" class="hidden-xs text-center no_show"><strong><?php echo $totale ?> </strong></td>
                 <td><input class="btn btn-success btn-block" type="submit" value="Checkout"> </td>
+                <td id="totale" class="hidden-xs text-center no_show"><strong> </strong></td>
+
             </tr>
             </form>
             </tfoot>

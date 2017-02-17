@@ -226,8 +226,8 @@ $(document).ready(function () {
             data: data,
             dataType: "html",
             success: function (esito) {
-                if (esito == "ok") {
-                    $("td#totale").removeClass("no_show").addClass("to_show");
+                if (esito) {
+                    $("td#totale").removeClass("no_show").addClass("to_show").html(esito);
                 }
             },
             error: function (xhr, status, error) {

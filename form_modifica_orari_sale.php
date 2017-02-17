@@ -75,10 +75,12 @@ if ($is_authorized) {
                                 </div>
 
                                 <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm-6 col-sm-offset-3">
                                     <button id="salva-orari-sale" type="button" class="form-control btn btn-login"
                                             tabindex="">Salva
                                     </button>
-                                </div>
+                                </div></div></div>
 
                                 <div class="form-group">
                                     <div class="row">

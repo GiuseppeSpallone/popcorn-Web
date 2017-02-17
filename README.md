@@ -37,6 +37,8 @@ User
 >   - Gestione film
 >     - Visualizza film
 >     - Visualizza orari
+>     - Valutare un film
+>     - Recensire un film
 >   - Gestione prezzi e sale
 >     - Visualizza prezzi biglietti
 >     - Visualizza sale
@@ -89,25 +91,24 @@ Cosa abbiamo usato
 >     Javascript
 >     jQuery
 >     PHP 
->     cssjquery
 ----------
 
 Da fare
 ==================
 
 >Caricare immagini film e stamparle in programmazione.php, scheda_film.php, modifica_film.php e acquista.php
->Generare il totale euro in acquisto.php
->Messaggio di benvenuto per User e Admin
 >Messaggio di conferma per la disconnessione dell'User o Admin
->Completare la documentazione
 ----------
 
 Cosa non siamo riusciti a fareDa fare
 ==================
+
 >Adattare responsive per mobile
 >Carrello per gli acquisti
 >Pagamento con Paypal
 >Aggiungere film prossimamente
+>Valutare un film
+>Recensire un film
 ----------
 
 Credits
