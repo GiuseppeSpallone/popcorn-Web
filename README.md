@@ -100,7 +100,7 @@ Da fare
 >Messaggio di conferma per la disconnessione dell'User o Admin
 ----------
 
-Cosa non siamo riusciti a fareDa fare
+Cosa non siamo riusciti a fare
 ==================
 
 >Adattare responsive per mobile
