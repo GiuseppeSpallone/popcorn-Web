@@ -138,13 +138,13 @@ $(document).ready(function () {
             data: data,
             dataType: "html",
             success: function (esito) {
-                if (esito == "user") {
-                    //$("div#user").modal('show');
-                    window.location.href = "index.php";
+                if (esito.includes("user")) {
+                   //$("div#user").modal('show');
+                    window.location.href = "index.php?logged=user";
 
-                } else if(esito == "admin"){
-                    //$("div#admin").modal('show');
-                    window.location.href = "index.php";
+                } else if(esito.includes("admin")){
+                   // $("div#admin").modal('show');
+                    window.location.href = "index.php?logged=admin";
                 }else{
                     $("div#errorLogin").removeClass("no_show").addClass("to_show");
                 }
