@@ -1,7 +1,5 @@
-/**
- * Created by Giuseppe on 15/02/2017.
- */
 $(document).ready(function () {
+
 
 
     $('#nuova-password, #conferma-nuova-password').on('input', function () {
@@ -18,9 +16,10 @@ $(document).ready(function () {
 
     $("form#recupero-form").on("submit", function () {
         var data = $(this).serialize();
+        data = data + "&rec=" + username;
         $.ajax({
             type: "POST",
-            url: "check/aggiorna_psw.php",
+            url: "check/aggiorna_psw.php?",
             data: data,
             dataType: "html",
             success: function (esito) {

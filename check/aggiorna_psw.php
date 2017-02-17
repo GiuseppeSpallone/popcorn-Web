@@ -4,28 +4,12 @@ require_once __DIR__ . '/../controllers/SessionManager.php';
 
 $db_instance = new DbManager();
 
-/*//Controllo presenza campi
-if (!$password || !$password2) {
-    header("location: ../recupero_psw.php?error_recupero=campi_vuoti");
-    die();
-}
-
-//Controllo coincidenza password
-if ($password != $password2) {
-    header("location: ../recupero_psw.php?error_recupero=psw_non_coincidenti");
-    die();
-}*/
+$username = $_POST['rec'];
 
 $resultUtenti = $db_instance->select(array('username'), 'utente');
 
-/*while ($row = msql_fetch_array($resultUtenti, MYSQLI_ASSOC)) {
-    if ($username_recupero_psw == md5($row['username'])) {
-        $utente = $row['username'];
-    }
-}*/
-
 while($row = $resultUtenti->fetch_assoc()){
-    if($username_recupero_psw == md5($row['username'])){
+    if($username == md5($row['username'])){
         $utente = $row['username'];
         break;
     }

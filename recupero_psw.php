@@ -1,8 +1,7 @@
 <?php
 include 'controllers/SessionManager.php';
 if ($_REQUEST['rec']) {
-    session_start();
-    $_SESSION['recupero'] = $_REQUEST['rec'];
+    $username = $_REQUEST['rec'];
 }
 ?>
 
@@ -14,9 +13,14 @@ if ($_REQUEST['rec']) {
     <link href="css/form_film.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
+    <script>
+        var username = "<?php echo $username;?>";
+    </script>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/recupero.js"></script>
+
     <style>
 
         div.no_show{
@@ -24,6 +28,7 @@ if ($_REQUEST['rec']) {
         }
 
     </style>
+
 </head>
 
 <body>

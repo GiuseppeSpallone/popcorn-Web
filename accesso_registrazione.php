@@ -75,7 +75,7 @@ switch ($errorRecupero) {
 $selector = 7;
 include 'nav.php';
 ?>
-
+<br><br><br>
 <style>
 
     div.no_show {
