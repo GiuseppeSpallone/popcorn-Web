@@ -11,6 +11,7 @@ include 'controllers/SessionManager.php';
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="coverflow/css/style.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/error_manage.js"></script>
 </head>
 
 <body>
@@ -18,6 +19,16 @@ include 'controllers/SessionManager.php';
 $selector = 0;
 include 'nav.php';
 ?>
+
+<style>
+
+    div.no_show {
+        display: none;
+
+    }
+
+</style>
+
 <div class="container">
     <div id="coverflow">
         <div class="covers">
@@ -124,11 +135,18 @@ include 'nav.php';
 <br>
 <br>
 
-<?php
-if ($is_logged) {
-    echo '<div class="alert alert-success" role="alert">Benvenuto ' . $username  .'</div>)';
-}
-?>
+
+<div id="user" class="modal fade no_show" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="alert alert-success" role="alert">Benvenuto</div>
+    </div>
+</div>
+
+<div id="admin" class="modal fade no_show" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="alert alert-danger" role="alert">Benvenuto</div>
+    </div>
+</div>
 
 <script src="js/bootstrap.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>

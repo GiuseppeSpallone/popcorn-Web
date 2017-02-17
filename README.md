@@ -1,6 +1,5 @@
 ![Popcorn](https://cldup.com/1AYvlq29Z3.png)
 
-[TOC]
 
 Descrizione
 ===========
@@ -86,16 +85,30 @@ Database
 
 Cosa abbiamo usato
 ==================
->  Bootstrap
+>     Bootstrap
 >     Javascript
 >     jQuery
 >     PHP 
 >     cssjquery
-
-    
-
 ----------
 
+Da fare
+==================
+
+>Caricare immagini film e stamparle in programmazione.php, scheda_film.php, modifica_film.php e acquista.php
+>Generare il totale euro in acquisto.php
+>Messaggio di benvenuto per User e Admin
+>Messaggio di conferma per la disconnessione dell'User o Admin
+>Completare la documentazione
+----------
+
+Cosa non siamo riusciti a fareDa fare
+==================
+>Adattare responsive per mobile
+>Carrello per gli acquisti
+>Pagamento con Paypal
+>Aggiungere film prossimamente
+----------
 
 Credits
 =======

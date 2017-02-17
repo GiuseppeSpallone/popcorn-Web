@@ -28,7 +28,7 @@ if ($is_authorized) {
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
                     <a href="form_film.php" role="button">
-                        <img src="image/aggiungi.svg"></a>
+                        <img src="logo/Aggiungi.svg"></a>
 
                     <div class="caption">
                         <h3> Inserisci un nuovo film </h3>

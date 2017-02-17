@@ -20,9 +20,11 @@ if ($password == $result['password']) {
     $_SESSION['logged'] = true;
     if ($result['is_admin'] == true) {
         $_SESSION['private'] = true;
+        echo"admin";
+    }else{
+        echo "user";
     }
 
-    echo "ok";
 
 } else {
     echo "Errore";
