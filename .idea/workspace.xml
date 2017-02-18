@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/caricaFilm.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/image/X.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/programmazione.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/form_film.php" afterPath="$PROJECT_DIR$/form_film.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/error_film.js" afterPath="$PROJECT_DIR$/js/error_film.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,12 +35,99 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="nav.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nav.php">
+      <file leaf-file-name="ajax_php_file.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/check/ajax_php_file.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="38" column="79" lean-forward="true" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+            <state relative-caret-position="510">
+              <caret line="30" column="86" lean-forward="false" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="poster.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/poster.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="88" lean-forward="false" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_poster.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form_poster.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modifica_film.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/check/modifica_film.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_modifica_film.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form_modifica_film.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1853">
+              <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stampa_film.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/check/stampa_film.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_modifica_orari_sale.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/form_modifica_orari_sale.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stampa_orari_sale.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/check/stampa_orari_sale.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+              <folding>
+                <marker date="1487351912655" expanded="true" signature="1889:1989" ph="..." />
+                <marker date="1487351912655" expanded="true" signature="1889:2066" ph="..." />
+                <marker date="1487351912655" expanded="true" signature="2008:2039" ph="..." />
+                <marker date="1487351912655" expanded="true" signature="2034:2039" ph="..." />
+                <marker date="1487351912655" expanded="true" signature="2160:2337" ph="..." />
+                <marker date="1487351912655" expanded="true" signature="2279:2310" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -45,9 +149,8 @@
       <find>success</find>
       <find>#337ab7</find>
       <find>recupero-</find>
-      <find>show</find>
-      <find>login</find>
-      <find>inde</find>
+      <find>row</find>
+      <find>im</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,23 +164,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/check/prezzi.php" />
-        <option value="$PROJECT_DIR$/index2.php" />
-        <option value="$PROJECT_DIR$/edit_prezzi2.php" />
-        <option value="$PROJECT_DIR$/check/email.php" />
-        <option value="$PROJECT_DIR$/controllers/Email.php" />
-        <option value="$PROJECT_DIR$/check/a.php" />
-        <option value="$PROJECT_DIR$/check/disconnessione.php" />
-        <option value="$PROJECT_DIR$/check/carrello.php" />
         <option value="$PROJECT_DIR$/schedaFilm2.php" />
         <option value="$PROJECT_DIR$/programmazione2.php" />
         <option value="$PROJECT_DIR$/check/stampa_prezzi.php" />
         <option value="$PROJECT_DIR$/check/schedaFilm.php" />
         <option value="$PROJECT_DIR$/daFare.txt" />
         <option value="$PROJECT_DIR$/check/modifica_film.php" />
-        <option value="$PROJECT_DIR$/check/film.php" />
         <option value="$USER_HOME$/Desktop/validation_demo/index.html" />
         <option value="$PROJECT_DIR$/ajax_login.php" />
+        <option value="$PROJECT_DIR$/check/accesso.php" />
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/form_modifica_orari.php" />
         <option value="$PROJECT_DIR$/js/messaggi.js" />
@@ -87,31 +182,39 @@
         <option value="$PROJECT_DIR$/check/stampa_orari_sale.php" />
         <option value="$PROJECT_DIR$/check/stampa_film.php" />
         <option value="$PROJECT_DIR$/check/orari_sale.php" />
-        <option value="$PROJECT_DIR$/js/error_film.js" />
+        <option value="$PROJECT_DIR$/js/error_manage.js" />
+        <option value="$PROJECT_DIR$/controllers/SessionManager.php" />
+        <option value="$PROJECT_DIR$/nav.php" />
         <option value="$PROJECT_DIR$/check/registrazione.php" />
+        <option value="$PROJECT_DIR$/check/aggiorna_psw.php" />
         <option value="$PROJECT_DIR$/check/recupero_psw.php" />
         <option value="$PROJECT_DIR$/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/form_film.php" />
-        <option value="$PROJECT_DIR$/form_modifica_film.php" />
-        <option value="$PROJECT_DIR$/programmazione.php" />
+        <option value="$PROJECT_DIR$/acquista.php" />
+        <option value="$PROJECT_DIR$/contatti.php" />
         <option value="$PROJECT_DIR$/edit_prezzi.php" />
+        <option value="$PROJECT_DIR$/form_modifica_film.php" />
         <option value="$PROJECT_DIR$/modifica_film.php" />
         <option value="$PROJECT_DIR$/prezzi.php" />
-        <option value="$PROJECT_DIR$/contatti.php" />
-        <option value="$PROJECT_DIR$/controllers/SessionManager.php" />
-        <option value="$PROJECT_DIR$/check/aggiorna_psw.php" />
-        <option value="$PROJECT_DIR$/js/recupero.js" />
+        <option value="$PROJECT_DIR$/programmazione.php" />
         <option value="$PROJECT_DIR$/recupero_psw.php" />
-        <option value="$PROJECT_DIR$/check/accesso.php" />
-        <option value="$PROJECT_DIR$/accesso_registrazione.php" />
-        <option value="$PROJECT_DIR$/js/error_manage.js" />
-        <option value="$PROJECT_DIR$/check/acquista.php" />
-        <option value="$PROJECT_DIR$/acquista.php" />
         <option value="$PROJECT_DIR$/schedaFilm.php" />
+        <option value="$PROJECT_DIR$/js/recupero.js" />
+        <option value="$PROJECT_DIR$/accesso_registrazione.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/saveimage.php" />
+        <option value="$PROJECT_DIR$/styles.css" />
+        <option value="$PROJECT_DIR$/check/film.php" />
+        <option value="$PROJECT_DIR$/caricaFilm.php" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/ajax_php_file.php" />
+        <option value="$PROJECT_DIR$/form_film.php" />
+        <option value="$PROJECT_DIR$/js/error_film.js" />
+        <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/form_poster.php" />
+        <option value="$PROJECT_DIR$/check/ajax_php_file.php" />
+        <option value="$PROJECT_DIR$/js/poster.js" />
         <option value="$PROJECT_DIR$/form_modifica_orari_sale.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/nav.php" />
       </list>
     </option>
   </component>
@@ -123,10 +226,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="x" value="-8" />
+    <option name="width" value="1378" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
@@ -146,6 +248,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,13 +271,26 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="popcorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="popcorn" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="check" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -187,15 +303,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="prop_add_unversioned_files" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Giuseppe/PhpstormProjects/popcorn/js/main.js" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\laura\PhpstormProjects\popcorn\check" />
+      <recent name="C:\Users\laura\PhpstormProjects\popcorn\css" />
       <recent name="C:\Users\peppe\PhpstormProjects\popcorn\paypal" />
       <recent name="C:\Users\peppe\PhpstormProjects\popcorn\DB" />
       <recent name="C:\Users\Giuseppe\PhpstormProjects\popcorn_github\controllers" />
-      <recent name="C:\Users\Giuseppe\Desktop\popcorn" />
-      <recent name="C:\Users\Giuseppe\Desktop\popcorn\check" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\peppe\PhpstormProjects\popcorn\paypal" />
@@ -349,11 +464,45 @@
       <workItem from="1487254299836" duration="3140000" />
       <workItem from="1487258502088" duration="1092000" />
       <workItem from="1487264623107" duration="1696000" />
-      <workItem from="1487269455874" duration="43000" />
-      <workItem from="1487287194084" duration="6999000" />
-      <workItem from="1487294257895" duration="234000" />
-      <workItem from="1487317218523" duration="5685000" />
-      <workItem from="1487326097489" duration="5004000" />
+      <workItem from="1487274721426" duration="655000" />
+      <workItem from="1487316839714" duration="18557000" />
+      <workItem from="1487352271627" duration="178000" />
+      <workItem from="1487432668867" duration="576000" />
+    </task>
+    <task id="LOCAL-00001" summary="Creato modifica prezzi">
+      <created>1486486302255</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1486486302255</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Creato modifica prezzi">
+      <created>1486487064001</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1486487064001</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Aggiunto inserimento e modifica dei prezzi dei biglietti per l'amministratore">
+      <created>1486551319746</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1486551319746</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Aggiunto inserimento e modifica dei prezzi dei biglietti per l'amministratore">
+      <created>1486554206262</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1486554206262</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Creato DbManager">
+      <created>1486584765591</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1486584765591</updated>
     </task>
     <task id="LOCAL-00006" summary="aa">
       <created>1486649585871</created>
@@ -656,53 +805,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487266267879</updated>
     </task>
-    <task id="LOCAL-00049" summary="Iniziato l'acquisto e aggiustato il conferma salva prezzi">
-      <created>1487292114439</created>
+    <task id="LOCAL-00049" summary="immagini //TODO">
+      <created>1487341656405</created>
       <option name="number" value="00049" />
       <option name="presentableId" value="LOCAL-00049" />
       <option name="project" value="LOCAL" />
-      <updated>1487292114439</updated>
+      <updated>1487341656405</updated>
     </task>
-    <task id="LOCAL-00050" summary="Iniziato il messaggio di benvenuto, guarda error_manage.js">
-      <created>1487294103174</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1487294103176</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Aggiunti file">
-      <created>1487294166582</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1487294166583</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Aggiunti file">
-      <created>1487294202751</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1487294202751</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Rimossa sessione per il recupero psw">
-      <created>1487320263702</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1487320263702</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Aggiustato carousel in index.php, button in modifica_orari_sale.php, genera il prezzo in acquista.php (non tiene conto dei giorni festivi)">
-      <created>1487330476169</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1487330476169</updated>
-    </task>
-    <option name="localTasksCounter" value="55" />
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214092000" />
+    <option name="totallyTimeSpent" value="216202000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -714,19 +828,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <frame x="-8" y="0" width="1378" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22708334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18208517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21564482" sideWeight="0.5088889" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40694007" sideWeight="0.5204978" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20636663" sideWeight="0.4911111" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4064" sideWeight="0.4795022" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -742,12 +856,12 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21564482" sideWeight="0.5088889" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40694007" sideWeight="0.5204978" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20636663" sideWeight="0.4911111" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40694007" sideWeight="0.4795022" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22708334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18208517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33150384" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -784,6 +898,10 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Recupera password completato (funzionante con la sessione) ps. la sicurezza non è un requisito non funzionale" />
+    <MESSAGE value="Distruzione sessione di recupero psw" />
+    <MESSAGE value="Risolto bug in recupera_psw.php e aggiustato cambio input con TAB per recupera_psw.php e edit_prezzi.php" />
+    <MESSAGE value="programmazione.php genera dinamicamente i contenuti (genera solo il div e il nome del film)" />
     <MESSAGE value="check/schedaFilm.php in check /stampa_film.php  (stampa film in programmazione e scheda film)" />
     <MESSAGE value="Aggiunta scermata modifica film" />
     <MESSAGE value="Da ora per aggiungere una film bisogna andare prima in modifica film" />
@@ -804,12 +922,8 @@
     <MESSAGE value="Da aggiustare il recupera psw in aggiorna_psw.php" />
     <MESSAGE value="Aggiunta immagine in inserisci nuovo film e aggiunto logo alle email" />
     <MESSAGE value="Modificato readme" />
-    <MESSAGE value="Iniziato l'acquisto e aggiustato il conferma salva prezzi" />
-    <MESSAGE value="Iniziato il messaggio di benvenuto, guarda error_manage.js" />
-    <MESSAGE value="Aggiunti file" />
-    <MESSAGE value="Rimossa sessione per il recupero psw" />
-    <MESSAGE value="Aggiustato carousel in index.php, button in modifica_orari_sale.php, genera il prezzo in acquista.php (non tiene conto dei giorni festivi)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Aggiustato carousel in index.php, button in modifica_orari_sale.php, genera il prezzo in acquista.php (non tiene conto dei giorni festivi)" />
+    <MESSAGE value="immagini //TODO" />
+    <option name="LAST_COMMIT_MESSAGE" value="immagini //TODO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -818,19 +932,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/paypal/index.php" />
-    <entry file="file://$PROJECT_DIR$/programmazione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
-          <folding>
-            <marker date="1487259214042" expanded="true" signature="4084:4128" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/schedaFilm.php" />
-    <entry file="file://$PROJECT_DIR$/daFare.txt" />
     <entry file="file://$PROJECT_DIR$/ajax_login.php" />
     <entry file="file://$PROJECT_DIR$/js/login.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -841,15 +942,30 @@
     </entry>
     <entry file="file://$USER_HOME$/Desktop/validation_demo/index.html" />
     <entry file="file://$PROJECT_DIR$/js/check_campi_vuoti.js" />
-    <entry file="file://$PROJECT_DIR$/css/login.css">
+    <entry file="file://$PROJECT_DIR$/check/prezzi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2332">
-          <caret line="106" column="8" lean-forward="false" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="308">
+          <caret line="30" column="4" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="35" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/check/modifica_orari_sale.php" />
+    <entry file="file://$PROJECT_DIR$/js/messaggi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="26" column="1" lean-forward="false" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/check/sale.php" />
+    <entry file="file://$PROJECT_DIR$/check/stampa_prezzi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/carrello.php" />
     <entry file="file://$PROJECT_DIR$/controllers/DbManager.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -864,24 +980,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check/modifica_film.php">
+    <entry file="file://$PROJECT_DIR$/check/elimina_film.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state relative-caret-position="399">
+          <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check/film.php">
+    <entry file="file://$PROJECT_DIR$/check/orari_sale.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="110">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/error_film.js">
+    <entry file="file://$PROJECT_DIR$/check/accesso.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="726">
-          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        <state relative-caret-position="22">
+          <caret line="1" column="30" lean-forward="true" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/SessionManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/aggiorna_psw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1474">
+          <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/registrazione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="54" column="67" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="54" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/recupero_psw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="40" column="107" lean-forward="false" selection-start-line="40" selection-start-column="107" selection-end-line="40" selection-end-column="107" />
         </state>
       </provider>
     </entry>
@@ -889,292 +1034,233 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmazione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="82" column="32" lean-forward="false" selection-start-line="82" selection-start-column="32" selection-end-line="82" selection-end-column="161" />
-          <folding>
-            <marker date="1487259214042" expanded="true" signature="4084:4128" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/stampa_orari_sale.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/stampa_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/registrazione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="67" lean-forward="true" selection-start-line="44" selection-start-column="8" selection-end-line="54" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/prezzi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="38" column="1" lean-forward="true" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="3233" column="1" lean-forward="false" selection-start-line="3233" selection-start-column="1" selection-end-line="3233" selection-end-column="1" />
-          <folding />
+        <state relative-caret-position="205">
+          <caret line="1410" column="19" lean-forward="false" selection-start-line="1410" selection-start-column="19" selection-end-line="1410" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/messaggi.js">
+    <entry file="file://$PROJECT_DIR$/acquista.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/orari_sale.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="718">
-          <caret line="59" column="4" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="59" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/elimina_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          <folding>
-            <marker date="1487153883593" expanded="true" signature="593:641" ph="DELETE FROM " />
-            <marker date="1487153883593" expanded="true" signature="714:760" ph="DELETE FROM " />
-            <marker date="1487153883593" expanded="true" signature="832:875" ph="DELETE FROM " />
-            <marker date="1487153883593" expanded="true" signature="938:979" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/SessionManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/accesso.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="18" lean-forward="false" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/recupero.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/recupero_psw.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="40" column="107" lean-forward="false" selection-start-line="40" selection-start-column="107" selection-end-line="40" selection-end-column="107" />
-          <folding>
-            <marker date="1487256555927" expanded="true" signature="1038:1381" ph="..." />
-            <marker date="1487256555927" expanded="true" signature="1063:1092" ph="..." />
-            <marker date="1487256555927" expanded="true" signature="1117:1355" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/aggiorna_psw.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1487320249932" expanded="true" signature="974:1234" ph="..." />
-            <marker date="1487320249932" expanded="true" signature="999:1028" ph="..." />
-            <marker date="1487320249932" expanded="true" signature="1053:1208" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/modernizr.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accesso_registrazione.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4532">
-          <caret line="260" column="0" lean-forward="true" selection-start-line="260" selection-start-column="0" selection-end-line="260" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/caricaFilm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1988">
-          <caret line="37" column="102" lean-forward="false" selection-start-line="37" selection-start-column="77" selection-end-line="37" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form_modifica_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1922">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modifica_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="30" column="51" lean-forward="false" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/prezzi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2586">
-          <caret line="21" column="18" lean-forward="false" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contatti.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="289">
+          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/edit_prezzi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="120" column="11" lean-forward="false" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/error_manage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="229" column="88" lean-forward="false" selection-start-line="229" selection-start-column="88" selection-end-line="229" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acquista.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="82" column="21" lean-forward="false" selection-start-line="82" selection-start-column="21" selection-end-line="82" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/stampa_prezzi.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/acquista.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form_modifica_orari_sale.php">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="82" column="50" lean-forward="false" selection-start-line="82" selection-start-column="50" selection-end-line="82" selection-end-column="50" />
+          <caret line="19" column="65" lean-forward="false" selection-start-line="19" selection-start-column="65" selection-end-line="19" selection-end-column="65" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contatti.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="61" lean-forward="false" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifica_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prezzi.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="61" lean-forward="false" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/schedaFilm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-748">
-          <caret line="22" column="12" lean-forward="false" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="308">
+          <caret line="86" column="143" lean-forward="false" selection-start-line="86" selection-start-column="143" selection-end-line="86" selection-end-column="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recupero_psw.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="30" column="14" lean-forward="false" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/recupero.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1444">
-            <caret line="102" column="30" lean-forward="false" selection-start-line="102" selection-start-column="30" selection-end-line="102" selection-end-column="30" />
-            <folding />
+          <first_editor relative-caret-position="439">
+            <caret line="81" column="2" lean-forward="false" selection-start-line="81" selection-start-column="2" selection-end-line="81" selection-end-column="2" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/check/film.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="23" column="147" lean-forward="false" selection-start-line="23" selection-start-column="147" selection-end-line="23" selection-end-column="147" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recupero_psw.php">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="183">
+          <caret line="456" column="21" lean-forward="false" selection-start-line="456" selection-start-column="21" selection-end-line="456" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nav.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="38" column="79" lean-forward="true" selection-start-line="38" selection-start-column="79" selection-end-line="38" selection-end-column="79" />
+        <state relative-caret-position="901">
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="106" column="1" lean-forward="false" selection-start-line="106" selection-start-column="1" selection-end-line="106" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accesso_registrazione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="95" column="62" lean-forward="true" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
+          <folding>
+            <element signature="e#3820#3992#0#PHP" expanded="false" />
+            <element signature="e#7507#7691#0#PHP" expanded="false" />
+            <element signature="e#10621#10799#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/script.js" />
+    <entry file="file://$PROJECT_DIR$/caricaFilm.php" />
+    <entry file="file://$PROJECT_DIR$/js/error_manage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/error_film.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/modifica_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_modifica_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1853">
+          <caret line="109" column="10" lean-forward="false" selection-start-line="109" selection-start-column="10" selection-end-line="109" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/ajax_php_file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="86" lean-forward="false" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/poster.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="88" lean-forward="false" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmazione.php" />
+    <entry file="file://$PROJECT_DIR$/form_poster.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/stampa_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/stampa_orari_sale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_modifica_orari_sale.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="70" column="30" lean-forward="false" selection-start-line="70" selection-start-column="30" selection-end-line="70" selection-end-column="30" />
+          <folding>
+            <marker date="1487351912655" expanded="true" signature="1889:1989" ph="..." />
+            <marker date="1487351912655" expanded="true" signature="1889:2066" ph="..." />
+            <marker date="1487351912655" expanded="true" signature="2008:2039" ph="..." />
+            <marker date="1487351912655" expanded="true" signature="2034:2039" ph="..." />
+            <marker date="1487351912655" expanded="true" signature="2160:2337" ph="..." />
+            <marker date="1487351912655" expanded="true" signature="2279:2310" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,6 +1,7 @@
 <?php
 include 'controllers/SessionManager.php';
 $div_to_show = $_REQUEST['logged'];
+include 'check/stampa_film.php';
 ?>
 
 <html>
@@ -10,11 +11,10 @@ $div_to_show = $_REQUEST['logged'];
     <link rel="icon" href="/logo/Pop.png" type="image/png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="coverflow/css/style.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/error_manage.js"></script>
+
 
     <script>
         $(document).ready(function () {
@@ -22,11 +22,10 @@ $div_to_show = $_REQUEST['logged'];
             if (div_to_show == "user") {
                 $("div#user").modal("show");
             } else if (div_to_show == "admin") {
-                console.log("ciaooo");
                 $("div#admin").modal("show");
             }
 
-            });
+        });
     </script>
 
     <style>
@@ -49,8 +48,11 @@ include 'nav.php';
 <div class="container">
     <br>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
         <!-- Indicators -->
         <ol class="carousel-indicators">
+
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -59,8 +61,31 @@ include 'nav.php';
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
+            <?php
+            $i = 0;
+            while ($film = $resultFilm->fetch_array(MYSQLI_ASSOC)) {
+                $replace_film = str_replace(' ', '_', $film['titolo']);
+                if ($i == 0) {
+                    echo '<div class="item active"><img src="image/'.$replace_film.'.jpg" width="460" height="345">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>';
 
-            <div class="item active">
+                } else {
+                    echo '
+                    <div class="item"><img src="image/'.$replace_film;'.jpg" width="460" height="345">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    ';
+
+                    $i++;
+                }
+            }
+
+            ?>
+
+            <<!--div class="item active">
                 <img src="image/1.jpg" width="460" height="345">
                 <div class="carousel-caption">
                 </div>
@@ -82,7 +107,7 @@ include 'nav.php';
                 <img src="image/4.jpg" width="460" height="345">
                 <div class="carousel-caption">
                 </div>
-            </div>
+            </div>-->
 
         </div>
 
@@ -97,7 +122,6 @@ include 'nav.php';
         </a>
     </div>
 </div>
-
 
 
 <div id="user" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel"

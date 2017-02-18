@@ -101,24 +101,6 @@ if ($is_authorized) { ?>
                                     </div>
 
 
-
-                                    <!--<div id="carica-poster" class="col-sm-6 col-sm-offset-3">
-                                    <input type="button"  name="poster-button" id="poster-button" tabindex="12" class="form-control btn btn-film" value="Carica Poster" onclick="location.href ='caricaFilm.php'">
-
-                                    </div>-->
-                                    <!--  <div class="form-group">
-                                          <label for="carica-poster">Carica Poster</label>
-                                  <iframe id="carica-poster" src ="caricaFilm.php"  width="400" height="450"></iframe>
-
-                                   </div>-->
-
-                                    <!--     <div class="col-sm-6 col-sm-offset-3">
-                                       <form action="" method="POST" enctype="multipart/form-data">
-                                           <input type="file" name="image" id="image" tabindex="12" class="form-control btn btn-film" />
-                                           <input type="submit" name="poster-submit" id="poster-submit" tabindex="13" class="form-control btn btn-poster" value="Carica Poster"> </form>
-                                   </div>
-                                       -->
-
                                     <div class="form-group">
                                         <div class="row">
                                             <div class="col-sm-6 col-sm-offset-3">

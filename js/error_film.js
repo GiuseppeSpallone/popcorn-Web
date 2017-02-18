@@ -11,8 +11,6 @@ $(document).ready(function() {
 
             var input=$(this);
             var is_name=input.val();
-
-            console.log(is_name);
             if(is_name){
                 $("div#errorVuoti").removeClass("to_show").addClass("no_show");
                 $("div#errorIns").removeClass("to_show").addClass("no_show");}
