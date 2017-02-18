@@ -22,7 +22,7 @@ $trama = filter_input(INPUT_POST, 'trama');
 
 $result = $db_instance->update('film', "titolo ='$titolo', nazione ='$nazione', anno ='$anno', genere='$genere',
  durata='$durata', regia='$regia', cast='$cast', produzione='$produzione', distribuzione='$distribuzione',
-  data_uscita='$data_uscita', trama='$trama'", "titolo ='$titoloFilm'");
+  data_uscita='$data_uscita', trama='$trama'", "id_poster=image/$titolo", "titolo =$titoloFilm");
 
 if ($result) {
     header("location: ../modifica_film.php");

@@ -51,7 +51,7 @@ if ($is_authorized) {
                 <div class="col-sm-6 col-md-4">
                     <div class="thumbnail">
                         <?php echo '<a href="schedaFilm.php?film=' . $replace_film . '" role="button">' ?>
-                        <img src="image/1.jpg"></a>
+                        <?php echo '<img src="image/'.$replace_film.'.jpg"></a>';?>
 
                         <div class="caption">
                             <h3> <?php echo $film['titolo'] ?> </h3>

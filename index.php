@@ -50,77 +50,61 @@ include 'nav.php';
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 
-        <!-- Indicators -->
         <ol class="carousel-indicators">
-
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            <li data-target="#myCarousel" data-slide-to="3"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
             <?php
             $i = 0;
             while ($film = $resultFilm->fetch_array(MYSQLI_ASSOC)) {
-                $replace_film = str_replace(' ', '_', $film['titolo']);
                 if ($i == 0) {
-                    echo '<div class="item active"><img src="image/'.$replace_film.'.jpg" width="460" height="345">
-                        <div class="carousel-caption">
-                        </div>
-                    </div>';
+                    echo '<li data-target="#myCarousel" data-slide-to="' . $i . '" class="active"></li>';
 
                 } else {
-                    echo '
-                    <div class="item"><img src="image/'.$replace_film;'.jpg" width="460" height="345">
-                        <div class="carousel-caption">
-                        </div>
-                    </div>
-                    ';
-
-                    $i++;
+                    echo '<li data-target="#myCarousel" data-slide-to="' . $i . '"></li>';
                 }
+                $i++;
             }
 
             ?>
 
-            <<!--div class="item active">
-                <img src="image/1.jpg" width="460" height="345">
-                <div class="carousel-caption">
-                </div>
-            </div>
+        </ol>
 
-            <div class="item">
-                <img src="image/2.jpg" width="460" height="345">
-                <div class="carousel-caption">
-                </div>
-            </div>
 
-            <div class="item">
-                <img src="image/3.jpg" width="460" height="345">
-                <div class="carousel-caption">
-                </div>
-            </div>
+        <!--
+          --><?php
+        $i = 0;
+        while ($films = $resultFilm->fetch_array(MYSQLI_ASSOC)) {
+            $replace_film = str_replace(' ', '_', $films['titolo']);
+            if ($i == 0) {
+                echo '<div class="item active"><img src="image/' . $replace_film . '.jpg" width="460" height="345">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>';
 
-            <div class="item">
-                <img src="image/4.jpg" width="460" height="345">
-                <div class="carousel-caption">
-                </div>
-            </div>-->
+            } else {
+                echo '
+                    <div class="item"><img src="image/' . $replace_film . '.jpg" width="460" height="345">
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    ';
+            }
+            $i++;
+        }
 
-        </div>
+        ?>
 
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+
     </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
 </div>
 
 
