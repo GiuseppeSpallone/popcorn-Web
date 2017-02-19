@@ -44,7 +44,7 @@ if ($is_authorized) {
                         <div class="row">
                             <div class="col-lg-12">
                                 <form id="uploadimage" action="" method="post" enctype="multipart/form-data">
-                                    <div id="titolo"> <?php echo $titoloFilm; ?> </div>
+                                    <h1 id="titolo"> <?php echo $titoloFilm; ?> </h1>
                                     <div class="form-group">
                                         <div id="image_preview"><img id="previewing" src="" /></div>
                                     </div>

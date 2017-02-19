@@ -43,6 +43,6 @@ $(document).ready(function (e) {
         $('#image_preview').css("display", "block");
         $('#previewing').attr('src', e.target.result);
         $('#previewing').attr('width', '250px');
-        $('#previewing').attr('height', '230px');
+        $('#previewing').attr('height', '330px');
     };
 });
