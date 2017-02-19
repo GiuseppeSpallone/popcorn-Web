@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="feded550-375d-45fb-b4af-f8307f1d4261" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/check/modifica_film.php" afterPath="$PROJECT_DIR$/check/modifica_film.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modifica_film.php" afterPath="$PROJECT_DIR$/modifica_film.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,87 +18,52 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="form_poster.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form_poster.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="modifica_film.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check/modifica_film.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="71" lean-forward="false" selection-start-line="24" selection-start-column="71" selection-end-line="24" selection-end-column="71" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedaFilm.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/schedaFilm.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-66">
-              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_modifica_film.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form_modifica_film.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stampa_film.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check/stampa_film.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form_modifica_orari_sale.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form_modifica_orari_sale.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="22" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stampa_orari_sale.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/check/stampa_orari_sale.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+            <state relative-caret-position="138">
+              <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
               <folding>
-                <marker date="1487436898496" expanded="true" signature="1922:2103" ph="..." />
-                <marker date="1487436898496" expanded="true" signature="2045:2076" ph="..." />
-                <marker date="1487436898496" expanded="true" signature="2189:2370" ph="..." />
-                <marker date="1487436898496" expanded="true" signature="2312:2343" ph="..." />
+                <marker date="1487492308162" expanded="true" signature="2071:2132" ph="..." />
+                <marker date="1487492308162" expanded="true" signature="2907:3059" ph="..." />
+                <marker date="1487492308162" expanded="true" signature="3155:3304" ph="..." />
+                <marker date="1487492308162" expanded="true" signature="3425:3615" ph="..." />
+                <marker date="1487492308162" expanded="true" signature="3491:3608" ph="..." />
+                <marker date="1487492308162" expanded="true" signature="3725:3907" ph="..." />
+                <marker date="1487492308162" expanded="true" signature="3784:3900" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carosello.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/carosello.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#41#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/login.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error_film.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/error_film.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,8 +71,8 @@
       <file leaf-file-name="modifica_film.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modifica_film.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="53" column="83" lean-forward="false" selection-start-line="53" selection-start-column="83" selection-end-line="53" selection-end-column="83" />
+            <state relative-caret-position="68">
+              <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding>
                 <marker date="1487437578809" expanded="true" signature="1952:2003" ph="..." />
               </folding>
@@ -117,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form_film.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/form_film.php">
+      <file leaf-file-name="stampa_film.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/check/stampa_film.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="563">
-              <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
+            <state relative-caret-position="221">
+              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -159,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/schedaFilm2.php" />
         <option value="$PROJECT_DIR$/programmazione2.php" />
         <option value="$PROJECT_DIR$/check/stampa_prezzi.php" />
         <option value="$PROJECT_DIR$/check/schedaFilm.php" />
@@ -188,9 +150,7 @@
         <option value="$PROJECT_DIR$/edit_prezzi.php" />
         <option value="$PROJECT_DIR$/form_modifica_film.php" />
         <option value="$PROJECT_DIR$/prezzi.php" />
-        <option value="$PROJECT_DIR$/programmazione.php" />
         <option value="$PROJECT_DIR$/recupero_psw.php" />
-        <option value="$PROJECT_DIR$/schedaFilm.php" />
         <option value="$PROJECT_DIR$/js/recupero.js" />
         <option value="$PROJECT_DIR$/accesso_registrazione.php" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -204,12 +164,15 @@
         <option value="$PROJECT_DIR$/js/error_film.js" />
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/form_poster.php" />
-        <option value="$PROJECT_DIR$/check/ajax_php_file.php" />
         <option value="$PROJECT_DIR$/js/poster.js" />
         <option value="$PROJECT_DIR$/form_modifica_orari_sale.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/modifica_film.php" />
         <option value="$PROJECT_DIR$/check/modifica_film.php" />
+        <option value="$PROJECT_DIR$/check/ajax_php_file.php" />
+        <option value="$PROJECT_DIR$/schedaFilm.php" />
+        <option value="$PROJECT_DIR$/programmazione.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/js/carosello.js" />
       </list>
     </option>
   </component>
@@ -266,7 +229,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="check" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -450,28 +413,7 @@
       <workItem from="1487316839714" duration="18557000" />
       <workItem from="1487352271627" duration="178000" />
       <workItem from="1487432668867" duration="4161000" />
-      <workItem from="1487437331491" duration="693000" />
-    </task>
-    <task id="LOCAL-00002" summary="Creato modifica prezzi">
-      <created>1486487064001</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1486487064001</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Aggiunto inserimento e modifica dei prezzi dei biglietti per l'amministratore">
-      <created>1486551319746</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1486551319746</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Aggiunto inserimento e modifica dei prezzi dei biglietti per l'amministratore">
-      <created>1486554206262</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1486554206262</updated>
+      <workItem from="1487437331491" duration="6924000" />
     </task>
     <task id="LOCAL-00005" summary="Creato DbManager">
       <created>1486584765591</created>
@@ -795,11 +737,32 @@
       <option name="project" value="LOCAL" />
       <updated>1487433419571</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="//TODO schedafilm con img; rimuovere maxsize all'immagine!; debug index">
+      <created>1487438072497</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1487438072499</updated>
+    </task>
+    <task id="LOCAL-00052" summary="//TODO schedafilm con img; rimuovere maxsize all'immagine!; debug index">
+      <created>1487487903002</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1487487903003</updated>
+    </task>
+    <task id="LOCAL-00053" summary="//TODO debug index">
+      <created>1487487991067</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1487487991068</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="220480000" />
+    <option name="totallyTimeSpent" value="226711000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -881,8 +844,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
-    <MESSAGE value="Recupera password completato (funzionante con la sessione) ps. la sicurezza non è un requisito non funzionale" />
-    <MESSAGE value="Distruzione sessione di recupero psw" />
     <MESSAGE value="Risolto bug in recupera_psw.php e aggiustato cambio input con TAB per recupera_psw.php e edit_prezzi.php" />
     <MESSAGE value="programmazione.php genera dinamicamente i contenuti (genera solo il div e il nome del film)" />
     <MESSAGE value="check/schedaFilm.php in check /stampa_film.php  (stampa film in programmazione e scheda film)" />
@@ -906,7 +867,9 @@
     <MESSAGE value="Aggiunta immagine in inserisci nuovo film e aggiunto logo alle email" />
     <MESSAGE value="Modificato readme" />
     <MESSAGE value="immagini //TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="immagini //TODO" />
+    <MESSAGE value="//TODO schedafilm con img; rimuovere maxsize all'immagine!; debug index" />
+    <MESSAGE value="//TODO debug index" />
+    <option name="LAST_COMMIT_MESSAGE" value="//TODO debug index" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -915,14 +878,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ajax_login.php" />
-    <entry file="file://$PROJECT_DIR$/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/validation_demo/index.html" />
     <entry file="file://$PROJECT_DIR$/js/check_campi_vuoti.js" />
     <entry file="file://$PROJECT_DIR$/check/prezzi.php">
@@ -1139,34 +1094,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/error_film.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/check/ajax_php_file.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="86" lean-forward="false" selection-start-line="30" selection-start-column="86" selection-end-line="30" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/poster.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="88" lean-forward="false" selection-start-line="14" selection-start-column="88" selection-end-line="14" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/programmazione.php" />
-    <entry file="file://$PROJECT_DIR$/form_poster.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1179,14 +1110,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/check/stampa_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="14" lean-forward="false" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/check/stampa_orari_sale.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -1195,41 +1118,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-          <folding>
-            <marker date="1487436898496" expanded="true" signature="1922:2103" ph="..." />
-            <marker date="1487436898496" expanded="true" signature="2045:2076" ph="..." />
-            <marker date="1487436898496" expanded="true" signature="2189:2370" ph="..." />
-            <marker date="1487436898496" expanded="true" signature="2312:2343" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modifica_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="53" column="83" lean-forward="false" selection-start-line="53" selection-start-column="83" selection-end-line="53" selection-end-column="83" />
-          <folding>
-            <marker date="1487437578809" expanded="true" signature="1952:2003" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/form_film.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
           <caret line="101" column="0" lean-forward="true" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/form_modifica_film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1242,11 +1134,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/form_poster.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-491">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/ajax_php_file.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="49" lean-forward="false" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/programmazione.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="18" lean-forward="true" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_modifica_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/schedaFilm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-66">
-          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+        <state relative-caret-position="323">
+          <caret line="37" column="24" lean-forward="true" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/check/stampa_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modifica_film.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="49" column="0" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1487437578809" expanded="true" signature="1952:2003" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/error_film.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/carosello.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="103" column="14" lean-forward="false" selection-start-line="103" selection-start-column="14" selection-end-line="103" selection-end-column="14" />
+          <folding>
+            <marker date="1487492308162" expanded="true" signature="2071:2132" ph="..." />
+            <marker date="1487492308162" expanded="true" signature="2907:3059" ph="..." />
+            <marker date="1487492308162" expanded="true" signature="3155:3304" ph="..." />
+            <marker date="1487492308162" expanded="true" signature="3425:3615" ph="..." />
+            <marker date="1487492308162" expanded="true" signature="3491:3608" ph="..." />
+            <marker date="1487492308162" expanded="true" signature="3725:3907" ph="..." />
+            <marker date="1487492308162" expanded="true" signature="3784:3900" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
