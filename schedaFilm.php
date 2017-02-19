@@ -27,7 +27,7 @@ include 'nav.php';
 
         <div class="col-md-6">
             <div class="thumbnail">
-                <img src="image/1.jpg" alt="...">
+                <?php echo ' <img src="image/'.$resultFilm['titolo'].'.jpg" alt="...">'; ?>
             </div>
         </div>
 
