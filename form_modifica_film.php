@@ -4,7 +4,6 @@ include 'controllers/SessionManager.php';
 if ($is_authorized) {
 
     include 'check/stampa_film.php';
-
     $titolo = $_REQUEST['modifica'];
     $titoloFilm = str_replace('_', ' ', $titolo);
 

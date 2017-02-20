@@ -35,8 +35,7 @@ if ($is_authorized) { ?>
                     <div class="panel-body">
                         <div class="row">
                             <div class="col-lg-12">
-                                <form id="film-form" action="check/film.php" method="post" role="form"
-                                      style="display: block;">
+                                <form id="film-form"  role="form">
                                     <h2>Inserisci Film</h2>
                                     <div id="errorVuoti" class="alert alert-danger no_show" role="alert">Campi vuoti.
                                     </div>
