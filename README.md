@@ -15,9 +15,6 @@ Guest
 -------
 >   - Accesso al sistema
 >     - Crea profilo
->     - Accedi al profilo
->     - Uscita dal profilo
->     - Recupero password
 >   - Gestione film
 >     - Visualizza film
 >     - Visualizza orari
@@ -71,7 +68,7 @@ Admin
 
 Mappa del sito
 =======
-![MAPPA SITO](https://cldup.com/BAkc13_Voq.PNG)
+![MAPPA SITO](https://cldup.com/ndONIEkx9a.PNG)
 
 ----------
 
@@ -87,28 +84,24 @@ Database
 
 Cosa abbiamo usato
 ==================
->     Bootstrap
+>     HTML
 >     Javascript
+>     Bootstrap
 >     jQuery
 >     PHP 
+>     Ajax
 ----------
 
-Da fare
-==================
-
->Caricare immagini film e stamparle in programmazione.php, scheda_film.php, modifica_film.php e acquista.php
->Messaggio di conferma per la disconnessione dell'User o Admin
-----------
 
 Cosa non siamo riusciti a fare
 ==================
 
->Adattare responsive per mobile
->Carrello per gli acquisti
->Pagamento con Paypal
->Aggiungere film prossimamente
->Valutare un film
->Recensire un film
+>       Adattare responsive per mobile
+>       Carrello per gli acquisti
+>       Pagamento con Paypal
+>       Aggiungere film prossimamente
+>       Valutare un film
+>       Recensire un film
 ----------
 
 Credits
