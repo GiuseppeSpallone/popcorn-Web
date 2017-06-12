@@ -13,12 +13,14 @@ include 'check/stampa_film.php';
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-    <script src="js/carosello.js"></script>
+    <!-- <script src="js/carosello.js"></script> -->
 
 
 
     <script>
         $(document).ready(function () {
+            var base_url = "http://localhost/";
+
             var div_to_show = "<?php echo $div_to_show;?>";
             if (div_to_show == "user") {
                 $("div#user").modal("show");
@@ -26,6 +28,24 @@ include 'check/stampa_film.php';
                 $("div#admin").modal("show");
             }
 
+            $.ajax({
+                type: "POST",
+                url: "controllers/ApiManager.php",
+                data: {
+                    endpoint: "http://localhost:8001/programmazione",
+                    method: 'GET',
+                    parameters: {
+                        title: 'title',
+                        limit: 10
+                    }
+                },
+                success: function(data) {
+                    console.log(data);
+                },
+                error: function(xhr, status, error) {
+                    alert("male");
+                }
+            });
         });
     </script>
 
